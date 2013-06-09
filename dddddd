@@ -1,0 +1,65 @@
+<!--CTA -->
+       		<div class="panel">
+                <h11>Invita i tuoi amici e guadagna 10C per ogni amico invitato</h11>
+                <a href="#" class="small success button invita"> Invita </a>
+       		</div>
+            <!--/CTA-->
+
+            <!-- FEED/STORICO -->
+            <div class="section-container auto" data-section>
+    			<section class="section">
+   					<p class="title"><a href="#">Home Feed</a></p>
+   					<div class="content">
+
+                       		<div class="row">
+                            	<div class="large-12 columns">
+                                    <div class="foto"><img src="img/user.png" alt="" width="30" height="30"></div>
+                                </div>
+                   			</div>
+   						<table style="width:100%">
+                	<thead>
+                    	<tr>
+                        	<th><h6>INNOVACTION LAB FINAL EVENT</h6></th>
+                            <th><h6> Finale SI</h6></th>
+                            <th><h6> Finale NO</h6></th>
+                            <th><h6> 1</h6></th>
+                            <th><h6>X</h6></th>
+                            <th><h6>2</h6></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    	<tr event="1031" eventname= "meytip">
+                        	<td><a href="#" >meytip</a></td>
+                            <td><a href="#" value="1.75" bet="finale sì" betid="221" bettype="finale sì/no" class="tiny success button event">1,75</a></td>
+                            <td><a href="#" class="tiny button">2,30</a></td>
+                            <td><a href="#" class="tiny button secondary disabled ">ND</a></td>
+                            <td><a href="#" class="tiny button secondary disabled">ND</a></td>
+                            <td><a href="#" class="tiny button secondary disabled">ND</a></td>
+                        </tr>
+                         <tr>
+                        	<td><a href="#">QuoVadish</a></td>
+                            <td><a href="#" class="tiny button ">1,75</a></td>
+                            <td><a href="#" class="tiny success button ">2,30</a></td>
+                               <td><a href="#" class="tiny button secondary disabled">ND</a></td>
+                            <td><a href="#" class="tiny button  secondary disabled">ND</a></td>
+                            <td><a href="#" class="tiny button secondary disabled">ND</a></td>
+                        </tr>
+                         <tr>
+                        	<td><a href="#">Makoo</a></td>
+                            <td><a href="#" class="tiny success button ">1,75</a></td>
+                            <td><a href="#" class="tiny button ">2,30</a></td>
+                               <td><a href="#" class="tiny button secondary disabled">ND</a></td>
+                            <td><a href="#" class="tiny button secondary disabled">ND</a></td>
+                            <td><a href="#" class="tiny button secondary disabled">ND</a></td>
+                        </tr>
+                        </tbody>
+                        </table>
+    				</div>
+          	   </section>
+           	   <section class="section">
+   				<p class="title"><a href="#">Your Events</a></p>
+                    <div class="content">
+                        <h5>This is the title of tab 2</h5>
+                        <p>This is the paragraf whitin tab2</p>
+                    </div>
+           	  </section>

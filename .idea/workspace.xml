@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10b54e80-f2de-443f-99aa-2a9b4e019e11" name="Default" comment="" />
+    <ignored path="fbapp.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/events.html" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370621075329" ignored="false" />
+    <file path="/index.html" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370598182029" ignored="false" />
+    <file path="/Dummy.txt" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370691457819" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/BetController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370813821727" ignored="false" />
+    <file path="/BetController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370813821086" ignored="false" />
+    <file path="/events.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370808855099" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Resources/config/quotes_router.yml" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370690121129" ignored="false" />
+    <file path="/quotes_router.yml" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370690121129" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/FeedController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370815337899" ignored="false" />
+    <file path="/FeedController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370815288892" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/PendingbetBundle/Controller/DefaultController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370624966741" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Document/InnLabBet.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370814011340" ignored="false" />
+    <file path="/InnLabBet.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370813351478" ignored="false" />
+    <file path="$PROJECT_DIR$/../infinite-bastion-4163/index.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370683201097" ignored="false" />
+    <file path="/index.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370683173254" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/app/config/config.yml" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370692820477" ignored="false" />
+    <file path="/config.yml" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370686896620" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/app/AppKernel.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370686501329" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Entity/User.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370686776694" ignored="false" />
+    <file path="/User.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370700055997" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Document/User.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370700148845" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/app/config/security.yml" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370687055961" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/app/config/routing.yml" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370687055961" ignored="false" />
+    <file path="/routing.yml" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370687054423" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/app/cache/dev/appDevDebugProjectContainer.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370687081957" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Document/InnLabSched.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370813644267" ignored="false" />
+    <file path="/InnLabSched.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370687539412" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/UserController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370700397770" ignored="false" />
+    <file path="/UserController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370700210673" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/web/app.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370691690328" ignored="false" />
+    <file path="/app.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370691690863" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/app/cache/prod/appProdDebugProjectContainer.xml" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370692832271" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/QuotesController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370700959625" ignored="false" />
+    <file path="/QuotesController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370700954636" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Entity/Quote.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370705201638" ignored="false" />
+    <file path="/Quote.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370703428311" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/app/cache/dev/classes.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370703688447" ignored="false" />
+    <file path="/fbapp.html" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370705785691" ignored="false" />
+    <file path="/fbapp.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370815349311" ignored="false" />
+    <file path="$PROJECT_DIR$/css/foundation.css" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370796638927" ignored="false" />
+    <file path="/meytip.js" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370819944792" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="fbapp" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="events.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/events.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="64" selection-start="2084" selection-end="2084" vertical-scroll-proportion="-3.0735295">
+              <folding>
+                <element signature="e#9113#9131#0" expanded="true" />
+                <element signature="e#12086#12123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="meytip.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/meytip.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="240" column="33" selection-start="8629" selection-end="8629" vertical-scroll-proportion="0.25">
+              <folding>
+                <marker date="1370820047432" expanded="true" signature="1101:1111" placeholder="..." />
+                <marker date="1370820047432" expanded="true" signature="6084:6098" placeholder="..." />
+                <marker date="1370820047432" expanded="true" signature="6163:6192" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/events.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="247" column="92" selection-start="12125" selection-end="12206" vertical-scroll-proportion="-43.857143">
+              <folding>
+                <marker date="1370700395000" expanded="false" signature="17624:17638" placeholder="..." />
+                <marker date="1370700395000" expanded="false" signature="17707:17736" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppInfo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppInfo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.tmpl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery.tmpl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="11" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fbapp.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fbapp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="26" selection-start="1628" selection-end="1632" vertical-scroll-proportion="-3.510204">
+              <folding>
+                <element signature="e#7812#7830#0" expanded="true" />
+                <element signature="e#11644#11681#0" expanded="true" />
+                <marker date="1370819286032" expanded="true" signature="7862:8287" placeholder="..." />
+                <marker date="1370819286032" expanded="true" signature="9905:10391" placeholder="..." />
+                <marker date="1370819286032" expanded="true" signature="10457:11196" placeholder="..." />
+                <marker date="1370819286032" expanded="true" signature="10514:10589" placeholder="..." />
+                <marker date="1370819286032" expanded="true" signature="11709:11928" placeholder="..." />
+                <marker date="1370819286032" expanded="true" signature="13949:13969" placeholder="..." />
+                <marker date="1370819286032" expanded="true" signature="14214:15067" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foundation.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/foundation.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="0" selection-start="2926" selection-end="2926" vertical-scroll-proportion="-50.0">
+              <folding>
+                <element signature="e#7#372#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dddddd" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dddddd">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="24" selection-start="0" selection-end="3482" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/js/jquery.tmpl.min.js" />
+        <option value="$PROJECT_DIR$/js/jquery.min.js" />
+        <option value="$PROJECT_DIR$/js/foundation/foundation.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/events.html" />
+        <option value="$PROJECT_DIR$/dddddd" />
+        <option value="$PROJECT_DIR$/fbapp.html" />
+        <option value="$PROJECT_DIR$/php/header.php" />
+        <option value="$PROJECT_DIR$/fbapp.php" />
+        <option value="$PROJECT_DIR$/events.php" />
+        <option value="$PROJECT_DIR$/js/meytip.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1303" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fbapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fbapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fbapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fbapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fbapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fbapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fbapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10b54e80-f2de-443f-99aa-2a9b4e019e11" name="Default" comment="" />
+      <created>1370593467496</created>
+      <updated>1370593467496</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26613545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="19" selection-start="3297" selection-end="3297" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/foundation/foundation.magellan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/foundation/foundation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="431" column="14" selection-start="11590" selection-end="11590" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="34" selection-start="3292" selection-end="3292" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="23" selection-start="3271" selection-end="3271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/facebook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dddddd">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="24" selection-start="0" selection-end="3482" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="0" selection-start="2926" selection-end="2926" vertical-scroll-proportion="-50.0">
+          <folding>
+            <element signature="e#7#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/foundation.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="247" column="92" selection-start="12125" selection-end="12206" vertical-scroll-proportion="-43.857143">
+          <folding>
+            <marker date="1370700395000" expanded="false" signature="17624:17638" placeholder="..." />
+            <marker date="1370700395000" expanded="false" signature="17707:17736" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.tmpl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbapp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="26" selection-start="1628" selection-end="1632" vertical-scroll-proportion="-3.510204">
+          <folding>
+            <element signature="e#7812#7830#0" expanded="true" />
+            <element signature="e#11644#11681#0" expanded="true" />
+            <marker date="1370819286032" expanded="true" signature="7862:8287" placeholder="..." />
+            <marker date="1370819286032" expanded="true" signature="9905:10391" placeholder="..." />
+            <marker date="1370819286032" expanded="true" signature="10457:11196" placeholder="..." />
+            <marker date="1370819286032" expanded="true" signature="10514:10589" placeholder="..." />
+            <marker date="1370819286032" expanded="true" signature="11709:11928" placeholder="..." />
+            <marker date="1370819286032" expanded="true" signature="13949:13969" placeholder="..." />
+            <marker date="1370819286032" expanded="true" signature="14214:15067" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="64" selection-start="2084" selection-end="2084" vertical-scroll-proportion="-3.0735295">
+          <folding>
+            <element signature="e#9113#9131#0" expanded="true" />
+            <element signature="e#12086#12123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/meytip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="240" column="33" selection-start="8629" selection-end="8629" vertical-scroll-proportion="0.25">
+          <folding>
+            <marker date="1370820047432" expanded="true" signature="1101:1111" placeholder="..." />
+            <marker date="1370820047432" expanded="true" signature="6084:6098" placeholder="..." />
+            <marker date="1370820047432" expanded="true" signature="6163:6192" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
