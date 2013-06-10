@@ -45,6 +45,7 @@
     <file path="/fbapp.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370815349311" ignored="false" />
     <file path="$PROJECT_DIR$/css/foundation.css" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370796638927" ignored="false" />
     <file path="/meytip.js" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370819944792" ignored="false" />
+    <file path="/base_facebook.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370822722114" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +68,20 @@
       <file leaf-file-name="events.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="64" selection-start="2084" selection-end="2084" vertical-scroll-proportion="-3.0735295">
+            <state line="58" column="46" selection-start="2066" selection-end="2066" vertical-scroll-proportion="-2.4264705">
               <folding>
-                <element signature="e#9113#9131#0" expanded="true" />
-                <element signature="e#12086#12123#0" expanded="true" />
+                <element signature="e#9112#9130#0" expanded="true" />
+                <element signature="e#12084#12121#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facebook.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sdk/src/facebook.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,12 +89,21 @@
       <file leaf-file-name="meytip.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/meytip.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="240" column="33" selection-start="8629" selection-end="8629" vertical-scroll-proportion="0.25">
+            <state line="245" column="17" selection-start="8756" selection-end="8763" vertical-scroll-proportion="0.33333334">
               <folding>
-                <marker date="1370820047432" expanded="true" signature="1101:1111" placeholder="..." />
-                <marker date="1370820047432" expanded="true" signature="6084:6098" placeholder="..." />
-                <marker date="1370820047432" expanded="true" signature="6163:6192" placeholder="..." />
+                <marker date="1370822827476" expanded="true" signature="1100:1110" placeholder="..." />
+                <marker date="1370822827476" expanded="true" signature="6083:6097" placeholder="..." />
+                <marker date="1370822827476" expanded="true" signature="6162:6191" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_facebook.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sdk/src/base_facebook.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,15 +116,6 @@
                 <marker date="1370700395000" expanded="false" signature="17624:17638" placeholder="..." />
                 <marker date="1370700395000" expanded="false" signature="17707:17736" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -133,17 +143,17 @@
       <file leaf-file-name="fbapp.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fbapp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="26" selection-start="1628" selection-end="1632" vertical-scroll-proportion="-3.510204">
+            <state line="289" column="64" selection-start="11421" selection-end="11433" vertical-scroll-proportion="-3.510204">
               <folding>
-                <element signature="e#7812#7830#0" expanded="true" />
-                <element signature="e#11644#11681#0" expanded="true" />
-                <marker date="1370819286032" expanded="true" signature="7862:8287" placeholder="..." />
-                <marker date="1370819286032" expanded="true" signature="9905:10391" placeholder="..." />
-                <marker date="1370819286032" expanded="true" signature="10457:11196" placeholder="..." />
-                <marker date="1370819286032" expanded="true" signature="10514:10589" placeholder="..." />
-                <marker date="1370819286032" expanded="true" signature="11709:11928" placeholder="..." />
-                <marker date="1370819286032" expanded="true" signature="13949:13969" placeholder="..." />
-                <marker date="1370819286032" expanded="true" signature="14214:15067" placeholder="..." />
+                <element signature="e#7810#7828#0" expanded="true" />
+                <element signature="e#11642#11679#0" expanded="true" />
+                <marker date="1370822827472" expanded="true" signature="7860:8285" placeholder="..." />
+                <marker date="1370822827472" expanded="true" signature="9903:10389" placeholder="..." />
+                <marker date="1370822827472" expanded="true" signature="10455:11194" placeholder="..." />
+                <marker date="1370822827472" expanded="true" signature="10512:10587" placeholder="..." />
+                <marker date="1370822827472" expanded="true" signature="11707:11926" placeholder="..." />
+                <marker date="1370822827472" expanded="true" signature="13947:13967" placeholder="..." />
+                <marker date="1370822827472" expanded="true" signature="14212:15065" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -169,18 +179,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dddddd" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dddddd">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="24" selection-start="0" selection-end="3482" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -199,6 +197,7 @@
         <option value="$PROJECT_DIR$/dddddd" />
         <option value="$PROJECT_DIR$/fbapp.html" />
         <option value="$PROJECT_DIR$/php/header.php" />
+        <option value="$PROJECT_DIR$/sdk/src/base_facebook.php" />
         <option value="$PROJECT_DIR$/fbapp.php" />
         <option value="$PROJECT_DIR$/events.php" />
         <option value="$PROJECT_DIR$/js/meytip.js" />
@@ -254,6 +253,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fbapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fbapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fbapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,13 +422,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="19" selection-start="3297" selection-end="3297" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/foundation/foundation.magellan.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -430,13 +440,6 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="123" column="23" selection-start="3271" selection-end="3271" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdk/src/facebook.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -500,40 +503,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/facebook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdk/src/base_facebook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fbapp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="26" selection-start="1628" selection-end="1632" vertical-scroll-proportion="-3.510204">
+        <state line="289" column="64" selection-start="11421" selection-end="11433" vertical-scroll-proportion="-3.510204">
           <folding>
-            <element signature="e#7812#7830#0" expanded="true" />
-            <element signature="e#11644#11681#0" expanded="true" />
-            <marker date="1370819286032" expanded="true" signature="7862:8287" placeholder="..." />
-            <marker date="1370819286032" expanded="true" signature="9905:10391" placeholder="..." />
-            <marker date="1370819286032" expanded="true" signature="10457:11196" placeholder="..." />
-            <marker date="1370819286032" expanded="true" signature="10514:10589" placeholder="..." />
-            <marker date="1370819286032" expanded="true" signature="11709:11928" placeholder="..." />
-            <marker date="1370819286032" expanded="true" signature="13949:13969" placeholder="..." />
-            <marker date="1370819286032" expanded="true" signature="14214:15067" placeholder="..." />
+            <element signature="e#7810#7828#0" expanded="true" />
+            <element signature="e#11642#11679#0" expanded="true" />
+            <marker date="1370822827472" expanded="true" signature="7860:8285" placeholder="..." />
+            <marker date="1370822827472" expanded="true" signature="9903:10389" placeholder="..." />
+            <marker date="1370822827472" expanded="true" signature="10455:11194" placeholder="..." />
+            <marker date="1370822827472" expanded="true" signature="10512:10587" placeholder="..." />
+            <marker date="1370822827472" expanded="true" signature="11707:11926" placeholder="..." />
+            <marker date="1370822827472" expanded="true" signature="13947:13967" placeholder="..." />
+            <marker date="1370822827472" expanded="true" signature="14212:15065" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="64" selection-start="2084" selection-end="2084" vertical-scroll-proportion="-3.0735295">
+        <state line="58" column="46" selection-start="2066" selection-end="2066" vertical-scroll-proportion="-2.4264705">
           <folding>
-            <element signature="e#9113#9131#0" expanded="true" />
-            <element signature="e#12086#12123#0" expanded="true" />
+            <element signature="e#9112#9130#0" expanded="true" />
+            <element signature="e#12084#12121#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/meytip.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="240" column="33" selection-start="8629" selection-end="8629" vertical-scroll-proportion="0.25">
+        <state line="245" column="17" selection-start="8756" selection-end="8763" vertical-scroll-proportion="0.33333334">
           <folding>
-            <marker date="1370820047432" expanded="true" signature="1101:1111" placeholder="..." />
-            <marker date="1370820047432" expanded="true" signature="6084:6098" placeholder="..." />
-            <marker date="1370820047432" expanded="true" signature="6163:6192" placeholder="..." />
+            <marker date="1370822827476" expanded="true" signature="1100:1110" placeholder="..." />
+            <marker date="1370822827476" expanded="true" signature="6083:6097" placeholder="..." />
+            <marker date="1370822827476" expanded="true" signature="6162:6191" placeholder="..." />
           </folding>
         </state>
       </provider>
