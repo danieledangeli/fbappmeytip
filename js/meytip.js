@@ -243,7 +243,7 @@ function bet(user){
         x.overrideMimeType("application/json;charset=UTF-8");
         }
     },
-    url: 'http://localhost/back/meytip/web/bet',
+    url: 'http://localhost/back/meytip/web/app.php/bet',
     success: function(data) {
         // 'data' is a JSON object which we can access directly.
         // Evaluate the data.success member and do something appropriate...
