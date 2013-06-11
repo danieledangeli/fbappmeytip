@@ -131,8 +131,40 @@ include('php/userpanel.php');
             <section class="section">
                 <p class="title"><a href="#">Your Events</a></p>
                 <div class="content">
-                    <h5>This is the title of tab 2</h5>
-                    <p>This is the paragraf whitin tab2</p>
+
+                    <?php foreach($userfeed as $f){ ?>
+                    <div class="feed">
+                        <div class="row">
+                            <div class="large-12 columns">
+                                <div class="foto"><img src="https://graph.facebook.com/<?php echo $f->fbid; ?>/picture?type=square" alt="" width="30" height="30"></div>
+                                <div class="testo"><h11><span class="blu"><a href=""><?php echo $f->createdAt.' '. $f->name; ?></a> </span> ha effettuato questa scommessa </h11></div>
+                            </div>
+
+                        </div>
+
+                        <table style="width:100%">
+                            <thead>
+                            <tr>
+                                <th><h6>INNOVACTION LAB FINAL EVENT</h6></th>
+                                <th><h6> Pronostico</h6></th>
+                                <th><h6> Quota</h6></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <?php
+                            foreach($f->quote as $quota){ ?>
+
+                            <tr event="1031" eventname="<?php echo $quota->quote->team->name; ?>">
+                                <td><a href="#" ><?php echo $quota->quote->team->name; ?></a></td>
+                                <td><a href="#" value="1.75" bet="finale sì" betid="221" bettype="finale sì/no" class="tiny secondary disabled button expand"><?php echo $quota->prono; ?></a></td>
+                                <td><a href="#" class="tiny secondary disabled button expand"><?php echo $quota->odds; ?></a></td>
+                            </tr>
+                            <?php } ?>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <?php } ?>
                 </div>
             </section>
             </div>
