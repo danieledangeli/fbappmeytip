@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/js/meytip.js" line="104" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0d2baa87-d76e-44ac-b415-4e300207eedd" name="Default" comment="" />
     <ignored path="fbapp.iws" />
@@ -111,11 +114,11 @@
       <file leaf-file-name="meytip.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/meytip.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="7" selection-start="4826" selection-end="4826" vertical-scroll-proportion="0.27272728">
+            <state line="97" column="5" selection-start="4687" selection-end="4687" vertical-scroll-proportion="0.055555556">
               <folding>
-                <marker date="1370970672389" expanded="false" signature="1105:1115" placeholder="..." />
-                <marker date="1370970672389" expanded="true" signature="6350:6364" placeholder="..." />
-                <marker date="1370970672389" expanded="true" signature="6429:6458" placeholder="..." />
+                <marker date="1370970840245" expanded="false" signature="1105:1115" placeholder="..." />
+                <marker date="1370970840245" expanded="true" signature="6345:6359" placeholder="..." />
+                <marker date="1370970840245" expanded="true" signature="6424:6453" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -174,10 +177,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="32" />
-    <option name="width" value="1301" />
-    <option name="height" value="728" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1303" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -313,14 +316,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="32" width="1301" height="728" extended-state="0" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25379092" sideWeight="0.67068964" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25338647" sideWeight="0.67068964" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -516,11 +519,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/meytip.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="7" selection-start="4826" selection-end="4826" vertical-scroll-proportion="0.27272728">
+        <state line="97" column="5" selection-start="4687" selection-end="4687" vertical-scroll-proportion="0.055555556">
           <folding>
-            <marker date="1370970672389" expanded="false" signature="1105:1115" placeholder="..." />
-            <marker date="1370970672389" expanded="true" signature="6350:6364" placeholder="..." />
-            <marker date="1370970672389" expanded="true" signature="6429:6458" placeholder="..." />
+            <marker date="1370970840245" expanded="false" signature="1105:1115" placeholder="..." />
+            <marker date="1370970840245" expanded="true" signature="6345:6359" placeholder="..." />
+            <marker date="1370970840245" expanded="true" signature="6424:6453" placeholder="..." />
           </folding>
         </state>
       </provider>

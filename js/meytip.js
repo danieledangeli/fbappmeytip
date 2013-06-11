@@ -100,9 +100,9 @@ $("#contentfeed").delegate(".event", "click", function(e) {
 });
 
 
-$("#Grid").delegate(":checkbox", 'click', function (e) {
+$("#curbet").delegate(":checkbox", 'click', function (e) {
     if (confirm("Are you sure?") == true) {
-       
+
         // make the request to save the value
     }
 });
