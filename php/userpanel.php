@@ -7,10 +7,13 @@
     <section class="top-bar-section">
         <ul class="left">
             <li class="divider"></li>
-            <li class="active"><a href="events.php">events</a></li>
+            <li><a href="index.php">Profile</a></li>
             <li class="divider"></li>
-            <li><a href="#">people</a></li>
+            <li class="active"><a href="events.php">Events</a></li>
             <li class="divider"></li>
+            <li><a href="#">People</a></li>
+            <li class="divider"></li>
+
         </ul>
     </section>
 </nav>
