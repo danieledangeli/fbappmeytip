@@ -67,7 +67,8 @@ include('php/header.php');
         </div>
     </div>
     <div align="center" class="large-12 columns">
-        <h3 class="hlog">Iscriviti ora e comincia a scommettere sul serio</h3>
+        <h3 class="hlog">Join Meytip</h3>
+        <h3 class="hlog">discover a new sport betting experience</h3>
     </div>
     <div class="large-12 columns">
         <div class="large-2 large-offset-5 columns">

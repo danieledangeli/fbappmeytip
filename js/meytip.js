@@ -142,21 +142,7 @@ function appendBet(eventid, eventname, bettype,bet,betid,quota){
 
 
     schedindex = schedindex + 1;
-    var a = document.createElement('a');
-    a.onclick = function(e) {
-        // cross browser stuff to get the liNode
-        var liNode;
 
-        if (!e) var e = window.event;
-        if (e.target) liNode = e.target.parentNode;
-        else if (e.srcElement) liNode = e.srcElement.parentNode;
-        if (liNode.nodeType == 3) { // defeat Safari bug
-            liNode = liNode.parentNode.parentNode;
-        }
-        // l refers to ul which you've an instance of already
-        l.removeChild(liNode);
-    }
-    alert(a.innerHTML);
     var li = '<li class=\"giocata\" eventid="'+eventid+'"eventname="'+eventname+'" bettype="'+bettype+'" bet="'+bet+'" betid="'+betid+'" quota="'+quota+'">';
     li = li+'<div class="row collpase clearfix">';
     li = li + '<div class="large-1 columns">';
@@ -293,6 +279,17 @@ function bet(user){
 
     }
 
+    function clear()
+    {
+        var ul = document.getElementById("curbet");
+        ul.innerHTML = '<li class=\"title\"><h9>Le tue scommesse</h9></li>';
+        //set to q quota
+        quotatotale = 1;
+        eventdata = [];
+        document.getElementById("stake").value = '';
+        document.getElementById("quotatotale").innerHTML = '';
+        document.getElementById("potenziale").innerHTML = '';
+    }
     function removeBetElement()
     {
         var element = $(this).closest("li");

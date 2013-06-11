@@ -282,7 +282,7 @@ include('php/userpanel.php');
             </tbody>
         </table>
 
-
+        <a class="alert button expand marginebottom" href="#" onclick="clear()">Clear</a>
         <a class="success button expand marginebottom" href="#" onclick="bet('<?php echo $meytipuser->facebookid; ?>');" id="play">Scommetti</a>
 
 
