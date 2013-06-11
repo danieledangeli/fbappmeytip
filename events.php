@@ -76,6 +76,11 @@ include('php/header.php');
 </header>
 
 <?php if(isset($basic)){ ?>
+
+
+<?php
+include('php/userpanel.php');
+?>
 <div id="myModal" class="reveal-modal small">
     <span class="success label">Success!</span><br>
     <span class="radius secondary label"><?php echo $meytipuser->name;?></span>
@@ -84,9 +89,6 @@ include('php/header.php');
 </div>
 
 
-<?php
-include('php/userpanel.php');
-?>
 
     <div class="row centrale">
     	<!-- CAMPIONATI -->
