@@ -99,10 +99,10 @@ $("#contentfeed").delegate(".event", "click", function(e) {
     e.preventDefault();
 });
 
-$("#curbet").delegate(".check", "keyup", function(e) {
-
-    e.preventDefault();
-});
+function removeElement()
+{
+    alert('here');
+}
 
 $("#betevent").delegate(".event", "click", function(e) {
     var quota = $(this).attr('value');
@@ -147,7 +147,7 @@ function appendBet(eventid, eventname, bettype,bet,betid,quota){
     li = li + '<div class="large-1 columns">';
     li = li + '<form class="custom">';
     li = li + '<label for="checkbox1">';
-    li = li + '<input type="checkbox" class="check" id="checkbox1" style="display: none;">';
+    li = li + '<input type="checkbox" class="check" onclick="removeElement();" id="checkbox1" style="display: none;">';
     li = li + '<span class="custom checkbox checked" style="float:left; margin-right:10px"></span>';
     li = li + '</label>';
     li = li + '</form>';
