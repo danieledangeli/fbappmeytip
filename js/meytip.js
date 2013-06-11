@@ -34,7 +34,7 @@ function loadfeeds()
                 for(var j = 0; j < result[i].quote.length; j++){
 
                     data = data +'<tr event=\"'+result[i].quote[j].quote.team.id+'\"eventname=\"'+result[i].quote[j].quote.team.name+'\">';
-                    data = data +'<td><span data-tooltip class=\"tip-right\" title=\"'+result[i].quote[j].quote.team.tagline+'</p>';
+                    data = data +'<td><span data-tooltip class=\"tip-top\" title=\"'+result[i].quote[j].quote.team.tagline+'</p>';
                     data = data + result[i].quote[j].quote.team.teewtidea +'\"><a href=\"#\" >'+result[i].quote[j].quote.team.name+'</a></span></td>';
 
                     if(result[i].quote[j].prono == 'finale sì'){
@@ -139,12 +139,7 @@ function appendBet(eventid, eventname, bettype,bet,betid,quota){
     var li = '<li class=\"giocata\" eventid="'+eventid+'"eventname="'+eventname+'" bettype="'+bettype+'" bet="'+bet+'" betid="'+betid+'" quota="'+quota+'">';
     li = li+'<div class="row collpase clearfix">';
     li = li + '<div class="large-1 columns">';
-    li = li + '<form class="custom">';
-    li = li + '<label for="checkbox1">';
-    li = li + '<input type="checkbox" id="checkbox1" style="display: none;">';
-    li = li + '<span class="custom checkbox checked" style="float:left; margin-right:10px"></span>';
-    li = li + '</label>';
-    li = li + '</form>';
+    li = li + '<a href=\"#\" class=\"close\">x</a>';
     li = li + '</div>';
     li = li + '<div class="large-10 columns">';
     li = li + '<h6>'+eventname+'</h6>';

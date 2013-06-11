@@ -28,7 +28,7 @@
             <div class="large-7 small-6 collapsecolumns">
                 <h4 class="white"><?php echo $basic['name']; ?></h4>
                 <div><h8>Pending Bets</h8> <div class="valuesmall" id="pending"><?php echo $meytipuser->pending; ?></div></div>
-                <div><h8>Challenge</h8> <div class="valuesmall">0</div></div>
+                <div class="subvalue"><h8>Challenge</h8> <div class="valuesmall">0</div></div>
             </div>
         </div>
         <!-- /NOME -->

@@ -77,7 +77,7 @@ include('php/userpanel.php');
                 <p class="title"><a href="#panel1">Italia</a></p>
                 <div class="content" data-slug="panel1">
                 <ul class="side-nav">
-                <li><h11><a href="#">Innovaction Lab</a></h11></li> 
+                <li><h11><b><a href="#">Innovaction Lab</a></b></h11></li>
                 <li><h11><a href="#">Serie A</a></h11></li>
                 <li><h11><a href="#">Serie B</a></h11> </li>
                 <li><h11><a href="#">Lega Pro</a></h11>  </li>
@@ -159,7 +159,7 @@ include('php/userpanel.php');
 
                         <tr event="<?php echo $t->team->id; ?>" eventname="<?php echo $t->team->name; ?>">
 
-                        <td> <span data-tooltip class="tip-right" title="<?php echo "<p class=blue>".$t->team->tagline ."</p>".$t->team->teewtidea; ?>"><a href="#" ><?php echo $t->team->name; ?></a></span></td>
+                        <td> <span data-tooltip class="tip-top" title="<?php echo "<p class=blue>".$t->team->tagline ."</p>".$t->team->teewtidea; ?>"><a href="#" ><?php echo $t->team->name; ?></a></span></td>
                         <td><a href="#" value="<?php echo $t->final; ?>" bet="finale sì" betid="222" bettype="finale sì/no" class="tiny button event"><?php echo $t->final; ?></a></td>
                         <td><a href="#"  value="<?php echo $t->nofinal; ?>" bet="finale no" betid="223" bettype="finale sì/no" class="tiny button event" class="tiny button"><?php echo $t->nofinal; ?></a></td>
                         <td><a href="#" class="tiny button disabled ">ND</a></td>
@@ -203,72 +203,7 @@ include('php/userpanel.php');
 
 
 
-				<ul class="pricing-table">
-              <li class="title"><h9>TOP 10</h9></li>
-              <li>
-              <table style="width:100%; margin-bottom:0px">
-              <thead>
-                    	<tr>
-                        	<th><h6>#</h6></th>
-                            <th><h6>USER</h6></th>
-                            <th><h6>YIELD</h6></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    	<tr>
-                        	<td>1</td>
-                            <td><a href="#">Ivan Minutillo</a></td>
-                            <td>75%</td>
-                        </tr>
-                        <tr>
-                        	<td>2</td>
-                            <td><a href="#">Ivan Minutillo</a></td>
-                            <td>75%</td>
-                        </tr>
-                        <tr>
-                        	<td>3</td>
-                            <td><a href="#">Ivan Minutillo</a></td>
-                            <td>75%</td>
-                        </tr>
-                        <tr>
-                        	<td>4</td>
-                            <td><a href="#">Ivan Minutillo</a></td>
-                            <td>75%</td>
-                        </tr>
-                        <tr>
-                        	<td>5</td>
-                            <td><a href="#">Ivan Minutillo</a></td>
-                            <td>75%</td>
-                        </tr>
-                        <tr>
-                        	<td>6</td>
-                            <td><a href="#">Ivan Minutillo</a></td>
-                            <td>75%</td>
-                        </tr>
-                        <tr>
-                        	<td>7</td>
-                            <td><a href="#">Ivan Minutillo</a></td>
-                            <td>75%</td>
-                        </tr>
-                        <tr>
-                        	<td>8</td>
-                            <td><a href="#">Ivan Minutillo</a></td>
-                            <td>75%</td>
-                        </tr>
-                        <tr>
-                        	<td>9</td>
-                            <td><a href="#">Ivan Minutillo</a></td>
-                           <td>75%</td>
-                        </tr>
-                        <tr>
-                        	<td>10</td>
-                            <td><a href="#">Ivan Minutillo</a></td>
-                            <td>75%</td>
-                        </tr>
-                        </tbody>
-              </table>
-              </li>
-              </ul>       
+
           </div>
      
     

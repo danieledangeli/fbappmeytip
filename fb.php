@@ -167,72 +167,7 @@ include('php/userpanel.php');
                 <div class="fb-comments" data-href="http://meytip.com" data-width="300" data-num-posts="10"></div>
             </li>
         </ul>
-        <ul class="pricing-table">
-            <li class="title"><h9>TOP 10</h9></li>
-            <li>
-                <table style="width:100%; margin-bottom:0px">
-                    <thead>
-                    <tr>
-                        <th><h6>#</h6></th>
-                        <th><h6>USER</h6></th>
-                        <th><h6>YIELD</h6></th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td><a href="#">Ivan Minutillo</a></td>
-                        <td>75%</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td><a href="#">Ivan Minutillo</a></td>
-                        <td>75%</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td><a href="#">Ivan Minutillo</a></td>
-                        <td>75%</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td><a href="#">Ivan Minutillo</a></td>
-                        <td>75%</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td><a href="#">Ivan Minutillo</a></td>
-                        <td>75%</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td><a href="#">Ivan Minutillo</a></td>
-                        <td>75%</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td><a href="#">Ivan Minutillo</a></td>
-                        <td>75%</td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td><a href="#">Ivan Minutillo</a></td>
-                        <td>75%</td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td><a href="#">Ivan Minutillo</a></td>
-                        <td>75%</td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <td><a href="#">Ivan Minutillo</a></td>
-                        <td>75%</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </li>
-        </ul>
+
     </div>
 
 
