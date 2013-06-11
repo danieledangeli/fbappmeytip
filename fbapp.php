@@ -106,7 +106,9 @@ include('php/header.php');
 </div>
 
 
-
+<?php
+include('php/userpanel.php');
+?>
 
 <div class="row centrale">
     <div class="large-8 columns">

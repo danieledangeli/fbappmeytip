@@ -83,6 +83,11 @@ include('php/header.php');
     <a class="close-reveal-modal">&#215;</a>
 </div>
 
+
+<?php
+include('php/userpanel.php');
+?>
+
     <div class="row centrale">
     	<!-- CAMPIONATI -->
     	<div class="large-2 columns">
