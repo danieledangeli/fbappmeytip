@@ -69,7 +69,7 @@ include('php/header.php');
     <?php } else { ?>
         <body>
         <div class = "row">
-            <div class="fb-login-button" size="xlarge" length="xlarge" data-scope="user_likes,user_photos,publish_stream"></div>
+            <div class="fb-login-button" size="xlarge" length="xlarge" data-scope="user_likes,user_photos"></div>
         </div>
         </body>
     <?php } ?>
