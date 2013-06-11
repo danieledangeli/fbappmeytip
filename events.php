@@ -18,6 +18,10 @@ include('php/header.php');
 
 </head>
 <body>
+<?php
+include('php/init.php');
+include('php/userpanel.php');
+?>
 <div id="fb-root"></div>
 <script type="text/javascript">
 
@@ -56,26 +60,10 @@ include('php/header.php');
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 </script>
-<header class="clearfix">
 
-    <?php if (isset($basic)) {
-        $data = json_encode($basic);
-        $us = CallAPI('POST','https://meytip.com/back/meytip/web/app.php/login.json',$data);
-        $meytipuser = json_decode($us);
-	?>
-
-
-
-    <?php } else { ?>
-        <body>
-        <div class = "row">
-            <div class="fb-login-button" size="xlarge" length="xlarge" data-scope="user_likes,user_photos,publish_stream"></div>
-        </div>
-        </body>
-    <?php } ?>
-</header>
 
 <?php if(isset($basic)){ ?>
+
 <div id="myModal" class="reveal-modal small">
     <span class="success label">Success!</span><br>
     <span class="radius secondary label"><?php echo $meytipuser->name;?></span>
