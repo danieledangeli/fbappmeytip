@@ -39,16 +39,6 @@ include('php/header.php');
             FB.Canvas.setAutoGrow();
         };
 
-        function sendRequestViaMultiFriendSelector() {
-            FB.ui({method: 'apprequests',
-                message: 'Hi, try Meytip'
-            }, requestCallback);
-
-        }
-        function requestCallback(response) {
-            console.log(response);
-        }
-
 
         // Load the SDK Asynchronously
         (function(d, s, id) {
@@ -80,9 +70,10 @@ include('php/header.php');
         <h3 class="hlog">Iscriviti ora e comincia a scommettere sul serio</h3>
     </div>
     <div class="large-12 columns">
-        <div class="large-6 large-offset-3 columns">
+        <div class="large-2 large-offset-5 columns">
+
             <div class="fb-login-button" size="xlarge" length="xlarge" data-scope="publish_stream,user_likes,user_photos"></div>
-        </div></div>
+        </div>
 </div>
 <script src="js/foundation.min.js"></script>
 </body>
