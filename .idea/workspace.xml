@@ -112,11 +112,11 @@
       <file leaf-file-name="meytip.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/meytip.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="285" column="48" selection-start="9930" selection-end="9930" vertical-scroll-proportion="0.66481483">
+            <state line="160" column="77" selection-start="6720" selection-end="6720" vertical-scroll-proportion="0.7222222">
               <folding>
-                <marker date="1370972003389" expanded="false" signature="1125:1135" placeholder="..." />
-                <marker date="1370972003389" expanded="true" signature="6211:6225" placeholder="..." />
-                <marker date="1370972003389" expanded="true" signature="6290:6319" placeholder="..." />
+                <marker date="1370972205945" expanded="false" signature="1125:1135" placeholder="..." />
+                <marker date="1370972205945" expanded="true" signature="6211:6225" placeholder="..." />
+                <marker date="1370972205945" expanded="true" signature="6290:6319" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -518,11 +518,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/meytip.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="48" selection-start="9930" selection-end="9930" vertical-scroll-proportion="0.66481483">
+        <state line="160" column="77" selection-start="6720" selection-end="6720" vertical-scroll-proportion="0.7222222">
           <folding>
-            <marker date="1370972003389" expanded="false" signature="1125:1135" placeholder="..." />
-            <marker date="1370972003389" expanded="true" signature="6211:6225" placeholder="..." />
-            <marker date="1370972003389" expanded="true" signature="6290:6319" placeholder="..." />
+            <marker date="1370972205945" expanded="false" signature="1125:1135" placeholder="..." />
+            <marker date="1370972205945" expanded="true" signature="6211:6225" placeholder="..." />
+            <marker date="1370972205945" expanded="true" signature="6290:6319" placeholder="..." />
           </folding>
         </state>
       </provider>
