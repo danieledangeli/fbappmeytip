@@ -136,8 +136,8 @@ include('php/userpanel.php');
                     <div class="feed">
                         <div class="row">
                             <div class="large-12 columns">
-                                <div class="foto"><img src="https://graph.facebook.com/<?php echo $f->fbid; ?>/picture?type=square" alt="" width="30" height="30"></div>
-                                <div class="testo"><h11><span class="blu"><a href=""><?php echo $f->createdAt.' '. $f->name; ?></a> </span> ha effettuato questa scommessa </h11></div>
+                                <div class="foto"><img src="https://graph.facebook.com/<?php echo $meytipuser->facebookid; ?>/picture?type=square" alt="" width="30" height="30"></div>
+                                <div class="testo"><h11><span class="blu"><a href=""><?php echo $meytipuser->name; ?></a> </span> ha effettuato questa scommessa </h11></div>
                             </div>
 
                         </div>
