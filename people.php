@@ -91,7 +91,7 @@ include('php/userpanel.php');
             <td><a href="#">Daniele D'Angeli</a></td>
             <td><a href="#" class="tiny button expand">Follow</a></td>
             <td align="center">68%</td>
-            <td align="center">569</td>
+            <td align="center">444</td>
             <td align="center">144</td>
             <td align="center">14</td>
         </tr>
@@ -100,16 +100,16 @@ include('php/userpanel.php');
             <td><a href="#">Roberto Montinaro</a></td>
             <td><a href="#" class="tiny button expand">Follow</a></td>
             <td align="center">64%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
+            <td align="center">432</td>
+            <td align="center">33</td>
+            <td align="center">3</td>
         </tr>
         <tr>
             <td align="center">4</td>
             <td><a href="#">Ivan Minutillo</a></td>
             <td><a href="#" class="tiny button expand">Follow</a></td>
             <td align="center">64%</td>
-            <td align="center">569</td>
+            <td align="center">321</td>
             <td align="center">144</td>
             <td align="center">14</td>
         </tr>
@@ -118,18 +118,18 @@ include('php/userpanel.php');
             <td><a href="#">Arnaldo Stanzione</a></td>
             <td><a href="#" class="tiny button expand">Follow</a></td>
             <td align="center">63%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
+            <td align="center">320</td>
+            <td align="center">76</td>
+            <td align="center">3</td>
         </tr>
         <tr>
             <td align="center">6</td>
             <td><a href="#">Andrea Curci</a></td>
             <td><a href="#" class="tiny button expand">Follow</a></td>
             <td align="center">60%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
+            <td align="center">311</td>
+            <td align="center">56</td>
+            <td align="center">7</td>
         </tr>
         <tr>
             <td align="center">7</td>
@@ -282,7 +282,7 @@ include('php/userpanel.php');
             </tbody>
         </table>
 
-        <a class="alert button expand marginebottom" href="#" onclick="clear()">Clear</a>
+
         <a class="success button expand marginebottom" href="#" onclick="bet('<?php echo $meytipuser->facebookid; ?>');" id="play">Scommetti</a>
 
 

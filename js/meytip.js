@@ -281,7 +281,6 @@ function bet(user){
 
     function clear()
     {
-        alert('clear');
         var ul = document.getElementById("curbet");
         ul.innerHTML = '<li class=\"title\"><h9>Le tue scommesse</h9></li>';
         //set to q quota
