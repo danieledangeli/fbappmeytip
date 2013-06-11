@@ -45,10 +45,10 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="55" selection-start="256" selection-end="256" vertical-scroll-proportion="0.24193548">
+            <state line="4" column="4" selection-start="66" selection-end="66" vertical-scroll-proportion="0.12096774">
               <folding>
-                <marker date="1370951931635" expanded="true" signature="178:372" placeholder="..." />
-                <marker date="1370951931635" expanded="true" signature="199:372" placeholder="{...}" />
+                <marker date="1370951979467" expanded="true" signature="176:370" placeholder="..." />
+                <marker date="1370951979467" expanded="true" signature="197:370" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -467,10 +467,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="55" selection-start="256" selection-end="256" vertical-scroll-proportion="0.24193548">
+        <state line="4" column="4" selection-start="66" selection-end="66" vertical-scroll-proportion="0.12096774">
           <folding>
-            <marker date="1370951931635" expanded="true" signature="178:372" placeholder="..." />
-            <marker date="1370951931635" expanded="true" signature="199:372" placeholder="{...}" />
+            <marker date="1370951979467" expanded="true" signature="176:370" placeholder="..." />
+            <marker date="1370951979467" expanded="true" signature="197:370" placeholder="{...}" />
           </folding>
         </state>
       </provider>
