@@ -1,5 +1,5 @@
 <!-- HEADER -->
-<header
+
 <nav class="top-bar">
     <ul class="title-area">
         <li class="name logo"><a href="fbapp.php"><img src="img/logo.png"></a></li>
