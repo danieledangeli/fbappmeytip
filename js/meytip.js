@@ -55,9 +55,9 @@ function loadfeeds()
                         data = data + 'class=\"tiny button secondary event\" value=\"'+result[i].quote[j].nofinal+'\" bet=\"finale no\" betid=\"223\" bettype=\"finale sì/no\" >'+result[i].quote[j].quote.nofinal+'</a></td>';
                     }
 
-                    data = data + '<td><a href=\"#\" class=\"tiny button disabled\">ND</a></td>';
-                    data = data +' <td><a href=\"#\" class=\"tiny button disabled\">ND</a></td>';
-                    data = data +  '<td><a href="#" class="tiny button disabled">ND</a></td>';
+                    data = data + '<td><a href=\"#\" class=\"tiny secondary button disabled\">ND</a></td>';
+                    data = data +' <td><a href=\"#\" class=\"tiny secondary button disabled\">ND</a></td>';
+                    data = data +  '<td><a href=\"#\" class=\"tiny secondary button disabled\">ND</a></td>';
                     data = data +'</tr>';
                 }
 
