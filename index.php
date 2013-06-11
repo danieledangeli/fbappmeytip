@@ -2,7 +2,7 @@
 include('php/header.php');
 ?>
 <?php if(isset($basic)) {
-   include('fb.php');
+   include('events.php');
 
 } else{ ?>
     <div id="fb-root"></div>
