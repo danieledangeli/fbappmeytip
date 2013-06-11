@@ -158,7 +158,7 @@ function appendBet(eventid, eventname, bettype,bet,betid,quota){
     li = li + '<h10 class="black">'+bet+' - '+quota+'</h10>';
     li = li + '</div>';
     li = li + '<div>';
-    li = li + '<a class="tiny button alert btnschedina">REMOVE</a>';
+    li = li + '<a class="tiny disabled button btnschedina">SFIDA</a>';
     li = li + '</div>';
     li = li + '</div>';
     li = li + '</li>';
