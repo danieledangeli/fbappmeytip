@@ -1,51 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10b54e80-f2de-443f-99aa-2a9b4e019e11" name="Default" comment="" />
+    <list default="true" id="0d2baa87-d76e-44ac-b415-4e300207eedd" name="Default" comment="" />
     <ignored path="fbapp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/events.html" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370621075329" ignored="false" />
-    <file path="/index.html" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370598182029" ignored="false" />
-    <file path="/Dummy.txt" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370691457819" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/BetController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370813821727" ignored="false" />
-    <file path="/BetController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370813821086" ignored="false" />
-    <file path="/events.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370808855099" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Resources/config/quotes_router.yml" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370690121129" ignored="false" />
-    <file path="/quotes_router.yml" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370690121129" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/FeedController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370815337899" ignored="false" />
-    <file path="/FeedController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370815288892" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/src/Meytip/PendingbetBundle/Controller/DefaultController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370624966741" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Document/InnLabBet.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370814011340" ignored="false" />
-    <file path="/InnLabBet.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370813351478" ignored="false" />
-    <file path="$PROJECT_DIR$/../infinite-bastion-4163/index.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370683201097" ignored="false" />
-    <file path="/index.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370683173254" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/app/config/config.yml" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370692820477" ignored="false" />
-    <file path="/config.yml" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370686896620" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/app/AppKernel.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370686501329" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Entity/User.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370686776694" ignored="false" />
-    <file path="/User.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370700055997" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Document/User.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370700148845" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/app/config/security.yml" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370687055961" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/app/config/routing.yml" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370687055961" ignored="false" />
-    <file path="/routing.yml" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370687054423" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/app/cache/dev/appDevDebugProjectContainer.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370687081957" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Document/InnLabSched.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370813644267" ignored="false" />
-    <file path="/InnLabSched.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370687539412" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/UserController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370700397770" ignored="false" />
-    <file path="/UserController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370700210673" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/web/app.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370691690328" ignored="false" />
-    <file path="/app.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370691690863" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/app/cache/prod/appProdDebugProjectContainer.xml" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370692832271" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/QuotesController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370700959625" ignored="false" />
-    <file path="/QuotesController.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370700954636" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Entity/Quote.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370705201638" ignored="false" />
-    <file path="/Quote.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370703428311" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/app/cache/dev/classes.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370703688447" ignored="false" />
-    <file path="/fbapp.html" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370705785691" ignored="false" />
-    <file path="/fbapp.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370815349311" ignored="false" />
-    <file path="$PROJECT_DIR$/css/foundation.css" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370796638927" ignored="false" />
-    <file path="/meytip.js" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370819944792" ignored="false" />
-    <file path="/base_facebook.php" changelist="10b54e80-f2de-443f-99aa-2a9b4e019e11" time="1370822722114" ignored="false" />
+    <file path="/fbapp.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370942791066" ignored="false" />
+    <file path="/header.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370943144774" ignored="false" />
+    <file path="/events.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370944698162" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,113 +26,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="events.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/events.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="46" selection-start="2066" selection-end="2066" vertical-scroll-proportion="-2.4264705">
-              <folding>
-                <element signature="e#9112#9130#0" expanded="true" />
-                <element signature="e#12084#12121#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="facebook.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sdk/src/facebook.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="meytip.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/meytip.js">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="245" column="51" selection-start="8797" selection-end="8797" vertical-scroll-proportion="0.33333334">
-              <folding>
-                <marker date="1370823380156" expanded="true" signature="1100:1110" placeholder="..." />
-                <marker date="1370823380156" expanded="true" signature="6083:6097" placeholder="..." />
-                <marker date="1370823380156" expanded="true" signature="6162:6191" placeholder="..." />
-=======
-            <state line="245" column="14" selection-start="8760" selection-end="8760" vertical-scroll-proportion="0.33333334">
-              <folding>
-                <marker date="1370824848648" expanded="true" signature="1100:1110" placeholder="..." />
-                <marker date="1370824848648" expanded="true" signature="6083:6097" placeholder="..." />
-                <marker date="1370824848648" expanded="true" signature="6162:6191" placeholder="..." />
->>>>>>> f8ee3fb4b996eef0298ccb665a994eda65a5a39c
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_facebook.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sdk/src/base_facebook.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/events.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="247" column="92" selection-start="12125" selection-end="12206" vertical-scroll-proportion="-43.857143">
-              <folding>
-                <marker date="1370700395000" expanded="false" signature="17624:17638" placeholder="..." />
-                <marker date="1370700395000" expanded="false" signature="17707:17736" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppInfo.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppInfo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.tmpl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/jquery.tmpl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="11" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="fbapp.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fbapp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="289" column="64" selection-start="11421" selection-end="11433" vertical-scroll-proportion="-3.510204">
+            <state line="118" column="0" selection-start="3799" selection-end="3799" vertical-scroll-proportion="-12.166667">
               <folding>
-                <element signature="e#7810#7828#0" expanded="true" />
-                <element signature="e#11642#11679#0" expanded="true" />
-                <marker date="1370822827472" expanded="true" signature="7860:8285" placeholder="..." />
-                <marker date="1370822827472" expanded="true" signature="9903:10389" placeholder="..." />
-                <marker date="1370822827472" expanded="true" signature="10455:11194" placeholder="..." />
-                <marker date="1370822827472" expanded="true" signature="10512:10587" placeholder="..." />
-                <marker date="1370822827472" expanded="true" signature="11707:11926" placeholder="..." />
-                <marker date="1370822827472" expanded="true" signature="13947:13967" placeholder="..." />
-                <marker date="1370822827472" expanded="true" signature="14212:15065" placeholder="..." />
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#li#1;n#ul#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foundation.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/foundation.min.js">
+      <file leaf-file-name="events.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="71" column="128" selection-start="2357" selection-end="2357" vertical-scroll-proportion="0.7678917">
+              <folding>
+                <element signature="n#style#0;n#table#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#li#1;n#ul#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1370944748875" expanded="true" signature="2801:6165" placeholder="..." />
+                <marker date="1370944748875" expanded="true" signature="2861:5483" placeholder="..." />
+                <marker date="1370944748875" expanded="true" signature="5580:6165" placeholder="..." />
+                <marker date="1370944748875" expanded="true" signature="5625:6165" placeholder="..." />
+                <marker date="1370944748875" expanded="true" signature="5658:6073" placeholder="..." />
+                <marker date="1370944748875" expanded="true" signature="5658:6073" placeholder="..." />
+                <marker date="1370944748875" expanded="true" signature="5658:6073" placeholder="..." />
+                <marker date="1370944748875" expanded="true" signature="5658:6073" placeholder="..." />
+                <marker date="1370944748875" expanded="true" signature="5658:6073" placeholder="..." />
+                <marker date="1370944748875" expanded="true" signature="5658:6073" placeholder="..." />
+                <marker date="1370944748875" expanded="true" signature="6101:6165" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,10 +64,8 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="0" selection-start="2926" selection-end="2926" vertical-scroll-proportion="-50.0">
-              <folding>
-                <element signature="e#7#372#0" expanded="true" />
-              </folding>
+            <state line="162" column="14" selection-start="5959" selection-end="5959" vertical-scroll-proportion="-3.6734693">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -197,27 +80,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/jquery.tmpl.min.js" />
-        <option value="$PROJECT_DIR$/js/jquery.min.js" />
-        <option value="$PROJECT_DIR$/js/foundation/foundation.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/events.html" />
-        <option value="$PROJECT_DIR$/dddddd" />
-        <option value="$PROJECT_DIR$/fbapp.html" />
-        <option value="$PROJECT_DIR$/php/header.php" />
-        <option value="$PROJECT_DIR$/sdk/src/base_facebook.php" />
         <option value="$PROJECT_DIR$/fbapp.php" />
+        <option value="$PROJECT_DIR$/php/header.php" />
         <option value="$PROJECT_DIR$/events.php" />
-        <option value="$PROJECT_DIR$/js/meytip.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1303" />
-    <option name="height" value="773" />
+    <option name="x" value="65" />
+    <option name="y" value="32" />
+    <option name="width" value="1301" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -260,7 +134,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fbapp" />
+              <option name="myItemId" value="fbappmeytip" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,43 +144,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fbapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fbapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fbapp" />
+              <option name="myItemId" value="fbappmeytip" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fbapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fbapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,55 +160,39 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="10b54e80-f2de-443f-99aa-2a9b4e019e11" name="Default" comment="" />
-      <created>1370593467496</created>
-      <updated>1370593467496</updated>
+      <changelist id="0d2baa87-d76e-44ac-b415-4e300207eedd" name="Default" comment="" />
+      <created>1370942659069</created>
+      <updated>1370942659069</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
+    <frame x="65" y="32" width="1301" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26613545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -430,143 +256,40 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/foundation/foundation.magellan.js">
+    <entry file="file://$PROJECT_DIR$/fbapp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/foundation/foundation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="431" column="14" selection-start="11590" selection-end="11590" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="34" selection-start="3292" selection-end="3292" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="23" selection-start="3271" selection-end="3271" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dddddd">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="24" selection-start="0" selection-end="3482" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="118" column="0" selection-start="3799" selection-end="3799" vertical-scroll-proportion="-12.166667">
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#li#1;n#ul#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="2926" selection-end="2926" vertical-scroll-proportion="-50.0">
-          <folding>
-            <element signature="e#7#372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/foundation.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="162" column="14" selection-start="5959" selection-end="5959" vertical-scroll-proportion="-3.6734693">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="92" selection-start="12125" selection-end="12206" vertical-scroll-proportion="-43.857143">
-          <folding>
-            <marker date="1370700395000" expanded="false" signature="17624:17638" placeholder="..." />
-            <marker date="1370700395000" expanded="false" signature="17707:17736" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.tmpl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdk/src/facebook.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdk/src/base_facebook.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fbapp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="64" selection-start="11421" selection-end="11433" vertical-scroll-proportion="-3.510204">
-          <folding>
-            <element signature="e#7810#7828#0" expanded="true" />
-            <element signature="e#11642#11679#0" expanded="true" />
-            <marker date="1370822827472" expanded="true" signature="7860:8285" placeholder="..." />
-            <marker date="1370822827472" expanded="true" signature="9903:10389" placeholder="..." />
-            <marker date="1370822827472" expanded="true" signature="10455:11194" placeholder="..." />
-            <marker date="1370822827472" expanded="true" signature="10512:10587" placeholder="..." />
-            <marker date="1370822827472" expanded="true" signature="11707:11926" placeholder="..." />
-            <marker date="1370822827472" expanded="true" signature="13947:13967" placeholder="..." />
-            <marker date="1370822827472" expanded="true" signature="14212:15065" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="46" selection-start="2066" selection-end="2066" vertical-scroll-proportion="-2.4264705">
+        <state line="71" column="128" selection-start="2357" selection-end="2357" vertical-scroll-proportion="0.7678917">
           <folding>
-            <element signature="e#9112#9130#0" expanded="true" />
-            <element signature="e#12084#12121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/meytip.js">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="245" column="51" selection-start="8797" selection-end="8797" vertical-scroll-proportion="0.33333334">
-          <folding>
-            <marker date="1370823380156" expanded="true" signature="1100:1110" placeholder="..." />
-            <marker date="1370823380156" expanded="true" signature="6083:6097" placeholder="..." />
-            <marker date="1370823380156" expanded="true" signature="6162:6191" placeholder="..." />
-=======
-        <state line="245" column="14" selection-start="8760" selection-end="8760" vertical-scroll-proportion="0.33333334">
-          <folding>
-            <marker date="1370824848648" expanded="true" signature="1100:1110" placeholder="..." />
-            <marker date="1370824848648" expanded="true" signature="6083:6097" placeholder="..." />
-            <marker date="1370824848648" expanded="true" signature="6162:6191" placeholder="..." />
->>>>>>> f8ee3fb4b996eef0298ccb665a994eda65a5a39c
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#li#1;n#ul#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1370944748875" expanded="true" signature="2801:6165" placeholder="..." />
+            <marker date="1370944748875" expanded="true" signature="2861:5483" placeholder="..." />
+            <marker date="1370944748875" expanded="true" signature="5580:6165" placeholder="..." />
+            <marker date="1370944748875" expanded="true" signature="5625:6165" placeholder="..." />
+            <marker date="1370944748875" expanded="true" signature="5658:6073" placeholder="..." />
+            <marker date="1370944748875" expanded="true" signature="5658:6073" placeholder="..." />
+            <marker date="1370944748875" expanded="true" signature="5658:6073" placeholder="..." />
+            <marker date="1370944748875" expanded="true" signature="5658:6073" placeholder="..." />
+            <marker date="1370944748875" expanded="true" signature="5658:6073" placeholder="..." />
+            <marker date="1370944748875" expanded="true" signature="5658:6073" placeholder="..." />
+            <marker date="1370944748875" expanded="true" signature="6101:6165" placeholder="..." />
           </folding>
         </state>
       </provider>
