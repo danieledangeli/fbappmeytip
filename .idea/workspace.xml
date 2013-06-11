@@ -89,11 +89,19 @@
       <file leaf-file-name="meytip.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/meytip.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="245" column="51" selection-start="8797" selection-end="8797" vertical-scroll-proportion="0.33333334">
               <folding>
                 <marker date="1370823380156" expanded="true" signature="1100:1110" placeholder="..." />
                 <marker date="1370823380156" expanded="true" signature="6083:6097" placeholder="..." />
                 <marker date="1370823380156" expanded="true" signature="6162:6191" placeholder="..." />
+=======
+            <state line="245" column="14" selection-start="8760" selection-end="8760" vertical-scroll-proportion="0.33333334">
+              <folding>
+                <marker date="1370824848648" expanded="true" signature="1100:1110" placeholder="..." />
+                <marker date="1370824848648" expanded="true" signature="6083:6097" placeholder="..." />
+                <marker date="1370824848648" expanded="true" signature="6162:6191" placeholder="..." />
+>>>>>>> f8ee3fb4b996eef0298ccb665a994eda65a5a39c
               </folding>
             </state>
           </provider>
@@ -546,11 +554,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/meytip.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="245" column="51" selection-start="8797" selection-end="8797" vertical-scroll-proportion="0.33333334">
           <folding>
             <marker date="1370823380156" expanded="true" signature="1100:1110" placeholder="..." />
             <marker date="1370823380156" expanded="true" signature="6083:6097" placeholder="..." />
             <marker date="1370823380156" expanded="true" signature="6162:6191" placeholder="..." />
+=======
+        <state line="245" column="14" selection-start="8760" selection-end="8760" vertical-scroll-proportion="0.33333334">
+          <folding>
+            <marker date="1370824848648" expanded="true" signature="1100:1110" placeholder="..." />
+            <marker date="1370824848648" expanded="true" signature="6083:6097" placeholder="..." />
+            <marker date="1370824848648" expanded="true" signature="6162:6191" placeholder="..." />
+>>>>>>> f8ee3fb4b996eef0298ccb665a994eda65a5a39c
           </folding>
         </state>
       </provider>

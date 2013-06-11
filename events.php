@@ -56,10 +56,9 @@ include('php/header.php');
 
     <?php if (isset($basic)) {
         $data = json_encode($basic);
-        $us = CallAPI('POST','http://localhost/back/meytip/web/login',$data);
+        $us = CallAPI('POST','https://meytip.com/back/meytip/web/app.php/login.json',$data);
         $meytipuser = json_decode($us);
-
-        ?>
+	?>
 
 
 
@@ -251,7 +250,7 @@ include('php/header.php');
                     <tbody>
                     <?php
 
-                    $resp = CallAPI('GET','http://localhost/back/meytip/web/quotes',false);
+                    $resp = CallAPI('GET','https://meytip.com/back/meytip/web/app.php/quotes.json',false);
                     $team = json_decode($resp);
                     foreach($team as $t){ ?>
 

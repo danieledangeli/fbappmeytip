@@ -74,11 +74,11 @@ include('php/header.php');
 <header class="clearfix">
     <?php if (isset($basic)) {
         $data = json_encode($basic);
-        $us = CallAPI('POST','http://localhost/back/meytip/web/login.json',$data);
+        $us = CallAPI('POST','https://meytip.com/back/meytip/web/app.php/login.json',$data);
         $meytipuser = json_decode($us);
 
 
-        $feed = CallAPI('GET','http://localhost/back/meytip/web/feeds/10');
+        $feed = CallAPI('GET','https://meytip.com/back/meytip/web/app.php/feeds/10.json');
         $feed = json_decode($feed);
 
 
