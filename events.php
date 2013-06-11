@@ -63,29 +63,25 @@ include('php/header.php');
         $us = CallAPI('POST','https://meytip.com/back/meytip/web/app.php/login.json',$data);
         $meytipuser = json_decode($us);
 	?>
-  <?php } else { ?>
+
+
+
+    <?php } else { ?>
         <body>
         <div class = "row">
-            <div class="fb-login-button" size="xlarge" length="xlarge" data-scope="publish_stream,user_likes,user_photos"></div>
+            <div class="fb-login-button" size="xlarge" length="xlarge" data-scope="user_likes,user_photos,publish_stream"></div>
         </div>
         </body>
     <?php } ?>
 </header>
 
 <?php if(isset($basic)){ ?>
-
-
-<?php
-include('php/userpanel.php');
-?>
 <div id="myModal" class="reveal-modal small">
     <span class="success label">Success!</span><br>
     <span class="radius secondary label"><?php echo $meytipuser->name;?></span>
     <span class="radius secondary label">La tua scommessa è stata registrata con successo!</span>
     <a class="close-reveal-modal">&#215;</a>
 </div>
-
-
 
     <div class="row centrale">
     	<!-- CAMPIONATI -->
