@@ -16,8 +16,9 @@
 
 <?php
 
-include('php/userpanel.php');
+
 include('php/init.php');
+include('php/userpanel.php');
 
 ?>
 <?php if(isset($basic)) { ?>
