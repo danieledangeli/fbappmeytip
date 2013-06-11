@@ -162,7 +162,7 @@ function appendBet(eventid, eventname, bettype,bet,betid,quota){
     li = li + '<h10 class="black">'+bet+' - '+quota+'</h10>';
     li = li + '</div>';
     li = li + '<div>';
-    li = li + '<a class="tiny button btnschedina">SFIDA</a>';
+    li = li + '<a class="tiny button btnschedina" onclick="postWall()">REMOVE</a>';
     li = li + '</div>';
     li = li + '</div>';
     li = li + '</li>';
@@ -284,6 +284,7 @@ function bet(user){
 
     function postWall()
     {
+        alert('here work correctoly');
         var body = 'Place a bet in TotoInnLab event';
         FB.api('/me/feed', 'post', { message: body }, function(response) {
         if (!response || response.error) {
