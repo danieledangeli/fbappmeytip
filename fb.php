@@ -63,8 +63,6 @@ include('php/userpanel.php');
     <span class="success label">Ok</span><br>
     <span class="radius secondary label"><?php echo $meytipuser->name;?></span>
     <span class="radius secondary label">La tua scommessa è stata registrata con successo!</span>
-
-
     <a class="close-reveal-modal">&#215;</a>
 </div>
 

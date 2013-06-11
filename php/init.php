@@ -2,7 +2,11 @@
     $data = json_encode($basic);
     $us = CallAPI('POST','https://meytip.com/back/meytip/web/app.php/login.json',$data);
     $meytipuser = json_decode($us);
- } else { ?>
+
+
+    $feed = CallAPI('GET','https://meytip.com/back/meytip/web/app.php/feeds/10.json');
+    $feed = json_decode($feed);
+} else { ?>
 
 
 <?php }
