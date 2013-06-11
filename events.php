@@ -18,11 +18,6 @@ include('php/header.php');
 
 </head>
 <body>
-
-<?php
-include('php/userpanel.php');
-?>
-
 <div id="fb-root"></div>
 <script type="text/javascript">
 
@@ -79,6 +74,10 @@ include('php/userpanel.php');
 
 <?php if(isset($basic)){ ?>
 
+
+<?php
+include('php/userpanel.php');
+?>
 <div id="myModal" class="reveal-modal small">
     <span class="success label">Success!</span><br>
     <span class="radius secondary label"><?php echo $meytipuser->name;?></span>
