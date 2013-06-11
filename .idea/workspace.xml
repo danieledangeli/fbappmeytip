@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/fbapp.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370947198915" ignored="false" />
     <file path="/header.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370943144774" ignored="false" />
-    <file path="/events.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370959101142" ignored="false" />
+    <file path="/events.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370964421883" ignored="false" />
     <file path="/userpanel.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370959222337" ignored="false" />
     <file path="/init.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370963811608" ignored="false" />
     <file path="/index.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370949910891" ignored="false" />
@@ -37,10 +37,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fb.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="fb.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="96" selection-start="6400" selection-end="6400" vertical-scroll-proportion="0.26751593">
+            <state line="113" column="164" selection-start="5020" selection-end="5020" vertical-scroll-proportion="-4.734694">
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -87,17 +87,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="events.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="179" column="59" selection-start="7185" selection-end="7191" vertical-scroll-proportion="-17.102041">
+            <state line="191" column="90" selection-start="7692" selection-end="7692" vertical-scroll-proportion="0.492569">
               <folding>
-                <marker date="1370959226061" expanded="true" signature="2381:5751" placeholder="..." />
-                <marker date="1370959226061" expanded="true" signature="2441:5069" placeholder="..." />
-                <marker date="1370959226061" expanded="true" signature="5166:5751" placeholder="..." />
-                <marker date="1370959226061" expanded="true" signature="5211:5751" placeholder="..." />
-                <marker date="1370959226061" expanded="true" signature="5244:5659" placeholder="..." />
-                <marker date="1370959226061" expanded="true" signature="5687:5751" placeholder="..." />
+                <marker date="1370964422745" expanded="true" signature="2381:5751" placeholder="..." />
+                <marker date="1370964422745" expanded="true" signature="2441:5069" placeholder="..." />
+                <marker date="1370964422745" expanded="true" signature="5166:5751" placeholder="..." />
+                <marker date="1370964422745" expanded="true" signature="5211:5751" placeholder="..." />
+                <marker date="1370964422745" expanded="true" signature="5244:5659" placeholder="..." />
+                <marker date="1370964422745" expanded="true" signature="5687:5751" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -106,11 +106,11 @@
       <file leaf-file-name="meytip.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/meytip.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="3" selection-start="4767" selection-end="4767" vertical-scroll-proportion="-9.0">
+            <state line="102" column="0" selection-start="4738" selection-end="4738" vertical-scroll-proportion="-10.8">
               <folding>
-                <marker date="1370960004065" expanded="false" signature="1105:1115" placeholder="..." />
-                <marker date="1370960004065" expanded="true" signature="6207:6221" placeholder="..." />
-                <marker date="1370960004065" expanded="true" signature="6286:6315" placeholder="..." />
+                <marker date="1370964396845" expanded="false" signature="1105:1115" placeholder="..." />
+                <marker date="1370964396845" expanded="true" signature="6206:6220" placeholder="..." />
+                <marker date="1370964396845" expanded="true" signature="6285:6314" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -158,12 +158,12 @@
         <option value="$PROJECT_DIR$/css/login.css" />
         <option value="$PROJECT_DIR$/launch.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/events.php" />
         <option value="$PROJECT_DIR$/css/foundation.css" />
         <option value="$PROJECT_DIR$/php/userpanel.php" />
-        <option value="$PROJECT_DIR$/js/meytip.js" />
         <option value="$PROJECT_DIR$/php/init.php" />
         <option value="$PROJECT_DIR$/fb.php" />
+        <option value="$PROJECT_DIR$/js/meytip.js" />
+        <option value="$PROJECT_DIR$/events.php" />
       </list>
     </option>
   </component>
@@ -474,31 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/meytip.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="3" selection-start="4767" selection-end="4767" vertical-scroll-proportion="-9.0">
-          <folding>
-            <marker date="1370960004065" expanded="false" signature="1105:1115" placeholder="..." />
-            <marker date="1370960004065" expanded="true" signature="6207:6221" placeholder="..." />
-            <marker date="1370960004065" expanded="true" signature="6286:6315" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="59" selection-start="7185" selection-end="7191" vertical-scroll-proportion="-17.102041">
-          <folding>
-            <marker date="1370959226061" expanded="true" signature="2381:5751" placeholder="..." />
-            <marker date="1370959226061" expanded="true" signature="2441:5069" placeholder="..." />
-            <marker date="1370959226061" expanded="true" signature="5166:5751" placeholder="..." />
-            <marker date="1370959226061" expanded="true" signature="5211:5751" placeholder="..." />
-            <marker date="1370959226061" expanded="true" signature="5244:5659" placeholder="..." />
-            <marker date="1370959226061" expanded="true" signature="5687:5751" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/init.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="105" selection-start="389" selection-end="412" vertical-scroll-proportion="-5.625">
@@ -508,9 +483,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="96" selection-start="6400" selection-end="6400" vertical-scroll-proportion="0.26751593">
+        <state line="113" column="164" selection-start="5020" selection-end="5020" vertical-scroll-proportion="-4.734694">
           <folding>
             <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/meytip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="0" selection-start="4738" selection-end="4738" vertical-scroll-proportion="-10.8">
+          <folding>
+            <marker date="1370964396845" expanded="false" signature="1105:1115" placeholder="..." />
+            <marker date="1370964396845" expanded="true" signature="6206:6220" placeholder="..." />
+            <marker date="1370964396845" expanded="true" signature="6285:6314" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="191" column="90" selection-start="7692" selection-end="7692" vertical-scroll-proportion="0.492569">
+          <folding>
+            <marker date="1370964422745" expanded="true" signature="2381:5751" placeholder="..." />
+            <marker date="1370964422745" expanded="true" signature="2441:5069" placeholder="..." />
+            <marker date="1370964422745" expanded="true" signature="5166:5751" placeholder="..." />
+            <marker date="1370964422745" expanded="true" signature="5211:5751" placeholder="..." />
+            <marker date="1370964422745" expanded="true" signature="5244:5659" placeholder="..." />
+            <marker date="1370964422745" expanded="true" signature="5687:5751" placeholder="..." />
           </folding>
         </state>
       </provider>

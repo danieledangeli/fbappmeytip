@@ -162,9 +162,9 @@ include('php/userpanel.php');
                         <td> <span data-tooltip class="tip-top" title="<?php echo "<p class=blue>".$t->team->tagline ."</p>".$t->team->teewtidea; ?>"><a href="#" ><?php echo $t->team->name; ?></a></span></td>
                         <td><a href="#" value="<?php echo $t->final; ?>" bet="finale sì" betid="222" bettype="finale sì/no" class="tiny button event"><?php echo $t->final; ?></a></td>
                         <td><a href="#"  value="<?php echo $t->nofinal; ?>" bet="finale no" betid="223" bettype="finale sì/no" class="tiny button event" class="tiny button"><?php echo $t->nofinal; ?></a></td>
-                        <td><a href="#" class="tiny button disabled ">ND</a></td>
-                        <td><a href="#" class="tiny button disabled">ND</a></td>
-                        <td><a href="#" class="tiny button disabled">ND</a></td>
+                        <td><a href="#" class="tiny button secondary disabled">ND</a></td>
+                        <td><a href="#" class="tiny button secondary disabled">ND</a></td>
+                        <td><a href="#" class="tiny button secondary disabled">ND</a></td>
                     </tr>
                     <?
                     }
@@ -189,7 +189,7 @@ include('php/userpanel.php');
                  </tr>
                  <tr>
                      <td><h13>Importo</h13></td>
-                     <td><form><input type="text" id="stake" placeholder="10"></form></td>
+                     <td><form><input type="text" id="stake" placeholder="Inserire importo"></form></td>
                 </tr>
                 <tr>
                      <td><h13>Vincita</h13></td>

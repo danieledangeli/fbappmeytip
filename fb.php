@@ -110,8 +110,8 @@ include('php/userpanel.php');
                             <tr event="<?php echo $quota->quote->team->id; ?>" eventname="<?php echo $quota->quote->team->name; ?>">
 
                                 <td> <span data-tooltip class="tip-right" title="<?php echo "<p class=blue>".$quota->quote->team->tagline."</p>".$quota->quote->team->teewtidea; ?>"><a href="#" ><?php echo $quota->quote->team->name ?></a></span></td>
-                                <td><a href="#"  <?php if($quota->prono == "finale sì") echo "class=\"tiny success button event\""; else echo "class=\"tiny button event\""; ?> value="<?php echo $quota->quote->final; ?>" bet="finale sì" betid="222" bettype="finale sì/no" ><?php echo $quota->quote->final; ?></a></td>
-                                <td><a href="#" <?php if($quota->prono == "finale no") echo"class=\"tiny success button event\""; else echo "class=\"tiny button event\"";?> value="<?php echo $quota->quote->nofinal; ?>" bet="finale no" betid="223" bettype="finale sì/no" ><?php echo $quota->quote->nofinal; ?></a></td>
+                                <td><a href="#"  <?php if($quota->prono == "finale sì") echo "class=\"tiny success button event\""; else echo "class=\"tiny secondary button event\""; ?> value="<?php echo $quota->quote->final; ?>" bet="finale sì" betid="222" bettype="finale sì/no" ><?php echo $quota->quote->final; ?></a></td>
+                                <td><a href="#" <?php if($quota->prono == "finale no") echo"class=\"tiny success button event\""; else echo "class=\"tiny secondary button event\"";?> value="<?php echo $quota->quote->nofinal; ?>" bet="finale no" betid="223" bettype="finale sì/no" ><?php echo $quota->quote->nofinal; ?></a></td>
                                 <td><a href="#" class="tiny button disabled ">ND</a></td>
                                 <td><a href="#" class="tiny button disabled">ND</a></td>
                                 <td><a href="#" class="tiny button disabled">ND</a></td>

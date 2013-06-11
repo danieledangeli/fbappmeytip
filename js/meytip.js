@@ -42,7 +42,7 @@ function loadfeeds()
                         data = data +result[i].quote[j].quote.final+'</a></td>';
                     }
                     else{
-                        data = data +'<td><a href=\"#\" class=\"tiny button event\" value=\"'+result[i].quote[j].quote.final+'\" bet=\"finale sì\" betid=\"222\" bettype=\"finale sì/no" >';
+                        data = data +'<td><a href=\"#\" class=\"tiny secondary button event\" value=\"'+result[i].quote[j].quote.final+'\" bet=\"finale sì\" betid=\"222\" bettype=\"finale sì/no" >';
                         data = data +result[i].quote[j].quote.final+'</a></td>';
                     }
                     if(result[i].quote[j].prono == 'finale no'){
@@ -52,7 +52,7 @@ function loadfeeds()
                     }
                     else{
                         data = data + '<td><a href=\"#\"';
-                        data = data + 'class=\"tiny button event\" value=\"'+result[i].quote[j].nofinal+'\" bet=\"finale no\" betid=\"223\" bettype=\"finale sì/no\" >'+result[i].quote[j].quote.nofinal+'</a></td>';
+                        data = data + 'class=\"tiny button secondary event\" value=\"'+result[i].quote[j].nofinal+'\" bet=\"finale no\" betid=\"223\" bettype=\"finale sì/no\" >'+result[i].quote[j].quote.nofinal+'</a></td>';
                     }
 
                     data = data + '<td><a href=\"#\" class=\"tiny button disabled\">ND</a></td>';
@@ -101,7 +101,6 @@ $("#contentfeed").delegate(".event", "click", function(e) {
 
 $("#curbet").delegate(".check", "keyup", function(e) {
 
-    alert('change');
     e.preventDefault();
 });
 
