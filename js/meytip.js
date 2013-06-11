@@ -4,6 +4,7 @@ $(document).foundation();
 var quotatotale = 1;
 var eventdata = [];
 var feedindex = 10;
+var schedindex = 0;
 
 function loadfeeds()
 {
@@ -100,12 +101,6 @@ $("#contentfeed").delegate(".event", "click", function(e) {
 });
 
 
-$("#curbet").delegate(":checkbox", 'click', function (e) {
-    if (confirm("Are you sure?") == true) {
-
-        // make the request to save the value
-    }
-});
 
 
 $("#betevent").delegate(".event", "click", function(e) {
@@ -146,12 +141,13 @@ $("#betevent").delegate(".event", "click", function(e) {
 function appendBet(eventid, eventname, bettype,bet,betid,quota){
 
 
+    schedindex = schedindex + 1;
     var li = '<li class=\"giocata\" eventid="'+eventid+'"eventname="'+eventname+'" bettype="'+bettype+'" bet="'+bet+'" betid="'+betid+'" quota="'+quota+'">';
     li = li+'<div class="row collpase clearfix">';
     li = li + '<div class="large-1 columns">';
     li = li + '<form class="custom">';
     li = li + '<label for="checkbox1">';
-    li = li + '<input type="checkbox" class="check" onclick="removeElement();" id="checkbox1" style="display: none;">';
+    li = li + '<input type="checkbox" class="check" id="checkbox1" style="display: none;">';
     li = li + '<span class="custom checkbox checked" style="float:left; margin-right:10px"></span>';
     li = li + '</label>';
     li = li + '</form>';
@@ -282,15 +278,23 @@ function bet(user){
 
     }
 
+    function removeBetElement()
+    {
+        element = $(this).closest("li");
+
+
+        element.parentNode.removeChild(element);
+    }
+
     function postWall()
     {
-        alert('here work correctoly');
+
         var body = 'Place a bet in TotoInnLab event';
         FB.api('/me/feed', 'post', { message: body }, function(response) {
         if (!response || response.error) {
         alert('Error occured');
         } else {
-        alert('Post ID: ' + response.id);
+         alert('Post ID: ' + response.id);
         }
     });
     }

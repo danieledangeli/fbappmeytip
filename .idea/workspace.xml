@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/js/meytip.js" line="104" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="0d2baa87-d76e-44ac-b415-4e300207eedd" name="Default" comment="" />
     <ignored path="fbapp.iws" />
@@ -14,7 +11,7 @@
     <file path="/init.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370963811608" ignored="false" />
     <file path="/index.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370966139259" ignored="false" />
     <file path="/launch.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370952075866" ignored="false" />
-    <file path="/meytip.js" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370971258301" ignored="false" />
+    <file path="/meytip.js" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370971827182" ignored="false" />
     <file path="/foundation.css" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370959178495" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/FeedController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370962207658" ignored="false" />
     <file path="/FeedController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370962127476" ignored="false" />
@@ -115,11 +112,11 @@
       <file leaf-file-name="meytip.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/meytip.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="286" column="38" selection-start="10003" selection-end="10003" vertical-scroll-proportion="0.5833333">
+            <state line="285" column="48" selection-start="9930" selection-end="9930" vertical-scroll-proportion="0.66481483">
               <folding>
-                <marker date="1370971264497" expanded="false" signature="1105:1115" placeholder="..." />
-                <marker date="1370971264497" expanded="true" signature="6345:6359" placeholder="..." />
-                <marker date="1370971264497" expanded="true" signature="6424:6453" placeholder="..." />
+                <marker date="1370972003389" expanded="false" signature="1125:1135" placeholder="..." />
+                <marker date="1370972003389" expanded="true" signature="6211:6225" placeholder="..." />
+                <marker date="1370972003389" expanded="true" signature="6290:6319" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -521,11 +518,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/meytip.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="286" column="38" selection-start="10003" selection-end="10003" vertical-scroll-proportion="0.5833333">
+        <state line="285" column="48" selection-start="9930" selection-end="9930" vertical-scroll-proportion="0.66481483">
           <folding>
-            <marker date="1370971264497" expanded="false" signature="1105:1115" placeholder="..." />
-            <marker date="1370971264497" expanded="true" signature="6345:6359" placeholder="..." />
-            <marker date="1370971264497" expanded="true" signature="6424:6453" placeholder="..." />
+            <marker date="1370972003389" expanded="false" signature="1125:1135" placeholder="..." />
+            <marker date="1370972003389" expanded="true" signature="6211:6225" placeholder="..." />
+            <marker date="1370972003389" expanded="true" signature="6290:6319" placeholder="..." />
           </folding>
         </state>
       </provider>
