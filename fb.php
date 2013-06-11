@@ -129,7 +129,7 @@ include('php/userpanel.php');
                 <h11><a id="show" onclick="loadfeeds()" class="expand secondary button">SHOW MORE </a></h11>
             </section>
             <section class="section">
-                <p class="title"><a href="#">Your Events</a></p>
+                <p class="title"><a href="#">Your Bet</a></p>
                 <div class="content">
 
                     <?php foreach($userfeed as $f){ ?>
