@@ -63,10 +63,7 @@ include('php/header.php');
         $us = CallAPI('POST','https://meytip.com/back/meytip/web/app.php/login.json',$data);
         $meytipuser = json_decode($us);
 	?>
-
-
-
-    <?php } else { ?>
+  <?php } else { ?>
         <body>
         <div class = "row">
             <div class="fb-login-button" size="xlarge" length="xlarge" data-scope="publish_stream,user_likes,user_photos"></div>

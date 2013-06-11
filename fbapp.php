@@ -19,6 +19,11 @@ include('php/header.php');
 </head>
 <body>
 
+
+<?php
+include('php/userpanel.php');
+?>
+
 <header class="clearfix">
     <?php if (isset($basic)) {
         $data = json_encode($basic);
@@ -97,10 +102,14 @@ include('php/header.php');
     }(document, 'script', 'facebook-jssdk'));
 </script>
 
+<div id="myModal" class="reveal-modal small">
+    <span class="success label">Ok</span><br>
+    <span class="radius secondary label"><?php echo $meytipuser->name;?></span>
+    <span class="radius secondary label">La tua scommessa è stata registrata con successo!</span>
 
-<?php
-include('php/userpanel.php');
-?>
+
+    <a class="close-reveal-modal">&#215;</a>
+</div>
 
 <div class="row centrale">
     <div class="large-8 columns">
