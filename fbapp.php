@@ -19,34 +19,10 @@ include('php/header.php');
 </head>
 <body>
 
-
 <?php
+include('php/init.php');
 include('php/userpanel.php');
 ?>
-
-<header class="clearfix">
-    <?php if (isset($basic)) {
-        $data = json_encode($basic);
-        $us = CallAPI('POST','https://meytip.com/back/meytip/web/app.php/login.json',$data);
-        $meytipuser = json_decode($us);
-
-
-        $feed = CallAPI('GET','https://meytip.com/back/meytip/web/app.php/feeds/10.json');
-        $feed = json_decode($feed);
-
-
-        ?>
-
-
-
-    <?php } else { ?>
-    <!-- <div>
-        <h1>Please login in</h1>
-        <div class="fb-login-button" data-scope="user_likes,user_photos"></div>
-    </div> -->
-    <?php } ?>
-</header>
-
 <?php if(isset($basic)) { ?>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
