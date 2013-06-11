@@ -44,6 +44,11 @@ include('php/header.php');
 
     };
 
+    function sendRequestViaMultiFriendSelector() {
+        FB.ui({method: 'apprequests',
+            message: 'Ciao, entra in Meytip e sfida i tuoi amici scommettendo gratis con soldi virtuali'
+        }, requestCallback);
+    }
     // Load the SDK Asynchronously
     (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];

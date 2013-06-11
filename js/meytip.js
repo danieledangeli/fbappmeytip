@@ -238,7 +238,7 @@ function bet(user){
     }
     var data = JSON.stringify(sched);
 
-    alert(data);
+
     $.ajax({
         type: "POST",
         dataType: "json",
