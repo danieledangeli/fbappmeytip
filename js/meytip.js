@@ -99,10 +99,14 @@ $("#contentfeed").delegate(".event", "click", function(e) {
     e.preventDefault();
 });
 
-function removeElement()
-{
-    alert('here');
-}
+
+$("#Grid").delegate(":checkbox", 'click', function (e) {
+    if (confirm("Are you sure?") == true) {
+       
+        // make the request to save the value
+    }
+});
+
 
 $("#betevent").delegate(".event", "click", function(e) {
     var quota = $(this).attr('value');
