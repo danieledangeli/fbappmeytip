@@ -129,7 +129,7 @@ include('php/userpanel.php');
                                 <td><a href="#" class="tiny button secondary disabled ">ND</a></td>
                                 <td><a href="#" class="tiny button secondary disabled">ND</a></td>
                                 <td><a href="#" class="tiny button secondary disabled">ND</a></td>
-                            </tr
+                            </tr>
 
                         <?php } ?>
 
