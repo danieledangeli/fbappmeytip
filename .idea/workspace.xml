@@ -33,7 +33,7 @@
       <file leaf-file-name="fb.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="9" selection-start="546" selection-end="2626" vertical-scroll-proportion="-6.857143">
+            <state line="67" column="5" selection-start="2266" selection-end="2266" vertical-scroll-proportion="-20.510204">
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#li#1;n#ul#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -42,13 +42,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="59" selection-start="121" selection-end="121" vertical-scroll-proportion="0.12096774">
+            <state line="6" column="28" selection-start="164" selection-end="164" vertical-scroll-proportion="-3.75">
               <folding>
-                <marker date="1370950744447" expanded="true" signature="180:374" placeholder="..." />
-                <marker date="1370950744447" expanded="true" signature="201:374" placeholder="{...}" />
+                <marker date="1370950917407" expanded="true" signature="176:370" placeholder="..." />
+                <marker date="1370950917407" expanded="true" signature="197:370" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -113,10 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="0" selection-start="3744" selection-end="3744" vertical-scroll-proportion="-7.734694">
+            <state line="108" column="0" selection-start="3744" selection-end="3744" vertical-scroll-proportion="1.0433885">
               <folding />
             </state>
           </provider>
@@ -434,6 +434,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/userpanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="19" selection-start="3197" selection-end="3197" vertical-scroll-proportion="-7.4693875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="164" selection-end="164" vertical-scroll-proportion="-3.75">
+          <folding>
+            <marker date="1370950917407" expanded="true" signature="176:370" placeholder="..." />
+            <marker date="1370950917407" expanded="true" signature="197:370" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="5" selection-start="2266" selection-end="2266" vertical-scroll-proportion="-20.510204">
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#li#1;n#ul#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/init.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="-3.75">
@@ -443,35 +470,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="0" selection-start="3744" selection-end="3744" vertical-scroll-proportion="-7.734694">
+        <state line="108" column="0" selection-start="3744" selection-end="3744" vertical-scroll-proportion="1.0433885">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/userpanel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="19" selection-start="3197" selection-end="3197" vertical-scroll-proportion="-7.4693875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="9" selection-start="546" selection-end="2626" vertical-scroll-proportion="-6.857143">
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#li#1;n#ul#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="59" selection-start="121" selection-end="121" vertical-scroll-proportion="0.12096774">
-          <folding>
-            <marker date="1370950744447" expanded="true" signature="180:374" placeholder="..." />
-            <marker date="1370950744447" expanded="true" signature="201:374" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
