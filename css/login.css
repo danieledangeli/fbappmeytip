@@ -11,8 +11,7 @@ body {
 
 body {
 	/*background-color: rgb(126, 159, 172);*/
-  background:url(../img/subtle_surface.png);
-  background-repeat:repeat-x repeat-y;
+  background-color:rgb(10, 122, 159);
   color: #222222;
   padding: 0;
   margin: 0;
@@ -4484,5 +4483,13 @@ footer {
 	margin-bottom:0px;
 	}
 
-#sfondologin {
+.sfondologin {
 	background-color:rgb(10, 122, 159)}
+	
+.logo5 {
+	position:absolute;
+}
+
+.hlog {
+	color:#FFF;
+	font-weight:200;}
