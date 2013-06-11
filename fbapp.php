@@ -47,7 +47,7 @@ include('php/userpanel.php');
     <?php } ?>
 </header>
 
-<?php if(!isset($basic)) { ?>
+<?php if(isset($basic)) { ?>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
