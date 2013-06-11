@@ -11,7 +11,7 @@
             <li class="divider"></li>
             <li class="active"><a href="index.php">Events</a></li>
             <li class="divider"></li>
-            <li><a href="#">People</a></li>
+            <li><a href="people.php">People</a></li>
             <li class="divider"></li>
 
         </ul>
