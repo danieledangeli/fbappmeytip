@@ -7,7 +7,7 @@
     <file path="/fbapp.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370947198915" ignored="false" />
     <file path="/header.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370943144774" ignored="false" />
     <file path="/events.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370947868072" ignored="false" />
-    <file path="/userpanel.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370956913313" ignored="false" />
+    <file path="/userpanel.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370957065128" ignored="false" />
     <file path="/init.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370949514125" ignored="false" />
     <file path="/index.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370949910891" ignored="false" />
     <file path="/launch.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370952075866" ignored="false" />
@@ -97,7 +97,7 @@
       <file leaf-file-name="userpanel.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/userpanel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="652" selection-end="652" vertical-scroll-proportion="0.39314517">
+            <state line="3" column="48" selection-start="114" selection-end="114" vertical-scroll-proportion="0.09072581">
               <folding />
             </state>
           </provider>
@@ -475,7 +475,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/userpanel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="652" selection-end="652" vertical-scroll-proportion="0.39314517">
+        <state line="3" column="48" selection-start="114" selection-end="114" vertical-scroll-proportion="0.09072581">
           <folding />
         </state>
       </provider>

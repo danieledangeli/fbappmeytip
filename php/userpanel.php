@@ -1,15 +1,15 @@
 <!-- HEADER -->
 <nav class="top-bar">
     <ul class="title-area">
-        <li class="name logo"><a href="https://apps.facebook.com/mymeytip/"><img src="img/logo.png"></a></li>
+        <li class="name logo"><a href="index.php"><img src="img/logo.png"></a></li>
         <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
     </ul>
     <section class="top-bar-section">
         <ul class="left">
             <li class="divider"></li>
-            <li class="active"><a href="https://apps.facebook.com/mymeytip/events.php">events</a></li>
+            <li class="active"><a href="events.php">events</a></li>
             <li class="divider"></li>
-            <li><a href="https://apps.facebook.com/mymeytip/people.html">people</a></li>
+            <li><a href="#">people</a></li>
             <li class="divider"></li>
         </ul>
     </section>
