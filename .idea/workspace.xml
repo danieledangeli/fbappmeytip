@@ -33,7 +33,7 @@
       <file leaf-file-name="fb.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="421" selection-end="421" vertical-scroll-proportion="40.25">
+            <state line="22" column="0" selection-start="481" selection-end="509" vertical-scroll-proportion="-13.75">
               <folding />
             </state>
           </provider>
@@ -81,14 +81,14 @@
       <file leaf-file-name="events.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.7580645">
+            <state line="62" column="0" selection-start="2021" selection-end="2021" vertical-scroll-proportion="1.2439516">
               <folding>
-                <marker date="1370949670735" expanded="true" signature="2382:5746" placeholder="..." />
-                <marker date="1370949670735" expanded="true" signature="2442:5064" placeholder="..." />
-                <marker date="1370949670735" expanded="true" signature="5161:5746" placeholder="..." />
-                <marker date="1370949670735" expanded="true" signature="5206:5746" placeholder="..." />
-                <marker date="1370949670735" expanded="true" signature="5239:5654" placeholder="..." />
-                <marker date="1370949670735" expanded="true" signature="5682:5746" placeholder="..." />
+                <marker date="1370957815869" expanded="true" signature="2380:5744" placeholder="..." />
+                <marker date="1370957815869" expanded="true" signature="2440:5062" placeholder="..." />
+                <marker date="1370957815869" expanded="true" signature="5159:5744" placeholder="..." />
+                <marker date="1370957815869" expanded="true" signature="5204:5744" placeholder="..." />
+                <marker date="1370957815869" expanded="true" signature="5237:5652" placeholder="..." />
+                <marker date="1370957815869" expanded="true" signature="5680:5744" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -142,13 +142,13 @@
       <list>
         <option value="$PROJECT_DIR$/php/header.php" />
         <option value="$PROJECT_DIR$/fbapp.php" />
-        <option value="$PROJECT_DIR$/events.php" />
         <option value="$PROJECT_DIR$/css/login.css" />
         <option value="$PROJECT_DIR$/launch.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/php/userpanel.php" />
         <option value="$PROJECT_DIR$/php/init.php" />
         <option value="$PROJECT_DIR$/fb.php" />
+        <option value="$PROJECT_DIR$/events.php" />
       </list>
     </option>
   </component>
@@ -449,13 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="421" selection-end="421" vertical-scroll-proportion="40.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="4" selection-start="514" selection-end="514" vertical-scroll-proportion="-2.7083333">
@@ -466,16 +459,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="481" selection-end="509" vertical-scroll-proportion="-13.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.7580645">
+        <state line="62" column="0" selection-start="2021" selection-end="2021" vertical-scroll-proportion="1.2439516">
           <folding>
-            <marker date="1370949670735" expanded="true" signature="2382:5746" placeholder="..." />
-            <marker date="1370949670735" expanded="true" signature="2442:5064" placeholder="..." />
-            <marker date="1370949670735" expanded="true" signature="5161:5746" placeholder="..." />
-            <marker date="1370949670735" expanded="true" signature="5206:5746" placeholder="..." />
-            <marker date="1370949670735" expanded="true" signature="5239:5654" placeholder="..." />
-            <marker date="1370949670735" expanded="true" signature="5682:5746" placeholder="..." />
+            <marker date="1370957815869" expanded="true" signature="2380:5744" placeholder="..." />
+            <marker date="1370957815869" expanded="true" signature="2440:5062" placeholder="..." />
+            <marker date="1370957815869" expanded="true" signature="5159:5744" placeholder="..." />
+            <marker date="1370957815869" expanded="true" signature="5204:5744" placeholder="..." />
+            <marker date="1370957815869" expanded="true" signature="5237:5652" placeholder="..." />
+            <marker date="1370957815869" expanded="true" signature="5680:5744" placeholder="..." />
           </folding>
         </state>
       </provider>

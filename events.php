@@ -22,9 +22,9 @@ include('php/header.php');
 include('php/init.php');
 include('php/userpanel.php');
 ?>
+<?php if(isset($basic)) { ?>
 <div id="fb-root"></div>
 <script type="text/javascript">
-
 
     window.fbAsyncInit = function() {
         FB.init({
@@ -60,9 +60,6 @@ include('php/userpanel.php');
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 </script>
-
-
-<?php if(isset($basic)){ ?>
 
 <div id="myModal" class="reveal-modal small">
     <span class="success label">Success!</span><br>
