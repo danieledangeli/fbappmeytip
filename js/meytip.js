@@ -254,7 +254,7 @@ function bet(user){
         // 'data' is a JSON object which we can access directly.
         // Evaluate the data.success member and do something appropriate...
 
-        pending = data.user.pending;
+        var pending = data.user.pending;
         cash = data.user.cash;
         document.getElementById("pending").innerHTML = pending;
         document.getElementById("cash").innerHTML = cash;
@@ -280,7 +280,7 @@ function bet(user){
 
     function removeBetElement()
     {
-        element = $(this).closest("li");
+        var element = $(this).closest("li");
 
 
         element.parentNode.removeChild(element);
