@@ -204,7 +204,8 @@ include('php/userpanel.php');
 
                     </tbody>
                 </table>
-                <?php foreach($scores as $score){
+                HERE
+                <?php foreach($scores['data'] as $score){
                     echo $score['user']['name']. " ".$score['score'];
                 }?>
             </div>

@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/fbapp.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370947198915" ignored="false" />
     <file path="/header.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370943144774" ignored="false" />
-    <file path="/events.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371024217747" ignored="false" />
+    <file path="/events.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371025962407" ignored="false" />
     <file path="/userpanel.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370987411214" ignored="false" />
     <file path="/init.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371023934387" ignored="false" />
     <file path="/index.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370991221253" ignored="false" />
@@ -42,7 +42,7 @@
       <file leaf-file-name="fb.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="0" selection-start="2965" selection-end="3652" vertical-scroll-proportion="-2.6734693">
+            <state line="91" column="22" selection-start="2915" selection-end="2924" vertical-scroll-proportion="-3.5918367">
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -66,15 +66,15 @@
       <file leaf-file-name="events.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="208" column="19" selection-start="8445" selection-end="8445" vertical-scroll-proportion="0.6672828">
+            <state line="208" column="69" selection-start="8454" selection-end="8454" vertical-scroll-proportion="0.7615527">
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1371024225686" expanded="true" signature="3646:7007" placeholder="..." />
-                <marker date="1371024225686" expanded="true" signature="3706:6334" placeholder="..." />
-                <marker date="1371024225686" expanded="true" signature="6431:7007" placeholder="..." />
-                <marker date="1371024225686" expanded="true" signature="6476:7007" placeholder="..." />
-                <marker date="1371024225686" expanded="true" signature="6500:6915" placeholder="..." />
-                <marker date="1371024225686" expanded="true" signature="6943:7007" placeholder="..." />
+                <marker date="1371025971387" expanded="true" signature="3646:7007" placeholder="..." />
+                <marker date="1371025971387" expanded="true" signature="3706:6334" placeholder="..." />
+                <marker date="1371025971387" expanded="true" signature="6431:7007" placeholder="..." />
+                <marker date="1371025971387" expanded="true" signature="6476:7007" placeholder="..." />
+                <marker date="1371025971387" expanded="true" signature="6500:6915" placeholder="..." />
+                <marker date="1371025971387" expanded="true" signature="6943:7007" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -83,7 +83,7 @@
       <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="880" selection-end="880" vertical-scroll-proportion="-11.25">
+            <state line="17" column="7" selection-start="849" selection-end="849" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
@@ -92,7 +92,7 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="61" selection-start="3558" selection-end="3558" vertical-scroll-proportion="-13.541667">
+            <state line="30" column="0" selection-start="1275" selection-end="1275" vertical-scroll-proportion="-5.2916665">
               <folding />
             </state>
           </provider>
@@ -474,9 +474,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/userpanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="78" selection-start="1811" selection-end="1829" vertical-scroll-proportion="-18.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="2965" selection-end="3652" vertical-scroll-proportion="-2.6734693">
+        <state line="91" column="22" selection-start="2915" selection-end="2924" vertical-scroll-proportion="-3.5918367">
           <folding>
             <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -486,36 +493,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="61" selection-start="3558" selection-end="3558" vertical-scroll-proportion="-13.541667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/userpanel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="78" selection-start="1811" selection-end="1829" vertical-scroll-proportion="-18.125">
+        <state line="30" column="0" selection-start="1275" selection-end="1275" vertical-scroll-proportion="-5.2916665">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="880" selection-end="880" vertical-scroll-proportion="-11.25">
+        <state line="17" column="7" selection-start="849" selection-end="849" vertical-scroll-proportion="-10.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="208" column="19" selection-start="8445" selection-end="8445" vertical-scroll-proportion="0.6672828">
+        <state line="208" column="69" selection-start="8454" selection-end="8454" vertical-scroll-proportion="0.7615527">
           <folding>
             <element signature="n#style#0;n#table#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1371024225686" expanded="true" signature="3646:7007" placeholder="..." />
-            <marker date="1371024225686" expanded="true" signature="3706:6334" placeholder="..." />
-            <marker date="1371024225686" expanded="true" signature="6431:7007" placeholder="..." />
-            <marker date="1371024225686" expanded="true" signature="6476:7007" placeholder="..." />
-            <marker date="1371024225686" expanded="true" signature="6500:6915" placeholder="..." />
-            <marker date="1371024225686" expanded="true" signature="6943:7007" placeholder="..." />
+            <marker date="1371025971387" expanded="true" signature="3646:7007" placeholder="..." />
+            <marker date="1371025971387" expanded="true" signature="3706:6334" placeholder="..." />
+            <marker date="1371025971387" expanded="true" signature="6431:7007" placeholder="..." />
+            <marker date="1371025971387" expanded="true" signature="6476:7007" placeholder="..." />
+            <marker date="1371025971387" expanded="true" signature="6500:6915" placeholder="..." />
+            <marker date="1371025971387" expanded="true" signature="6943:7007" placeholder="..." />
           </folding>
         </state>
       </provider>
