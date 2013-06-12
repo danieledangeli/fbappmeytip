@@ -252,7 +252,7 @@ include('php/userpanel.php');
                              <tr>
                                  <td style="padding:5px"> <img src="https://graph.facebook.com/<?php echo  $score['user']['id']; ?>/picture?type=square" alt="not found"></td>
                                  <td><a href="#"><?php echo $score['user']['name']; ?></a></td>
-                                 <td><?php ''.$score['score']; ?></td>
+                                 <td>CC<?php 'coins'.$score['score']; ?></td>
                              </tr>
 
                          <?php }?>

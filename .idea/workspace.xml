@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/fbapp.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370947198915" ignored="false" />
     <file path="/header.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370943144774" ignored="false" />
-    <file path="/events.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371027489184" ignored="false" />
+    <file path="/events.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371027780800" ignored="false" />
     <file path="/userpanel.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370987411214" ignored="false" />
     <file path="/init.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371023934387" ignored="false" />
     <file path="/index.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370991221253" ignored="false" />
@@ -75,18 +75,18 @@
       <file leaf-file-name="events.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="258" column="0" selection-start="10408" selection-end="10408" vertical-scroll-proportion="0.70348835">
+            <state line="260" column="33" selection-start="10450" selection-end="10450" vertical-scroll-proportion="0.7616279">
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#li#1;n#ul#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#li#1;n#ul#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1371027715415" expanded="true" signature="3709:7070" placeholder="..." />
-                <marker date="1371027715415" expanded="true" signature="3769:6397" placeholder="..." />
-                <marker date="1371027715415" expanded="true" signature="6494:7070" placeholder="..." />
-                <marker date="1371027715415" expanded="true" signature="6539:7070" placeholder="..." />
-                <marker date="1371027715415" expanded="true" signature="6563:6978" placeholder="..." />
-                <marker date="1371027715415" expanded="true" signature="7006:7070" placeholder="..." />
-                <marker date="1371027715415" expanded="true" signature="10574:10592" placeholder="..." />
+                <marker date="1371027780679" expanded="true" signature="3709:7070" placeholder="..." />
+                <marker date="1371027780679" expanded="true" signature="3769:6397" placeholder="..." />
+                <marker date="1371027780679" expanded="true" signature="6494:7070" placeholder="..." />
+                <marker date="1371027780679" expanded="true" signature="6539:7070" placeholder="..." />
+                <marker date="1371027780679" expanded="true" signature="6563:6978" placeholder="..." />
+                <marker date="1371027780679" expanded="true" signature="7006:7070" placeholder="..." />
+                <marker date="1371027780679" expanded="true" signature="10581:10599" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -510,18 +510,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="258" column="0" selection-start="10408" selection-end="10408" vertical-scroll-proportion="0.70348835">
+        <state line="260" column="33" selection-start="10450" selection-end="10450" vertical-scroll-proportion="0.7616279">
           <folding>
             <element signature="n#style#0;n#table#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#li#1;n#ul#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#li#1;n#ul#1;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1371027715415" expanded="true" signature="3709:7070" placeholder="..." />
-            <marker date="1371027715415" expanded="true" signature="3769:6397" placeholder="..." />
-            <marker date="1371027715415" expanded="true" signature="6494:7070" placeholder="..." />
-            <marker date="1371027715415" expanded="true" signature="6539:7070" placeholder="..." />
-            <marker date="1371027715415" expanded="true" signature="6563:6978" placeholder="..." />
-            <marker date="1371027715415" expanded="true" signature="7006:7070" placeholder="..." />
-            <marker date="1371027715415" expanded="true" signature="10574:10592" placeholder="..." />
+            <marker date="1371027780679" expanded="true" signature="3709:7070" placeholder="..." />
+            <marker date="1371027780679" expanded="true" signature="3769:6397" placeholder="..." />
+            <marker date="1371027780679" expanded="true" signature="6494:7070" placeholder="..." />
+            <marker date="1371027780679" expanded="true" signature="6539:7070" placeholder="..." />
+            <marker date="1371027780679" expanded="true" signature="6563:6978" placeholder="..." />
+            <marker date="1371027780679" expanded="true" signature="7006:7070" placeholder="..." />
+            <marker date="1371027780679" expanded="true" signature="10581:10599" placeholder="..." />
           </folding>
         </state>
       </provider>
