@@ -10,8 +10,16 @@
 
     $attachment = array( 'score' => $meytipuser->cash, 'access_token' => $facebook->getAccessToken());
     $attachmentget = array( 'access_token' => $facebook->getAccessToken());
-    $postscore = $facebook->api('/'.$meytipuser->facebookid.'/scores','POST',$attachment);
-    $scores = $facebook->api('/388078441305162/scores','GET',$attachmentget);
+
+    $permissions = $facebook->api("/me/permissions");
+    $scores = array();
+    if( array_key_exists('publish_stream', $permissions['data'][0]) ) {
+
+        $postscore = $facebook->api('/'.$meytipuser->facebookid.'/scores','POST',$attachment);
+        $scores = $facebook->api('/388078441305162/scores','GET',$attachmentget);
+    }
+
+
 } else { ?>
 
 
