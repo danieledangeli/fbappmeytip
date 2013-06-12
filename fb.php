@@ -93,7 +93,6 @@ include('php/userpanel.php');
 ?>
 
 <?php if(isset($basic)) { ?>
-
 <div id="myModal" class="reveal-modal small">
     <div class="large-12 columns">
         <h2>Bravo <?php echo $meytipuser->name;?></h2>
@@ -103,9 +102,8 @@ include('php/userpanel.php');
     <div class="large-5 right columns">
         <div class="large-6 columns"><a class="small success expand button" id="modalok" onClick="closeModal();">Ok</a></div>
         <div class="large-6 collapsecolumns"><a class="small success button" id="modalshare" onClick="postToFeed('Ivan ha effettuato una scommessa su Meytip')">Condividi</a></div>
-
     </div>
-
+</div>
 </div>
 <div class="row centrale">
     <div class="large-8 columns">
