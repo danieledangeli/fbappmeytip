@@ -101,6 +101,13 @@ $("#contentfeed").delegate(".event", "click", function(e) {
 });
 
 
+$("#curbet").delegate(".btnschedina", "click", function(e) {
+
+    alert('here');
+    postToFeed();
+    e.preventDefault();
+});
+
 
 
 $("#betevent").delegate(".event", "click", function(e) {

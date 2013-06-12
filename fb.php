@@ -44,6 +44,27 @@ include('php/header.php');
 
     };
 
+    function postToFeed() {
+        // call the API
+        var obj = {
+            method: 'feed',
+            link: 'https://apps.facebook.com/mymeytip/index.php',
+            picture: 'http://example.com/dialog_image.png',
+            name: 'Meytip challenge',
+            caption: 'https://meytip.com/fbappmeytip/img/logo5.png',
+            actions: [
+                {'name': 'get reward', 'link': 'https://apps.facebook.com/mymeytip/index.php'}
+            ],
+            description: 'Meytip, the social betting platform'
+        };
+
+        function callback(response) {
+            console.log(response);
+        }
+
+        FB.ui(obj, callback);
+    }
+
 
     function sendRequestViaMultiFriendSelector() {
         FB.ui({method: 'apprequests',
@@ -55,12 +76,12 @@ include('php/header.php');
         console.log(response);
     }
 
-    // Load the SDK Asynchronously
-    (function(d, s, id) {
+
+   (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/all.js";
+        js.src = "//connect.facebook.net/it_IT/all.js#xfbml=1&appId=388078441305162";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 </script>
@@ -211,7 +232,7 @@ include('php/userpanel.php');
         <ul class="pricing-table">
             <li class="title"><h9>Commenti</h9></li>
             <li>
-                <div class="fb-comments" data-href="http://meytip.com" data-width="300" data-num-posts="10"></div>
+                <div class="fb-comments" data-href="https://apps.facebook.com/mymeytip/" data-width="300" data-num-posts="15"></div>
             </li>
         </ul>
 
