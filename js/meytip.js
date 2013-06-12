@@ -103,8 +103,6 @@ $("#contentfeed").delegate(".event", "click", function(e) {
 
 $("#curbet").delegate(".btnschedina", "click", function(e) {
 
-    alert('here');
-    postToFeed();
     e.preventDefault();
 });
 
@@ -275,8 +273,8 @@ function bet(user){
         document.getElementById("quotatotale").innerHTML = '';
         document.getElementById("potenziale").innerHTML = '';
 
-        //open modal
         $('#myModal').foundation('reveal', 'open');
+
         //postWall();
         }
     });
@@ -304,6 +302,12 @@ function bet(user){
 
         element.parentNode.removeChild(element);
     }
+    function closeModal()
+    {
+        $('#myModal').foundation('reveal', 'close');
+    }
+
+
 
     function postWall()
     {

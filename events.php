@@ -42,10 +42,45 @@ include('php/userpanel.php');
             window.location = window.location;
         });
 
+
+
         FB.Canvas.setAutoGrow();
 
 
+
+
     };
+    function postToFeed(description) {
+        // call the API
+        var obj = {
+            method: 'feed',
+            link: 'https://apps.facebook.com/mymeytip/index.php',
+            picture: 'https://meytip.com/fbappmeytip/img/logo5.png',
+            name: 'Meytip Bet',
+            caption: 'https://meytip.com/fbappmeytip/img/logo5.png',
+            actions: [
+                {'name': 'get reward', 'link': 'https://apps.facebook.com/mymeytip/index.php'}
+            ],
+            description: description
+        };
+
+        function callback(response) {
+            console.log(response);
+        }
+
+        FB.ui(obj, callback);
+    }
+
+
+    function sendRequestViaMultiFriendSelector() {
+        FB.ui({method: 'apprequests',
+            message: 'Hi, prova Meytip e impara a scommettere sfidando i tuoi amici'
+        }, requestCallback);
+
+    }
+    function requestCallback(response) {
+        console.log(response);
+    }
 
     // Load the SDK Asynchronously
     (function(d, s, id) {
@@ -58,14 +93,17 @@ include('php/userpanel.php');
 </script>
 
 <?php if(isset($basic)) { ?>
-
 <div id="myModal" class="reveal-modal small">
-    <span class="success label">Success!</span><br>
-    <span class="radius secondary label"><?php echo $meytipuser->name;?></span>
-    <span class="radius secondary label">La tua scommessa è stata registrata con successo!</span>
+    <div class="large-12 columns">
+        <h2>Bravo <?php echo $meytipuser->name;?></h2>
+    </div>
+    <div class="large-12 columns"><h5>La tua scommessa è stata registrata con successo!</h5></div>
     <a class="close-reveal-modal">&#215;</a>
-</div>
+    <div class="large-5 right columns">
+        <div class="large-6 columns"><a class="small success expand button" id="modalok" onClick="closeModal();">Ok</a></div>
+        <div class="large-6 collapsecolumns"><a class="small success button" id="modalshare" onClick="postToFeed('Ivan ha effettuato una scommessa su Meytip')">Condividi</a></div>
 
+    </div>
     <div class="row centrale">
     	<!-- CAMPIONATI -->
     	<div class="large-2 columns">
