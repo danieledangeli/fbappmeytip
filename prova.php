@@ -9,7 +9,7 @@ include('php/header.php');
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Meytip</title>
-     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
 
 
     <script src="js/vendor/custom.modernizr.js"></script>
@@ -79,7 +79,7 @@ include('php/header.php');
     }
 
 
-   (function(d, s, id) {
+    (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
@@ -124,64 +124,10 @@ include('php/userpanel.php');
 
                     <?php foreach($feed as $f){ ?>
                     <div class="feed">
-                    <div class="row">
-                        <div class="large-12 columns">
-                            <div class="foto"><img src="https://graph.facebook.com/<?php echo $f->fbid; ?>/picture?type=square" alt="" width="30" height="30"></div>
-                            <div class="testo"><h11><span class="blu"><a href=""><?php echo $f->createdAt.' '. $f->name; ?></a> </span> ha effettuato questa scommessa </h11></div>
-                        </div>
-
-                    </div>
-
-                    <table style="width:100%">
-                        <thead>
-                        <tr>
-                            <th><h6>INNOVACTION LAB FINAL EVENT</h6></th>
-                            <th><h6> Finale SI</h6></th>
-                            <th><h6> Finale NO</h6></th>
-                            <th><h6> 1</h6></th>
-                            <th><h6>X</h6></th>
-                            <th><h6>2</h6></th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <?php
-                        foreach($f->quote as $quota){
-
-                        ?>
-                            <tr event="<?php echo $quota->quote->team->id; ?>" eventname="<?php echo $quota->quote->team->name; ?>">
-
-                                <td> <span data-tooltip class="tip-right" title="<?php echo "<p class=blue>".$quota->quote->team->tagline."</p>".$quota->quote->team->teewtidea; ?>"><a href="#" ><?php echo $quota->quote->team->name ?></a></span></td>
-                                <td><a href="#"  <?php if($quota->prono == "finale sì") echo "class=\"tiny success button event\""; else echo "class=\"tiny secondary button event\""; ?> value="<?php echo $quota->quote->final; ?>" bet="finale sì" betid="222" bettype="finale sì/no" ><?php echo $quota->quote->final; ?></a></td>
-                                <td><a href="#" <?php if($quota->prono == "finale no") echo"class=\"tiny success button event\""; else echo "class=\"tiny secondary button event\"";?> value="<?php echo $quota->quote->nofinal; ?>" bet="finale no" betid="223" bettype="finale sì/no" ><?php echo $quota->quote->nofinal; ?></a></td>
-                                <td><a href="#" class="tiny button secondary disabled ">ND</a></td>
-                                <td><a href="#" class="tiny button secondary disabled">ND</a></td>
-                                <td><a href="#" class="tiny button secondary disabled">ND</a></td>
-                            </tr>
-
-                        <?php } ?>
-
-
-                        </tbody>
-                    </table>
-
-                    <div class="fb-comments" data-href="https://apps.facebook.com/mymeytip/index.php" data-width="300" data-num-posts="15"></div>
-
-                    </div>
-                    <div>
-                    <?php } ?>
-
-                <h11><a id="show" onclick="loadfeeds()" class="expand secondary button">SHOW MORE </a></h11>
-            </section>
-            <section class="section">
-                <p class="title"><a href="#">Your Bet</a></p>
-                <div class="content">
-
-                    <?php foreach($userfeed as $f){ ?>
-                    <div class="feed">
                         <div class="row">
                             <div class="large-12 columns">
-                                <div class="foto"><img src="https://graph.facebook.com/<?php echo $meytipuser->facebookid; ?>/picture?type=square" alt="" width="30" height="30"></div>
-                                <div class="testo"><h11><span class="blu"><a href=""><?php echo $meytipuser->name; ?></a> </span> ha effettuato questa scommessa </h11></div>
+                                <div class="foto"><img src="https://graph.facebook.com/<?php echo $f->fbid; ?>/picture?type=square" alt="" width="30" height="30"></div>
+                                <div class="testo"><h11><span class="blu"><a href=""><?php echo $f->createdAt.' '. $f->name; ?></a> </span> ha effettuato questa scommessa </h11></div>
                             </div>
 
                         </div>
@@ -190,28 +136,82 @@ include('php/userpanel.php');
                             <thead>
                             <tr>
                                 <th><h6>INNOVACTION LAB FINAL EVENT</h6></th>
-                                <th><h6> Pronostico</h6></th>
-                                <th><h6> Quota</h6></th>
+                                <th><h6> Finale SI</h6></th>
+                                <th><h6> Finale NO</h6></th>
+                                <th><h6> 1</h6></th>
+                                <th><h6>X</h6></th>
+                                <th><h6>2</h6></th>
                             </tr>
                             </thead>
                             <tbody>
                             <?php
-                            foreach($f->quote as $quota){ ?>
+                            foreach($f->quote as $quota){
 
-                            <tr event="1031" eventname="<?php echo $quota->quote->team->name; ?>">
-                                <td><a href="#" ><?php echo $quota->quote->team->name; ?></a></td>
-                                <td><a href="#" value="1.75" bet="finale sì" betid="221" bettype="finale sì/no" class="tiny secondary disabled button expand"><?php echo $quota->prono; ?></a></td>
-                                <td><a href="#" class="tiny secondary disabled button expand"><?php echo $quota->odds; ?></a></td>
-                            </tr>
+                                ?>
+                                <tr event="<?php echo $quota->quote->team->id; ?>" eventname="<?php echo $quota->quote->team->name; ?>">
+
+                                    <td> <span data-tooltip class="tip-right" title="<?php echo "<p class=blue>".$quota->quote->team->tagline."</p>".$quota->quote->team->teewtidea; ?>"><a href="#" ><?php echo $quota->quote->team->name ?></a></span></td>
+                                    <td><a href="#"  <?php if($quota->prono == "finale sì") echo "class=\"tiny success button event\""; else echo "class=\"tiny secondary button event\""; ?> value="<?php echo $quota->quote->final; ?>" bet="finale sì" betid="222" bettype="finale sì/no" ><?php echo $quota->quote->final; ?></a></td>
+                                    <td><a href="#" <?php if($quota->prono == "finale no") echo"class=\"tiny success button event\""; else echo "class=\"tiny secondary button event\"";?> value="<?php echo $quota->quote->nofinal; ?>" bet="finale no" betid="223" bettype="finale sì/no" ><?php echo $quota->quote->nofinal; ?></a></td>
+                                    <td><a href="#" class="tiny button secondary disabled ">ND</a></td>
+                                    <td><a href="#" class="tiny button secondary disabled">ND</a></td>
+                                    <td><a href="#" class="tiny button secondary disabled">ND</a></td>
+                                </tr>
+
                             <?php } ?>
+
+
                             </tbody>
                         </table>
 
+                        <div class="fb-comments" data-href="https://apps.facebook.com/mymeytip/index.php" data-width="300" data-num-posts="15"></div>
+
                     </div>
+                    <div>
+                        <?php } ?>
+
+                        <h11><a id="show" onclick="loadfeeds()" class="expand secondary button">SHOW MORE </a></h11>
+            </section>
+            <section class="section">
+                <p class="title"><a href="#">Your Bet</a></p>
+                <div class="content">
+
+                    <?php foreach($userfeed as $f){ ?>
+                        <div class="feed">
+                            <div class="row">
+                                <div class="large-12 columns">
+                                    <div class="foto"><img src="https://graph.facebook.com/<?php echo $meytipuser->facebookid; ?>/picture?type=square" alt="" width="30" height="30"></div>
+                                    <div class="testo"><h11><span class="blu"><a href=""><?php echo $meytipuser->name; ?></a> </span> ha effettuato questa scommessa </h11></div>
+                                </div>
+
+                            </div>
+
+                            <table style="width:100%">
+                                <thead>
+                                <tr>
+                                    <th><h6>INNOVACTION LAB FINAL EVENT</h6></th>
+                                    <th><h6> Pronostico</h6></th>
+                                    <th><h6> Quota</h6></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <?php
+                                foreach($f->quote as $quota){ ?>
+
+                                    <tr event="1031" eventname="<?php echo $quota->quote->team->name; ?>">
+                                        <td><a href="#" ><?php echo $quota->quote->team->name; ?></a></td>
+                                        <td><a href="#" value="1.75" bet="finale sì" betid="221" bettype="finale sì/no" class="tiny secondary disabled button expand"><?php echo $quota->prono; ?></a></td>
+                                        <td><a href="#" class="tiny secondary disabled button expand"><?php echo $quota->odds; ?></a></td>
+                                    </tr>
+                                <?php } ?>
+                                </tbody>
+                            </table>
+                            <div class="fb-comments" data-href="https://apps.facebook.com/mymeytip/fb.php" data-width="300" data-num-posts="15"></div>
+                        </div>
                     <?php } ?>
                 </div>
             </section>
-            </div>
+        </div>
     </div>
     <!-- /EVENTS-->
 
@@ -252,8 +252,8 @@ include('php/userpanel.php');
 </div>
 <script>
     document.write('<script src=' +
-            ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-            '.js><\/script>')
+        ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+        '.js><\/script>')
 </script>
 
 <script src="js/foundation.min.js"></script>
