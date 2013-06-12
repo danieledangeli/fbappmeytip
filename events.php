@@ -52,6 +52,8 @@ include('php/userpanel.php');
     };
     function postToFeed(description) {
         // call the API
+        var user = "<?php echo $basic['name'];?>";
+        description = user+' '+description;
         var obj = {
             method: 'feed',
             link: 'https://apps.facebook.com/mymeytip/index.php',
@@ -70,7 +72,6 @@ include('php/userpanel.php');
 
         FB.ui(obj, callback);
     }
-
 
     function sendRequestViaMultiFriendSelector() {
         FB.ui({method: 'apprequests',
@@ -101,7 +102,7 @@ include('php/userpanel.php');
     <a class="close-reveal-modal">&#215;</a>
     <div class="large-5 right columns">
         <div class="large-6 columns"><a class="small success expand button" id="modalok" onClick="closeModal();">Ok</a></div>
-        <div class="large-6 collapsecolumns"><a class="small success button" id="modalshare" onClick="postToFeed('<?php echo $meytipuser->name;?>ha effettuato una scommessa su Meytip')">Condividi</a></div>
+        <div class="large-6 collapsecolumns"><a class="small success button" id="modalshare" onClick="postToFeed('ha effettuato una scommessa su Meytip')">Condividi</a></div>
     </div>
 </div>
 </div>
@@ -204,10 +205,8 @@ include('php/userpanel.php');
 
                     </tbody>
                 </table>
-                HERE
-                <?php foreach($scores['data'] as $score){
-                    echo $score['user']['name']. " ".$score['score'];
-                }?>
+
+
             </div>
             <!-- /EVENTS-->
        
@@ -236,9 +235,33 @@ include('php/userpanel.php');
 
              <a class=" success button expand marginebottom" href="#" onclick="bet('<?php echo $meytipuser->facebookid; ?>');" id="play">Scommetti</a>
 
+             <ul class="pricing-table">
+                 <li class="title"><h9>TOP FRIENDS</h9></li>
+
+                 <li>
+                     <table style="width:100%; margin-bottom:0px">
+                         <thead>
+                         <tr>
+                             <th><h6>#</h6></th>
+                             <th><h6>USER</h6></th>
+                             <th><h6>COINS</h6></th>
+                         </tr>
+                         </thead>
+                         <tbody>
+                         <?php foreach($scores['data'] as $score){ ?>
+                             <tr>
+                                 <td style="padding:5px"> <img src="https://graph.facebook.com/<?php echo  $score['user']['id']; ?>/picture?type=square" alt="not found"></td>
+                                 <td><a href="#"><?php echo $score['user']['name']; ?></a></td>
+                                 <td><?php $score['score']; ?></td>
+                             </tr>
+
+                         <?php }?>
 
 
-
+                         </tbody>
+                     </table>
+                 </li>
+             </ul>
           </div>
      
     

@@ -46,6 +46,8 @@ include('php/header.php');
 
     function postToFeed(description) {
         // call the API
+        var user = "<?php echo $basic['name'];?>";
+        description = user+' '+description;
         var obj = {
             method: 'feed',
             link: 'https://apps.facebook.com/mymeytip/index.php',
@@ -101,7 +103,7 @@ include('php/userpanel.php');
     <a class="close-reveal-modal">&#215;</a>
     <div class="large-5 right columns">
         <div class="large-6 columns"><a class="small success expand button" id="modalok" onClick="closeModal();">Ok</a></div>
-        <div class="large-6 collapsecolumns"><a class="small success button" id="modalshare" onClick="postToFeed('<?php echo $meytipuser->name;?>ha effettuato una scommessa su Meytip')">Condividi</a></div>
+        <div class="large-6 collapsecolumns"><a class="small success button" id="modalshare" onClick="postToFeed('ha effettuato una scommessa su Meytip')">Condividi</a></div>
     </div>
 </div>
 </div>
