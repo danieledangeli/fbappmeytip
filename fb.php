@@ -164,7 +164,7 @@ include('php/userpanel.php');
                         </tbody>
                     </table>
 
-                    <div class="fb-comments" data-href="https://apps.facebook.com/mymeytip/index.php" data-width="300" data-num-posts="15"></div>
+
 
                     </div>
                     <div>

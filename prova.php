@@ -164,7 +164,7 @@ include('php/userpanel.php');
                             </tbody>
                         </table>
 
-                        <div class="fb-comments" data-href="https://apps.facebook.com/mymeytip/index.php" data-width="300" data-num-posts="15"></div>
+                        <iframe src="http://www.facebook.com/plugins/comments.php?href=link1.com&permalink=1" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:130px; height:16px;" allowTransparency="true"></iframe>
 
                     </div>
                     <div>
@@ -206,7 +206,8 @@ include('php/userpanel.php');
                                 <?php } ?>
                                 </tbody>
                             </table>
-                            <div class="fb-comments" data-href="https://apps.facebook.com/mymeytip/fb.php" data-width="300" data-num-posts="15"></div>
+                            <iframe src="http://www.facebook.com/plugins/comments.php?href=https://apps.facebook.com/mymeytip/fb.php&<?php echo $f->feed; ?> " scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:130px; height:16px;" allowTransparency="true"></iframe>
+
                         </div>
                     <?php } ?>
                 </div>
