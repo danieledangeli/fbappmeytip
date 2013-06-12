@@ -11,7 +11,7 @@
     $attachment = array( 'score' => $meytipuser->cash, 'access_token' => $facebook->getAccessToken());
     $attachmentget = array( 'access_token' => $facebook->getAccessToken());
     $postscore = $facebook->api('/'.$meytipuser->facebookid.'/scores','POST',$attachment);
-    $scores = $facebook->api('/'.$meytipuser->facebookid.'/scores','GET',$attachmentget);
+    $scores = $facebook->api('/388078441305162/scores','GET',$attachmentget);
 } else { ?>
 
 
