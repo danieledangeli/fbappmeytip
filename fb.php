@@ -101,7 +101,7 @@ include('php/userpanel.php');
     <a class="close-reveal-modal">&#215;</a>
     <div class="large-5 right columns">
         <div class="large-6 columns"><a class="small success expand button" id="modalok" onClick="closeModal();">Ok</a></div>
-        <div class="large-6 collapsecolumns"><a class="small success button" id="modalshare" onClick="postToFeed('Ivan ha effettuato una scommessa su Meytip')">Condividi</a></div>
+        <div class="large-6 collapsecolumns"><a class="small success button" id="modalshare" onClick="postToFeed('<?php echo $meytipuser->name;?>ha effettuato una scommessa su Meytip')">Condividi</a></div>
     </div>
 </div>
 </div>

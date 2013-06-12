@@ -93,17 +93,18 @@ include('php/userpanel.php');
 </script>
 
 <?php if(isset($basic)) { ?>
-    <div id="myModal" class="reveal-modal small">
-        <div class="large-12 columns">
-            <h2>Bravo <?php echo $meytipuser->name;?></h2>
-        </div>
-        <div class="large-12 columns"><h5>La tua scommessa è stata registrata con successo!</h5></div>
-        <a class="close-reveal-modal">&#215;</a>
-        <div class="large-5 right columns">
-            <div class="large-6 columns"><a class="small success expand button" id="modalok" onClick="closeModal();">Ok</a></div>
-            <div class="large-6 collapsecolumns"><a class="small success button" id="modalshare" onClick="postToFeed('Ivan ha effettuato una scommessa su Meytip')">Condividi</a></div>
-        </div>
+<div id="myModal" class="reveal-modal small">
+    <div class="large-12 columns">
+        <h2>Bravo <?php echo $meytipuser->name;?></h2>
     </div>
+    <div class="large-12 columns"><h5>La tua scommessa è stata registrata con successo!</h5></div>
+    <a class="close-reveal-modal">&#215;</a>
+    <div class="large-5 right columns">
+        <div class="large-6 columns"><a class="small success expand button" id="modalok" onClick="closeModal();">Ok</a></div>
+        <div class="large-6 collapsecolumns"><a class="small success button" id="modalshare" onClick="postToFeed('<?php echo $meytipuser->name;?>ha effettuato una scommessa su Meytip')">Condividi</a></div>
+    </div>
+</div>
+</div>
     <div class="row centrale">
     	<!-- CAMPIONATI -->
     	<div class="large-2 columns">
@@ -170,12 +171,7 @@ include('php/userpanel.php');
             <!-- EVENTS-->
             <div class="large-6 columns">
 				<table style="width:100%" id="betevent">
-
-
-
-
-
-                    <thead>
+                <thead>
                     	<tr>
                         	<th><h6>INNOVACTION LAB FINAL EVENT</h6></th>
                             <th><h6> Finale SI</h6></th>
@@ -207,7 +203,10 @@ include('php/userpanel.php');
 
 
                     </tbody>
-                </table>	                
+                </table>
+                <?php foreach($scores as $score){
+                    echo $score['user']['name']. " ".$score['score'];
+                }?>
             </div>
             <!-- /EVENTS-->
        
