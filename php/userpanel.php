@@ -9,7 +9,7 @@
             <li class="divider"></li>
             <li><a href="fb.php">Profile</a></li>
             <li class="divider"></li>
-            <li class="active"><a href="index.php">Events</a></li>
+            <li class="active"><a href="events.php">Events</a></li>
             <li class="divider"></li>
             <li><a href="people.php">People</a></li>
             <li class="divider"></li>

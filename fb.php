@@ -18,26 +18,7 @@ include('php/header.php');
 <body>
 <div id="fb-root"></div>
 <script type="text/javascript">
-
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId      : '<?php echo AppInfo::appID(); ?>', // App ID
-            channelUrl : '//<?php echo $_SERVER["HTTP_HOST"]; ?>/channel.html', // Channel File
-            status     : true, // check login status
-            cookie     : false, // enable cookies to allow the server to access the session
-            xfbml      : true // parse XFBML
-        });
-
-        // Listen to the auth.login which will be called when the user logs in
-        // using the Login button
-
-
-        FB.Canvas.setAutoGrow();
-
-
-    };
-
-    function postToFeed(description) {
+  function postToFeed(description) {
         // call the API
         var user = "<?php echo $basic['name'];?>";
         description = user+' '+description;
