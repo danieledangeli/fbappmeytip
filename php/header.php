@@ -37,6 +37,9 @@ $facebook = new Facebook(array(
     'trustForwarded' => true,
 ));
 $user_id = $facebook->getUser();
+$redirect = $_GET["redirect"];
+if(!isset($redirect) || $redirect == null || $redirect == '')
+{
 if ($user_id) {
     try {
 // Fetch the viewer's basic information
@@ -47,7 +50,7 @@ if ($user_id) {
 
         if (!$facebook->getUser()) {
             $facebook->destroySession();
-            header('Location: https://meytip.com/fbappmeytip/index.php');
+            header('Location: https://meytip.com/fbappmeytip/index.php?redirect=true');
             exit();
         }
     }
@@ -62,7 +65,7 @@ if ($user_id) {
         'query' => 'SELECT uid, name FROM user WHERE uid IN(SELECT uid2 FROM friend WHERE uid1 = me()) AND is_app_user = 1'
     ));
 }
-
+}
 // Fetch the basic info of the app that they are using
 $app_info = $facebook->api('/'. AppInfo::appID());
 
