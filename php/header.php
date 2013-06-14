@@ -57,6 +57,9 @@ if ($user_id) {
         }
     }
 
+
+    if($basic != null)
+    {
 // And this returns 16 of your photos.
 //$photos = idx($facebook->api('/me/photos?limit=16'), 'data', array());
 
@@ -66,12 +69,15 @@ if ($user_id) {
         'method' => 'fql.query',
         'query' => 'SELECT uid, name FROM user WHERE uid IN(SELECT uid2 FROM friend WHERE uid1 = me()) AND is_app_user = 1'
     ));
+    }
 }
+if($basic != null)
+{
 // Fetch the basic info of the app that they are using
 $app_info = $facebook->api('/'. AppInfo::appID());
 
 $app_name = idx($app_info, 'name', '');
-
+}
 
 function CallAPI($method, $url, $data = false)
 {

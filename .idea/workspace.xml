@@ -5,7 +5,7 @@
     <ignored path="fbapp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fbapp.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370947198915" ignored="false" />
-    <file path="/header.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371214931293" ignored="false" />
+    <file path="/header.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371216159333" ignored="false" />
     <file path="/events.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371212512819" ignored="false" />
     <file path="/userpanel.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371212580821" ignored="false" />
     <file path="/init.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371032320871" ignored="false" />
@@ -44,7 +44,7 @@
       <file leaf-file-name="fb.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="22" selection-start="3053" selection-end="3053" vertical-scroll-proportion="-6.413793">
+            <state line="96" column="22" selection-start="3053" selection-end="3053" vertical-scroll-proportion="-2.5">
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -65,7 +65,7 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="22" selection-start="1714" selection-end="1714" vertical-scroll-proportion="-5.2413793">
+            <state line="79" column="1" selection-start="2749" selection-end="2749" vertical-scroll-proportion="-10.5172415">
               <folding />
             </state>
           </provider>
@@ -119,7 +119,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="35" selection-end="35" vertical-scroll-proportion="0.042908225">
+            <state line="10" column="45" selection-start="282" selection-end="282" vertical-scroll-proportion="0.21454112">
               <folding />
             </state>
           </provider>
@@ -156,8 +156,8 @@
         <option value="$PROJECT_DIR$/events.php" />
         <option value="$PROJECT_DIR$/php/userpanel.php" />
         <option value="$PROJECT_DIR$/fb.php" />
-        <option value="$PROJECT_DIR$/php/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/php/header.php" />
       </list>
     </option>
   </component>
@@ -435,7 +435,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="22" selection-start="3053" selection-end="3053" vertical-scroll-proportion="-6.413793">
+        <state line="96" column="22" selection-start="3053" selection-end="3053" vertical-scroll-proportion="-2.5">
           <folding>
             <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -445,14 +445,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="22" selection-start="1714" selection-end="1714" vertical-scroll-proportion="-5.2413793">
+        <state line="79" column="1" selection-start="2749" selection-end="2749" vertical-scroll-proportion="-10.5172415">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="35" selection-end="35" vertical-scroll-proportion="0.042908225">
+        <state line="10" column="45" selection-start="282" selection-end="282" vertical-scroll-proportion="0.21454112">
           <folding />
         </state>
       </provider>
