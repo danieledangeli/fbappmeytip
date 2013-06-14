@@ -33,18 +33,16 @@ require_once('sdk/src/facebook.php');
 $facebook = new Facebook(array(
     'appId'  => AppInfo::appID(),
     'secret' => AppInfo::appSecret(),
-    'sharedSession' => true,
-    'trustForwarded' => true,
     'cookie' => true,
 ));
 
 $user_id = $facebook->getUser();
 $redirect = $_GET["redirect"];
 if ($user_id) {
-    die('here');
+
 
     try {
-// Fetch the viewer's basic information
+
         $basic = $facebook->api('/me');
     } catch (FacebookApiException $e) {
         $basic = null;
