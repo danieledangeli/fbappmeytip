@@ -46,6 +46,7 @@ if ($user_id) {
 // cleared if the error is because of an invalid accesstoken
 
         if (!$facebook->getUser()) {
+            $facebook->destroySession();
             header('Location: https://meytip.com/fbappmeytip/index.php');
             exit();
         }
