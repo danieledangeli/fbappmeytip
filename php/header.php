@@ -61,11 +61,7 @@ if ($user_id) {
 
     if($basic != null)
     {
-// And this returns 16 of your photos.
-//$photos = idx($facebook->api('/me/photos?limit=16'), 'data', array());
 
-// Here is an example of a FQL call that fetches all of your friends that are
-// using this app
     $app_using_friends = $facebook->api(array(
         'method' => 'fql.query',
         'query' => 'SELECT uid, name FROM user WHERE uid IN(SELECT uid2 FROM friend WHERE uid1 = me()) AND is_app_user = 1'
