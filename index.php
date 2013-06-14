@@ -27,7 +27,7 @@ include('php/header.php');
             // Listen to the auth.login which will be called when the user logs in
             // using the Login button
             FB.Event.subscribe('auth.login', function(response) {
-               // window.location.href='https://meytip.com/fbappmeytip/fb.php';
+                 window.location.href='https://meytip.com/fbappmeytip/index.php';
                 // We want to reload the page now so PHP can read the cookie that the
                 // Javascript SDK sat. But we don't want to use
                 // window.location.reload() because if this is in a canvas there was a
