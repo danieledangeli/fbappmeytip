@@ -40,7 +40,7 @@
             <div class="row">
                 <div class="large-5 small-6 columns"><i><img src="img/porco.png" alt=""></i></div>
                 <div class="large-7 small-6 collapsecolumns">
-                    <h4>Salvadanaio</h4>
+                    <h4>Cash</h4>
                     <div class="value" id="cash"><?php echo $meytipuser->cash; ?></div>
                 </div>
             </div>
@@ -72,11 +72,11 @@
         <div class="large-3 columns">
             <div class="large-6 small-6 columns left">
                 <h4>Daily Coins</h4>
-                <a class="tiny button expand disabled" href="#">Ritira</a>
+                <a class="tiny button expand disabled" href="#">Take</a>
             </div>
             <div class="large-6 small-6 columns">
                 <h4>Extra Coins</h4>
-                <a class="tiny success button expand disabled" href="#">Ritira</a>
+                <a class="tiny success button expand disabled" href="#">Take</a>
             </div>
         </div>
         <!--/COIN-->

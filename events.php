@@ -98,13 +98,12 @@ include('php/userpanel.php');
     <div class="large-12 columns">
         <h2>Bravo <?php echo $meytipuser->name;?></h2>
     </div>
-    <div class="large-12 columns"><h5>La tua scommessa è stata registrata con successo!</h5></div>
+    <div class="large-12 columns"><h5>Your bet has been registered successfully</h5></div>
     <a class="close-reveal-modal">&#215;</a>
     <div class="large-5 right columns">
         <div class="large-6 columns"><a class="small success expand button" id="modalok" onClick="closeModal();">Ok</a></div>
-        <div class="large-6 collapsecolumns"><a class="small success button" id="modalshare" onClick="postToFeed('ha effettuato una scommessa su Meytip')">Condividi</a></div>
+        <div class="large-6 collapsecolumns"><a class="small success button" id="modalshare" onClick="postToFeed('has placed a bet on Meytip')">Share</a></div>
     </div>
-</div>
 </div>
     <div class="row centrale">
     	<!-- CAMPIONATI -->
@@ -175,7 +174,7 @@ include('php/userpanel.php');
                 <thead>
                     	<tr>
                         	<th><h6>INNOVACTION LAB FINAL EVENT</h6></th>
-                            <th><h6> Finale SI</h6></th>
+                            <th><h6> Finale YES</h6></th>
                             <th><h6> Finale NO</h6></th>
                             <th><h6> 1</h6></th>
                             <th><h6>X</h6></th>
@@ -212,28 +211,27 @@ include('php/userpanel.php');
        
          <div class="large-4 columns">
              <ul class="pricing-table nomargine" id="curbet">
-                 <li class="title"><h9>Le tue scommesse</h9></li>
+                 <li class="title"><h9>Your bets</h9></li>
              </ul>
-
              <table class="betting">
                  <tbody>
                  <tr>
-                     <td><h13>Quota totale:</h13></td>
+                     <td><h13>Odds</h13></td>
                      <td><h13 id="quotatotale">0</h13></td>
                  </tr>
                  <tr>
-                     <td><h13>Importo</h13></td>
+                     <td><h13>Amount</h13></td>
                      <td><form><input type="text" id="stake" placeholder="Inserire importo"></form></td>
-                </tr>
-                <tr>
-                     <td><h13>Vincita</h13></td>
+                 </tr>
+                 <tr>
+                     <td><h13>Potential Winning</h13></td>
                      <td><h13 id="potenziale">0</h13></td>
-                </tr>
-                </tbody>
+                 </tr>
+                 </tbody>
              </table>
 
 
-             <a class=" success button expand marginebottom" href="#" onclick="bet('<?php echo $meytipuser->facebookid; ?>');" id="play">Scommetti</a>
+             <a class=" success button expand marginebottom" href="#" onclick="bet('<?php echo $meytipuser->facebookid; ?>');" id="play">BET</a>
 
              <ul class="pricing-table">
                  <li class="title"><h9>TOP FRIENDS</h9></li>
