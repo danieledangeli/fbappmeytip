@@ -44,20 +44,12 @@ if ($user_id) {
     } catch (FacebookApiException $e) {
 // If the call fails we check if we still have a user. The user will be
 // cleared if the error is because of an invalid accesstoken
-        die('here');
+        die('here'.AppInfo::getUrl($_SERVER['REQUEST_URI']));
         if (!$facebook->getUser()) {
             header('Location: '. AppInfo::getUrl($_SERVER['REQUEST_URI']));
             exit();
         }
     }
-
-// This fetches some things that you like . 'limit=*" only returns * values.
-// To see the format of the data you are retrieving, use the "Graph API
-// Explorer" which is at https://developers.facebook.com/tools/explorer/
-    $likes = idx($facebook->api('/me/likes?limit=4'), 'data', array());
-
-// This fetches 4 of your friends.
-    $friends = idx($facebook->api('/me/friends?limit=4'), 'data', array());
 
 // And this returns 16 of your photos.
 //$photos = idx($facebook->api('/me/photos?limit=16'), 'data', array());
