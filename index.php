@@ -76,7 +76,7 @@ include('php/header.php');
 
             <a class="large button" target="_top" href="http://www.facebook.com/dialog/oauth/?
                    client_id=<?php echo AppInfo::appID(); ?>&
-                   redirect_uri=https://meytip.com/fbappmeytip/index.php&
+                   redirect_uri=https://apps.facebook.com/mymeytip/events.php&
                    scope=email,read_friendlists,publish_stream
                    &state=1">Join</a>
         </div>
