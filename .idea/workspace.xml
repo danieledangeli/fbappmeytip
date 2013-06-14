@@ -5,7 +5,7 @@
     <ignored path="fbapp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fbapp.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370947198915" ignored="false" />
-    <file path="/header.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371216159333" ignored="false" />
+    <file path="/header.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371225110142" ignored="false" />
     <file path="/events.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371212512819" ignored="false" />
     <file path="/userpanel.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371224959566" ignored="false" />
     <file path="/init.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371032320871" ignored="false" />
@@ -44,16 +44,16 @@
       <file leaf-file-name="fb.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="-6.9166665">
+            <state line="12" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="78" selection-start="906" selection-end="906" vertical-scroll-proportion="-5.9583335">
+            <state line="41" column="15" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.40433213">
               <folding />
             </state>
           </provider>
@@ -122,10 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userpanel.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="userpanel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/userpanel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="37" selection-start="432" selection-end="432" vertical-scroll-proportion="0.27726433">
+            <state line="9" column="31" selection-start="373" selection-end="376" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
@@ -150,11 +150,11 @@
         <option value="$PROJECT_DIR$/js/meytip.js" />
         <option value="$PROJECT_DIR$/php/init.php" />
         <option value="$PROJECT_DIR$/prova.php" />
-        <option value="$PROJECT_DIR$/php/header.php" />
         <option value="$PROJECT_DIR$/events.php" />
         <option value="$PROJECT_DIR$/fb.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/php/userpanel.php" />
+        <option value="$PROJECT_DIR$/php/header.php" />
       </list>
     </option>
   </component>
@@ -412,23 +412,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="78" selection-start="906" selection-end="906" vertical-scroll-proportion="-5.9583335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/events.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="-5.7083335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="-6.9166665">
           <folding />
         </state>
       </provider>
@@ -442,7 +428,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/userpanel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="37" selection-start="432" selection-end="432" vertical-scroll-proportion="0.27726433">
+        <state line="9" column="31" selection-start="373" selection-end="376" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="15" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.40433213">
           <folding />
         </state>
       </provider>

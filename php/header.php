@@ -35,6 +35,7 @@ $facebook = new Facebook(array(
     'secret' => AppInfo::appSecret(),
     'sharedSession' => true,
     'trustForwarded' => true,
+    'cookie' => true,
 ));
 $user_id = $facebook->getUser();
 $redirect = $_GET["redirect"];
