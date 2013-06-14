@@ -44,6 +44,7 @@ if ($user_id) {
 // Fetch the viewer's basic information
         $basic = $facebook->api('/me');
     } catch (FacebookApiException $e) {
+        $basic = null;
 // If the call fails we check if we still have a user. The user will be
 // cleared if the error is because of an invalid accesstoken
         if(!isset($redirect))

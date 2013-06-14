@@ -1,7 +1,7 @@
 <?php
 include('php/header.php');
 ?>
-<?php if(isset($basic)) {
+<?php if(isset($basic) && $basic != null) {
    include('events.php');
 
 } else{ ?>
