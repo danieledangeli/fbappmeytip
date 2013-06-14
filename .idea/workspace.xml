@@ -53,7 +53,7 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="91" selection-start="1989" selection-end="2065" vertical-scroll-proportion="-11.111111">
+            <state line="53" column="91" selection-start="1989" selection-end="2065" vertical-scroll-proportion="-21.555555">
               <folding />
             </state>
           </provider>
@@ -68,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="events.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="233" column="140" selection-start="9340" selection-end="9340" vertical-scroll-proportion="-0.6666667">
+            <state line="12" column="2" selection-start="313" selection-end="313" vertical-scroll-proportion="0.26150122">
               <folding />
             </state>
           </provider>
@@ -95,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="74" selection-start="3100" selection-end="3100" vertical-scroll-proportion="0.7830751">
+            <state line="0" column="0" selection-start="0" selection-end="35" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -150,11 +150,11 @@
         <option value="$PROJECT_DIR$/js/meytip.js" />
         <option value="$PROJECT_DIR$/php/init.php" />
         <option value="$PROJECT_DIR$/prova.php" />
-        <option value="$PROJECT_DIR$/events.php" />
         <option value="$PROJECT_DIR$/php/userpanel.php" />
         <option value="$PROJECT_DIR$/fb.php" />
         <option value="$PROJECT_DIR$/php/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/events.php" />
       </list>
     </option>
   </component>
@@ -421,7 +421,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="91" selection-start="1989" selection-end="2065" vertical-scroll-proportion="-11.111111">
+        <state line="53" column="91" selection-start="1989" selection-end="2065" vertical-scroll-proportion="-21.555555">
           <folding />
         </state>
       </provider>
@@ -433,16 +433,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/events.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="140" selection-start="9340" selection-end="9340" vertical-scroll-proportion="-0.6666667">
+        <state line="0" column="0" selection-start="0" selection-end="35" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="74" selection-start="3100" selection-end="3100" vertical-scroll-proportion="0.7830751">
+        <state line="12" column="2" selection-start="313" selection-end="313" vertical-scroll-proportion="0.26150122">
           <folding />
         </state>
       </provider>
