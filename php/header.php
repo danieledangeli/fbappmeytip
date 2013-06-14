@@ -38,20 +38,21 @@ $facebook = new Facebook(array(
 ));
 $user_id = $facebook->getUser();
 $redirect = $_GET["redirect"];
-if(!isset($redirect) || $redirect == null || $redirect == '')
-{
 if ($user_id) {
+
     try {
 // Fetch the viewer's basic information
         $basic = $facebook->api('/me');
     } catch (FacebookApiException $e) {
 // If the call fails we check if we still have a user. The user will be
 // cleared if the error is because of an invalid accesstoken
-
-        if (!$facebook->getUser()) {
-            $facebook->destroySession();
-            header('Location: https://meytip.com/fbappmeytip/index.php?redirect=true');
-            exit();
+        if(isset($redirect) || $redirect == null || $redirect == '')
+        {
+            if (!$facebook->getUser()) {
+                $facebook->destroySession();
+                header('Location: https://meytip.com/fbappmeytip/index.php?redirect=true');
+                exit();
+            }
         }
     }
 
@@ -64,7 +65,6 @@ if ($user_id) {
         'method' => 'fql.query',
         'query' => 'SELECT uid, name FROM user WHERE uid IN(SELECT uid2 FROM friend WHERE uid1 = me()) AND is_app_user = 1'
     ));
-}
 }
 // Fetch the basic info of the app that they are using
 $app_info = $facebook->api('/'. AppInfo::appID());

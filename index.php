@@ -33,7 +33,7 @@ include('php/header.php');
                 // window.location.reload() because if this is in a canvas there was a
                 // post made to this page and a reload will trigger a message to the
                 // user asking if they want to send data again.
-               window.location = 'https://meytip.com/fbappmeytip/index.php';
+               window.location = 'https://meytip.com/fbappmeytip/index.php?redirect=false';
             });
 
             FB.Canvas.setAutoGrow();
