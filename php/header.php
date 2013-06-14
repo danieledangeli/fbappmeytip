@@ -37,9 +37,11 @@ $facebook = new Facebook(array(
     'trustForwarded' => true,
     'cookie' => true,
 ));
+
 $user_id = $facebook->getUser();
 $redirect = $_GET["redirect"];
 if ($user_id) {
+    die('here');
 
     try {
 // Fetch the viewer's basic information
