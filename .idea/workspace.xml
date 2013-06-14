@@ -9,7 +9,7 @@
     <file path="/events.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371212512819" ignored="false" />
     <file path="/userpanel.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371212580821" ignored="false" />
     <file path="/init.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371032320871" ignored="false" />
-    <file path="/index.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371218401748" ignored="false" />
+    <file path="/index.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371219162841" ignored="false" />
     <file path="/launch.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370952075866" ignored="false" />
     <file path="/meytip.js" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371022026076" ignored="false" />
     <file path="/foundation.css" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370959178495" ignored="false" />
@@ -44,7 +44,7 @@
       <file leaf-file-name="fb.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="22" selection-start="3053" selection-end="3053" vertical-scroll-proportion="0.0">
+            <state line="96" column="22" selection-start="3053" selection-end="3053" vertical-scroll-proportion="-0.6666667">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="1" selection-start="2749" selection-end="2749" vertical-scroll-proportion="0.0">
+            <state line="53" column="91" selection-start="1989" selection-end="2065" vertical-scroll-proportion="-11.111111">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="events.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="233" column="140" selection-start="9340" selection-end="9340" vertical-scroll-proportion="0.0">
+            <state line="233" column="140" selection-start="9340" selection-end="9340" vertical-scroll-proportion="-0.6666667">
               <folding />
             </state>
           </provider>
@@ -98,7 +98,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="44" selection-start="3267" selection-end="3267" vertical-scroll-proportion="0.874851">
+            <state line="78" column="74" selection-start="3100" selection-end="3100" vertical-scroll-proportion="0.7830751">
               <folding />
             </state>
           </provider>
@@ -391,13 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="140" selection-start="9340" selection-end="9340" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fbapp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="175" column="17" selection-start="7293" selection-end="7293" vertical-scroll-proportion="0.0">
@@ -419,20 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="22" selection-start="3053" selection-end="3053" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="1" selection-start="2749" selection-end="2749" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/people.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="126" column="49" selection-start="4222" selection-end="4222" vertical-scroll-proportion="0.0">
@@ -440,9 +419,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="91" selection-start="1989" selection-end="2065" vertical-scroll-proportion="-11.111111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="22" selection-start="3053" selection-end="3053" vertical-scroll-proportion="-0.6666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="233" column="140" selection-start="9340" selection-end="9340" vertical-scroll-proportion="-0.6666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="44" selection-start="3267" selection-end="3267" vertical-scroll-proportion="0.874851">
+        <state line="78" column="74" selection-start="3100" selection-end="3100" vertical-scroll-proportion="0.7830751">
           <folding />
         </state>
       </provider>
