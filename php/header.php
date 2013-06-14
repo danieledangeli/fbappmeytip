@@ -44,9 +44,9 @@ if ($user_id) {
     } catch (FacebookApiException $e) {
 // If the call fails we check if we still have a user. The user will be
 // cleared if the error is because of an invalid accesstoken
-        
+
         if (!$facebook->getUser()) {
-            header('Location: '. AppInfo::getUrl());
+            header('Location: https://meytip.com/fbappmeytip/index.php');
             exit();
         }
     }
