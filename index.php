@@ -1,10 +1,7 @@
 <?php
 include('php/header.php');
 ?>
-<?php if(isset($basic) && $basic != null) {
-   include('events.php');
 
-} else{ ?>
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
@@ -26,15 +23,7 @@ include('php/header.php');
 
             // Listen to the auth.login which will be called when the user logs in
             // using the Login button
-            FB.Event.subscribe('auth.login', function(response) {
-                 //window.location.href='https://meytip.com/fbappmeytip/index.php';
-                // We want to reload the page now so PHP can read the cookie that the
-                // Javascript SDK sat. But we don't want to use
-                // window.location.reload() because if this is in a canvas there was a
-                // post made to this page and a reload will trigger a message to the
-                // user asking if they want to send data again.
-               window.location = window.location;
-            });
+
 
             FB.Canvas.setAutoGrow();
         };
@@ -77,11 +66,10 @@ include('php/header.php');
             <a class="large button" target="_top" href="http://www.facebook.com/dialog/oauth/?
                    client_id=<?php echo AppInfo::appID(); ?>&
                    redirect_uri=https://apps.facebook.com/mymeytip/events.php&
-                   scope=email,read_friendlists,publish_stream
+                   scope=email,publish_stream
                    &state=1">Join</a>
         </div>
 </div>
 <script src="js/foundation.min.js"></script>
 </body>
 </html>
-<?php } ?>
