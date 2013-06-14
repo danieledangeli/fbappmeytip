@@ -74,7 +74,7 @@ include('php/header.php');
         <div class="large-2 large-offset-5 columns">
 
             <div class="fb-login-button" size="xlarge" length="xlarge" data-scope="publish_stream,user_likes,user_photos"></div>
-            <a href="http://www.facebook.com/dialog/oauth/?
+            <a target="_top" href="http://www.facebook.com/dialog/oauth/?
                    client_id=<?php echo AppInfo::appID(); ?>&
                    redirect_uri=https://meytip.com/fbappmeytip/index.php&
                    scope=email,read_friendlists,publish_stream
