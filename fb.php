@@ -166,8 +166,8 @@ include('php/userpanel.php');
                         <div class="row">
                             <div class="large-12 columns">
 
-                                <div class="testo">Yeld<h11><span class="blu"><?php echo $f->moltiplicatore; ?><</span> Amount <h11><span class="blu"><?php echo $f->amount; ?><</span> </h11></div>
-                                <div class="testo">Potential winning <h11><span class="blu"><?php echo $f->vincita; ?><</span></h11></div>
+                                <div class="testo">Yeld<h11><span class="blu"><?php echo $f->moltiplicatore; ?></span> Amount <h11><span class="blu"><?php echo $f->amount; ?></span> </h11></div>
+                                <div class="testo">Potential winning <h11><span class="blu"><?php echo $f->vincita; ?></span></h11></div>
                             </div>
 
                         </div>
