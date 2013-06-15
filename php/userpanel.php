@@ -1,7 +1,7 @@
 <!-- HEADER -->
 <nav class="top-bar">
     <ul class="title-area">
-        <li class="name logo"><a href="index.php"><img src="img/logo.png"></a></li>
+        <li class="name logo"><a href="events.php"><img src="img/logo.png"></a></li>
         <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
     </ul>
     <section class="top-bar-section">

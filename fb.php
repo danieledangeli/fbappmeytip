@@ -130,8 +130,8 @@ include('php/userpanel.php');
                         <div class="row">
                             <div class="large-12 columns">
 
-                                <div class="testo">Yeld <h11><span class="green"><b><?php echo $f->moltiplicatore; ?></b></span> Amount <h11><span class="black"></b><?php echo $f->amount; ?></b></span> </h11></div>
-                                <div class="testo">Potential winning <h11><span class="green"><b><?php echo $f->vincita; ?></b></span></h11></div>
+                                <div class="testo">Yield <h11><span class="green"><b><?php echo $f->moltiplicatore; ?></b></span> Amount <h11><span class="black"></b><?php echo $f->amount; ?></b></span> </h11></div>
+                                <div class="testo">Winning <h11><span class="green"><b><?php echo $f->vincita; ?></b></span></h11></div>
                             </div>
 
                         </div>
