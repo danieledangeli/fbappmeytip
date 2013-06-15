@@ -41,10 +41,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fb.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="fb.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="52" selection-start="5144" selection-end="5144" vertical-scroll-proportion="-3.8163266">
+            <state line="233" column="64" selection-start="10204" selection-end="10204" vertical-scroll-proportion="0.33333334">
               <folding />
             </state>
           </provider>
@@ -80,7 +80,7 @@
       <file leaf-file-name="events.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="171" column="46" selection-start="6615" selection-end="6617" vertical-scroll-proportion="-52.34694">
+            <state line="171" column="46" selection-start="6615" selection-end="6617" vertical-scroll-proportion="16.897959">
               <folding />
             </state>
           </provider>
@@ -122,10 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userpanel.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="userpanel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/userpanel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="37" selection-start="345" selection-end="345" vertical-scroll-proportion="0.22181146">
+            <state line="8" column="37" selection-start="345" selection-end="345" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
@@ -154,8 +154,8 @@
         <option value="$PROJECT_DIR$/php/header.php" />
         <option value="$PROJECT_DIR$/events.php" />
         <option value="$PROJECT_DIR$/channel.html" />
-        <option value="$PROJECT_DIR$/fb.php" />
         <option value="$PROJECT_DIR$/php/userpanel.php" />
+        <option value="$PROJECT_DIR$/fb.php" />
       </list>
     </option>
   </component>
@@ -448,27 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="33" selection-start="631" selection-end="632" vertical-scroll-proportion="-4.265306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="52" selection-start="5144" selection-end="5144" vertical-scroll-proportion="-3.8163266">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="46" selection-start="6615" selection-end="6617" vertical-scroll-proportion="-52.34694">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/init.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="7" selection-start="1004" selection-end="1004" vertical-scroll-proportion="-15.625">
@@ -478,7 +457,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/userpanel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="345" selection-end="345" vertical-scroll-proportion="0.22181146">
+        <state line="8" column="37" selection-start="345" selection-end="345" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="33" selection-start="631" selection-end="632" vertical-scroll-proportion="-4.265306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="46" selection-start="6615" selection-end="6617" vertical-scroll-proportion="16.897959">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="233" column="64" selection-start="10204" selection-end="10204" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
