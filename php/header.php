@@ -37,7 +37,7 @@ $facebook = new Facebook(array(
 ));
 
 $user_id = $facebook->getUser();
-$redirect = $_GET["redirect"];
+
 if ($user_id) {
 
 
@@ -48,14 +48,13 @@ if ($user_id) {
         $basic = null;
 // If the call fails we check if we still have a user. The user will be
 // cleared if the error is because of an invalid accesstoken
-        if(!isset($redirect))
-        {
+
             if (!$facebook->getUser()) {
-                $facebook->destroySession();
-                header('Location: https://meytip.com/fbappmeytip/index.php?redirect=true');
+
+                header('Location: https://meytip.com/index.php');
                 exit();
             }
-        }
+
     }
 
 
