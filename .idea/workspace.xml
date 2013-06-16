@@ -53,14 +53,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="meytip.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="meytip.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/meytip.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="257" column="18" selection-start="8977" selection-end="8977" vertical-scroll-proportion="0.33268103">
+            <state line="261" column="0" selection-start="9194" selection-end="9194" vertical-scroll-proportion="-9.52">
               <folding>
-                <marker date="1371375494998" expanded="false" signature="1125:1135" placeholder="..." />
-                <marker date="1371375494998" expanded="false" signature="6303:6317" placeholder="..." />
-                <marker date="1371375494998" expanded="false" signature="6382:6411" placeholder="..." />
+                <marker date="1371376745074" expanded="false" signature="1125:1135" placeholder="..." />
+                <marker date="1371376745074" expanded="false" signature="6303:6317" placeholder="..." />
+                <marker date="1371376745074" expanded="false" signature="6382:6411" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="events.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1500" selection-end="1500" vertical-scroll-proportion="-10.541667">
+            <state line="220" column="21" selection-start="8918" selection-end="8918" vertical-scroll-proportion="0.30184805">
               <folding />
             </state>
           </provider>
@@ -164,8 +164,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/php/headerIndex.php" />
         <option value="$PROJECT_DIR$/php/header.php" />
-        <option value="$PROJECT_DIR$/events.php" />
         <option value="$PROJECT_DIR$/js/meytip.js" />
+        <option value="$PROJECT_DIR$/events.php" />
       </list>
     </option>
   </component>
@@ -492,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1500" selection-end="1500" vertical-scroll-proportion="-10.541667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fb.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="12" selection-start="1392" selection-end="1392" vertical-scroll-proportion="128.66667">
@@ -508,12 +501,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/meytip.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="257" column="18" selection-start="8977" selection-end="8977" vertical-scroll-proportion="0.33268103">
+        <state line="261" column="0" selection-start="9194" selection-end="9194" vertical-scroll-proportion="-9.52">
           <folding>
-            <marker date="1371375494998" expanded="false" signature="1125:1135" placeholder="..." />
-            <marker date="1371375494998" expanded="false" signature="6303:6317" placeholder="..." />
-            <marker date="1371375494998" expanded="false" signature="6382:6411" placeholder="..." />
+            <marker date="1371376745074" expanded="false" signature="1125:1135" placeholder="..." />
+            <marker date="1371376745074" expanded="false" signature="6303:6317" placeholder="..." />
+            <marker date="1371376745074" expanded="false" signature="6382:6411" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="220" column="21" selection-start="8918" selection-end="8918" vertical-scroll-proportion="0.30184805">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -219,7 +219,7 @@ include('php/userpanel.php');
                      <td><form><input type="text" id="stake" placeholder="Inserire importo"></form></td>
                  </tr>
                  <tr>
-                     <td><h13>Potential Winning</h13></td>
+                     <td><h13>Winning</h13></td>
                      <td><h13 id="potenziale">0</h13></td>
                  </tr>
                  </tbody>
