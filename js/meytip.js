@@ -260,6 +260,11 @@ function bet(user){
         // 'data' is a JSON object which we can access directly.
         // Evaluate the data.success member and do something appropriate...
 
+        if(data == 'errorcash'){
+            alert('Non hai abbastanza soldi per completare la schedina')
+        }
+        else
+        {
         var pending = data.user.pending;
         cash = data.user.cash;
         document.getElementById("pending").innerHTML = pending;
@@ -277,6 +282,7 @@ function bet(user){
 
         //postWall();
         }
+    }
     });
 
 

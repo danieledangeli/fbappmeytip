@@ -11,7 +11,7 @@
     <file path="/init.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371032320871" ignored="false" />
     <file path="/index.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371219628190" ignored="false" />
     <file path="/launch.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370952075866" ignored="false" />
-    <file path="/meytip.js" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371022026076" ignored="false" />
+    <file path="/meytip.js" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371377212560" ignored="false" />
     <file path="/foundation.css" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370959178495" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/FeedController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371300920057" ignored="false" />
     <file path="/FeedController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371208676293" ignored="false" />
@@ -21,10 +21,12 @@
     <file path="/events.html" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370987192622" ignored="false" />
     <file path="/people.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370991010634" ignored="false" />
     <file path="/prova.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371038122424" ignored="false" />
-    <file path="/Dummy.txt" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371208508051" ignored="false" />
+    <file path="/Dummy.txt" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371376809985" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Entity/Team.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371300977228" ignored="false" />
     <file path="/Team.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371300966861" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Entity/Quote.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371303668160" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/BetController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371376954594" ignored="false" />
+    <file path="/BetController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371376905024" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +55,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="meytip.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="meytip.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/meytip.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="261" column="0" selection-start="9194" selection-end="9194" vertical-scroll-proportion="-9.52">
+            <state line="272" column="76" selection-start="9628" selection-end="9628" vertical-scroll-proportion="0.47162426">
               <folding>
-                <marker date="1371376745074" expanded="false" signature="1125:1135" placeholder="..." />
-                <marker date="1371376745074" expanded="false" signature="6303:6317" placeholder="..." />
-                <marker date="1371376745074" expanded="false" signature="6382:6411" placeholder="..." />
+                <marker date="1371377223590" expanded="false" signature="1125:1135" placeholder="..." />
+                <marker date="1371377223590" expanded="false" signature="6303:6317" placeholder="..." />
+                <marker date="1371377223590" expanded="false" signature="6382:6411" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -77,20 +79,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/init.php">
+      <file leaf-file-name="events.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="7" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
+            <state line="220" column="21" selection-start="8918" selection-end="8918" vertical-scroll-proportion="-3.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/events.php">
+      <file leaf-file-name="jquery.tmpl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery.tmpl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="220" column="21" selection-start="8918" selection-end="8918" vertical-scroll-proportion="0.30184805">
-              <folding />
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,8 +168,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/php/headerIndex.php" />
         <option value="$PROJECT_DIR$/php/header.php" />
-        <option value="$PROJECT_DIR$/js/meytip.js" />
         <option value="$PROJECT_DIR$/events.php" />
+        <option value="$PROJECT_DIR$/js/meytip.js" />
       </list>
     </option>
   </component>
@@ -271,7 +275,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../meytip" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -407,11 +411,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/utils.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/humans.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -499,21 +498,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/meytip.js">
+    <entry file="file://$PROJECT_DIR$/events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="261" column="0" selection-start="9194" selection-end="9194" vertical-scroll-proportion="-9.52">
+        <state line="220" column="21" selection-start="8918" selection-end="8918" vertical-scroll-proportion="-3.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.tmpl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1371376745074" expanded="false" signature="1125:1135" placeholder="..." />
-            <marker date="1371376745074" expanded="false" signature="6303:6317" placeholder="..." />
-            <marker date="1371376745074" expanded="false" signature="6382:6411" placeholder="..." />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/events.php">
+    <entry file="file://$PROJECT_DIR$/js/meytip.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="220" column="21" selection-start="8918" selection-end="8918" vertical-scroll-proportion="0.30184805">
-          <folding />
+        <state line="272" column="76" selection-start="9628" selection-end="9628" vertical-scroll-proportion="0.47162426">
+          <folding>
+            <marker date="1371377223590" expanded="false" signature="1125:1135" placeholder="..." />
+            <marker date="1371377223590" expanded="false" signature="6303:6317" placeholder="..." />
+            <marker date="1371377223590" expanded="false" signature="6382:6411" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
