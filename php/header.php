@@ -33,7 +33,8 @@ require_once('sdk/src/facebook.php');
 $facebook = new Facebook(array(
     'appId'  => AppInfo::appID(),
     'secret' => AppInfo::appSecret(),
-    'cookie' => true,
+    'sharedSession' => true,
+    'trustForwarded' => true,
 ));
 
 $user_id = $facebook->getUser();
@@ -44,14 +45,15 @@ if ($user_id) {
     try {
 
         $basic = $facebook->api('/me');
-    } catch (FacebookApiException $e) {
+
+         } catch (FacebookApiException $e) {
         $basic = null;
 // If the call fails we check if we still have a user. The user will be
 // cleared if the error is because of an invalid accesstoken
 
             if (!$facebook->getUser()) {
 
-                header('Location: https://meytip.com/index.php');
+                header('Location: https://www.meytip.com/index.php');
                 exit();
             }
 

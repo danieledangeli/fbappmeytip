@@ -52,11 +52,11 @@ include('php/userpanel.php');
         var obj = {
             method: 'feed',
             link: 'https://apps.facebook.com/mymeytip/index.php',
-            picture: 'https://meytip.com/fbappmeytip/img/logo5.png',
+            picture: 'https://meytip.com/img/logo5.png',
             name: 'Meytip Bet',
-            caption: 'https://meytip.com/fbappmeytip/img/logo5.png',
+            caption: 'https://meytip.com/img/logo5.png',
             actions: [
-                {'name': 'get reward', 'link': 'https://apps.facebook.com/mymeytip/index.php'}
+                {'name': 'get reward', 'link': 'https://apps.facebook.com/index.php'}
             ],
             description: description
         };
@@ -70,7 +70,7 @@ include('php/userpanel.php');
 
     function sendRequestViaMultiFriendSelector() {
         FB.ui({method: 'apprequests',
-            message: 'Hi, prova Meytip e impara a scommettere sfidando i tuoi amici'
+            message: 'Ciao, prova Meytip e impara a scommettere sfidando i tuoi amici'
         }, requestCallback);
 
     }
