@@ -19,7 +19,7 @@ function loadfeeds()
                 x.overrideMimeType("application/json;charset=UTF-8");
             }
         },
-        url: 'https://meytip.com/back/meytip/web/app.php/feeds/'+feedindex+'',
+        url: 'https://www.meytip.com/back/meytip/web/app.php/feeds/'+feedindex+'',
         success: function(result) {
 
             item = '';
@@ -255,7 +255,7 @@ function bet(user){
         x.overrideMimeType("application/json;charset=UTF-8");
         }
     },
-    url: 'https://meytip.com/back/meytip/web/app.php/bet.json',
+    url: 'https://www.meytip.com/back/meytip/web/app.php/bet.json',
     success: function(data) {
         // 'data' is a JSON object which we can access directly.
         // Evaluate the data.success member and do something appropriate...
