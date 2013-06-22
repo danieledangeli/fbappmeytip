@@ -8,15 +8,15 @@
     <file path="/header.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371225474968" ignored="false" />
     <file path="/events.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371916551871" ignored="false" />
     <file path="/userpanel.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371294572282" ignored="false" />
-    <file path="/init.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371032320871" ignored="false" />
+    <file path="/init.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371923149052" ignored="false" />
     <file path="/index.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371219628190" ignored="false" />
     <file path="/launch.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370952075866" ignored="false" />
     <file path="/meytip.js" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371377212560" ignored="false" />
     <file path="/foundation.css" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370959178495" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/FeedController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371919319858" ignored="false" />
     <file path="/FeedController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371918777593" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/app/config/routing.yml" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371921035580" ignored="false" />
-    <file path="/routing.yml" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371921035580" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/app/config/routing.yml" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371922735445" ignored="false" />
+    <file path="/routing.yml" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371922735445" ignored="false" />
     <file path="/fb.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371919095420" ignored="false" />
     <file path="/events.html" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370987192622" ignored="false" />
     <file path="/people.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371920947423" ignored="false" />
@@ -53,17 +53,17 @@
     <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Services/UpateUserScheds.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371860596124" ignored="false" />
     <file path="/UpateUserScheds.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371859451490" ignored="false" />
     <file path="/InnLabSched.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371859327841" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Document/User.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371920296757" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Document/User.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371922192901" ignored="false" />
     <file path="/User.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371919702998" ignored="false" />
     <file path="/UpdateUserSchedsTest.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371863183597" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Tests/Services/UpdateUserSchedsTest.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371860540099" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Tests/Services/UpdateUserTest.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371863185162" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Services/UpateUser.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371861054867" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Tests/Services/EventCalTest2.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371860934001" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Services/SchedHelper.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371865835100" ignored="false" />
-    <file path="/SchedHelper.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371865760066" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Services/SchedHelper.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371922098393" ignored="false" />
+    <file path="/SchedHelper.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371922038750" ignored="false" />
     <file path="/CheckController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371920181125" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/CheckController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371920181125" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/CheckController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371923047540" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Resources/config/routing.yml" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371863765620" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/UserController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371868499636" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/app/cache/dev/doctrine/odm/mongodb/Proxies/__CG__MeytipInnlabBundleDocumentInnLabBet.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371868609410" ignored="false" />
@@ -142,19 +142,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="people.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="people.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/people.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="58" selection-start="1229" selection-end="1238" vertical-scroll-proportion="0.20507812">
+            <state line="52" column="58" selection-start="1229" selection-end="1238" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="init.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="-4.375">
+            <state line="11" column="81" selection-start="550" selection-end="550" vertical-scroll-proportion="0.31428573">
               <folding />
             </state>
           </provider>
@@ -208,11 +208,11 @@
         <option value="$PROJECT_DIR$/php/headerIndex.php" />
         <option value="$PROJECT_DIR$/php/header.php" />
         <option value="$PROJECT_DIR$/js/meytip.js" />
-        <option value="$PROJECT_DIR$/php/init.php" />
         <option value="$PROJECT_DIR$/php/standings.php" />
         <option value="$PROJECT_DIR$/events.php" />
         <option value="$PROJECT_DIR$/fb.php" />
         <option value="$PROJECT_DIR$/people.php" />
+        <option value="$PROJECT_DIR$/php/init.php" />
       </list>
     </option>
   </component>
@@ -367,7 +367,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26336792" sideWeight="0.67068964" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26336792" sideWeight="0.67068964" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -496,13 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/events.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -554,7 +547,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/people.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="58" selection-start="1229" selection-end="1238" vertical-scroll-proportion="0.20507812">
+        <state line="52" column="58" selection-start="1229" selection-end="1238" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="81" selection-start="550" selection-end="550" vertical-scroll-proportion="0.31428573">
           <folding />
         </state>
       </provider>

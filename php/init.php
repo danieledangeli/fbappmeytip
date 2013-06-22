@@ -9,7 +9,7 @@
     $userdata = CallAPI('GET','https://meytip.com/back/meytip/web/app.php/users/'.$meytipuser->facebookid.'/feeds.json');
     $userfeed = json_decode($userdata);
 
-    $attachment = array( 'score' => $meytipuser->cash, 'access_token' => $facebook->getAccessToken());
+    $attachment = array( 'score' => $meytipuser->leaverage, 'access_token' => $facebook->getAccessToken());
     $attachmentget = array( 'access_token' => $facebook->getAccessToken());
 
     $permissions = $facebook->api("/me/permissions");
