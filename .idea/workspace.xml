@@ -70,7 +70,7 @@
     <file path="$PROJECT_DIR$/../meytip/app/cache/prod/doctrine/odm/mongodb/Proxies/__CG__MeytipInnlabBundleDocumentInnLabBet.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371868609411" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/app/cache/test/doctrine/odm/mongodb/Proxies/__CG__MeytipInnlabBundleDocumentInnLabBet.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371868609411" ignored="false" />
     <file path="/standings.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371911638295" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/InnLabController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371911005039" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/InnLabController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371921377285" ignored="false" />
     <file path="/InnLabController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371911005039" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Resources/config/quotes_router.yml" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371910309436" ignored="false" />
     <file path="/quotes_router.yml" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371910309436" ignored="false" />
@@ -145,7 +145,7 @@
       <file leaf-file-name="people.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/people.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="50" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.43945312">
+            <state line="52" column="58" selection-start="1229" selection-end="1238" vertical-scroll-proportion="0.20507812">
               <folding />
             </state>
           </provider>
@@ -554,7 +554,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/people.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="50" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.43945312">
+        <state line="52" column="58" selection-start="1229" selection-end="1238" vertical-scroll-proportion="0.20507812">
           <folding />
         </state>
       </provider>
