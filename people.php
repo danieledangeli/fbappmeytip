@@ -34,10 +34,9 @@ include('php/standings.php')
             <th>#</th>
             <th>USER</th>
             <th>FOLLOW</th>
-            <th>YIELD</th>
-            <th>AVERAGE</th>
-            <th>BEST WIN</th>
-            <th>N° BETS</th>
+            <th>LAVERAGE</th>
+            <th>CASH_WIN</th>
+
         </tr>
         </thead>
         <?php
@@ -51,10 +50,31 @@ include('php/standings.php')
             <td align="center"><?php echo ''.$i; ?></td>
             <td><a href="#"><?php echo $us->name; ?></a></td>
             <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">0%</td>
-            <td align="center">0</td>
-            <td align="center"><?php echo $us->cash; ?></td>
-            <td align="center">0</td>
+            <td align="center">x <?php echo $us->leaverage; ?></td>
+            <?php
+            if($i == 1)
+            {
+                ?><td align="center">400</td><?php
+            }
+            if($i == 2)
+            {
+                ?><td align="center">250</td><?php
+            }
+            if($i == 3)
+            {
+                ?><td align="center">100</td><?php
+            }
+            if($i == 4)
+            {
+                ?><td align="center">50</td><?php
+            }
+            if($i > 4)
+            {
+                ?><td align="center">0</td><?php
+            }
+            ?>
+
+
         </tr>
 
         </tbody>

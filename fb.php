@@ -182,7 +182,8 @@ include('php/userpanel.php');
                             </tr>
                             <?php
                             } else
-                            { ?>
+                            { die(var_dump($quota->quote));
+                                ?>
                                 <tr event="<?php echo $quota->quote->team->id; ?>" eventname="<?php echo $quota->quote->team->name; ?>">
 
                                 <td> <span data-tooltip class="tip-right" title="<?php echo "<p class=blue>".$quota->quote->team->tagline."</p>".$quota->quote->team->teewtidea; ?>"><a href="#" ><?php echo $quota->quote->team->name ?></a></span></td>
