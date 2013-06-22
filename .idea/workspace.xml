@@ -157,7 +157,7 @@
       <file leaf-file-name="standings.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/standings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="25" selection-start="181" selection-end="181" vertical-scroll-proportion="0.114285715">
+            <state line="5" column="4" selection-start="160" selection-end="160" vertical-scroll-proportion="0.14285715">
               <folding />
             </state>
           </provider>
@@ -556,7 +556,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/standings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="181" selection-end="181" vertical-scroll-proportion="0.114285715">
+        <state line="5" column="4" selection-start="160" selection-end="160" vertical-scroll-proportion="0.14285715">
           <folding />
         </state>
       </provider>
