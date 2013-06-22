@@ -5,6 +5,7 @@
 
     $feed = CallAPI('GET','https://meytip.com/back/meytip/web/app.php/feeds/10.json');
     $feed = json_decode($feed);
+
     $userdata = CallAPI('GET','https://meytip.com/back/meytip/web/app.php/users/'.$meytipuser->facebookid.'/feeds.json');
     $userfeed = json_decode($userdata);
 
