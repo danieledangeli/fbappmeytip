@@ -137,21 +137,40 @@ include('php/userpanel.php');
                         </div>
 
                     <table style="width:100%">
+
+                        <?php if($f->quote[0]->prono == "finale sì" ||$f->quote[0]->prono == "finale no") {?>
                         <thead>
+
                         <tr>
                             <th><h6>INNOVACTION LAB FINAL EVENT</h6></th>
                             <th><h6> Final YES</h6></th>
                             <th><h6> Final NO</h6></th>
-                            <th><h6> 1</h6></th>
+                            <th><h6>1</h6></th>
                             <th><h6>X</h6></th>
                             <th><h6>2</h6></th>
                         </tr>
                         </thead>
+                        <?php }
+                        else { ?>
+                            <thead>
+
+                            <tr>
+                                <th><h6>INNOVACTION LAB FINAL EVENT</h6></th>
+                                <th><h6>Podium</h6></th>
+                                <th><h6>No Podium</h6></th>
+                                <th><h6>1</h6></th>
+                                <th><h6>X</h6></th>
+                                <th><h6>2</h6></th>
+                            </tr>
+                            </thead>
+
+                        <?php }?>
                         <tbody>
                         <?php
                         foreach($f->quote as $quota){
 
-                        ?>
+                            if($quota->prono == "finale sì" || $quota->prono == "finale no"){
+                            ?>
                             <tr event="<?php echo $quota->quote->team->id; ?>" eventname="<?php echo $quota->quote->team->name; ?>">
 
                                 <td> <span data-tooltip class="tip-right" title="<?php echo "<p class=blue>".$quota->quote->team->tagline."</p>".$quota->quote->team->teewtidea; ?>"><a href="#" ><?php echo $quota->quote->team->name ?></a></span></td>
@@ -161,6 +180,21 @@ include('php/userpanel.php');
                                 <td><a href="#" class="tiny button secondary disabled">ND</a></td>
                                 <td><a href="#" class="tiny button secondary disabled">ND</a></td>
                             </tr>
+                            <?php
+                            } else
+                            { ?>
+                                <tr event="<?php echo $quota->quote->team->id; ?>" eventname="<?php echo $quota->quote->team->name; ?>">
+
+                                <td> <span data-tooltip class="tip-right" title="<?php echo "<p class=blue>".$quota->quote->team->tagline."</p>".$quota->quote->team->teewtidea; ?>"><a href="#" ><?php echo $quota->quote->team->name ?></a></span></td>
+                                <td><a href="#"  <?php if($quota->prono == "podio") echo "class=\"tiny success button event\""; else echo "class=\"tiny secondary button event\""; ?> value="<?php echo $quota->quote->podio; ?>" bet="podio" betid="222" bettype="finale sì/no" ><?php echo $quota->quote->podio; ?></a></td>
+                                <td><a href="#" <?php if($quota->prono == "nopodio") echo"class=\"tiny success button event\""; else echo "class=\"tiny secondary button event\"";?> value="<?php echo $quota->quote->nopodio; ?>" bet="nopodio" betid="223" bettype="finale sì/no" ><?php echo $quota->quote->nopodio; ?></a></td>
+                                <td><a href="#" class="tiny button secondary disabled ">ND</a></td>
+                                <td><a href="#" class="tiny button secondary disabled">ND</a></td>
+                                <td><a href="#" class="tiny button secondary disabled">ND</a></td>
+                            </tr>
+                            <?php
+                            }
+                            ?>
 
                         <?php } ?>
 
