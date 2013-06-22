@@ -169,8 +169,8 @@ include('php/userpanel.php');
                 <thead>
                     	<tr>
                         	<th><h6>INNOVACTION LAB FINAL EVENT</h6></th>
-                            <th><h6> Finale YES</h6></th>
-                            <th><h6> Finale NO</h6></th>
+                            <th><h6>Podium</h6></th>
+                            <th><h6>No Podium</h6></th>
                             <th><h6> 1</h6></th>
                             <th><h6>X</h6></th>
                             <th><h6>2</h6></th>
@@ -179,15 +179,15 @@ include('php/userpanel.php');
                     <tbody>
                     <?php
 
-                    $resp = CallAPI('GET','https://meytip.com/back/meytip/web/app.php/quotes.json',false);
+                    $resp = CallAPI('GET','https://meytip.com/back/meytip/web/app.php/final/quotes.json',false);
                     $team = json_decode($resp);
                     foreach($team as $t){ ?>
 
                         <tr event="<?php echo $t->team->id; ?>" eventname="<?php echo $t->team->name; ?>">
 
                         <td> <span data-tooltip class="tip-top" title="<?php echo "<p class=blue>".$t->team->tagline ."</p>".$t->team->teewtidea; ?>"><a href="#" ><?php echo $t->team->name; ?></a></span></td>
-                        <td><a href="#" value="<?php echo $t->final; ?>" bet="finale sì" betid="222" bettype="finale sì/no" class="tiny button event"><?php echo $t->final; ?></a></td>
-                        <td><a href="#"  value="<?php echo $t->nofinal; ?>" bet="finale no" betid="223" bettype="finale sì/no" class="tiny button event" class="tiny button"><?php echo $t->nofinal; ?></a></td>
+                        <td><a href="#" value="<?php echo $t->podio; ?>" bet="podio" betid="222" bettype="finale sì/no" class="tiny button event"><?php echo $t->podio; ?></a></td>
+                        <td><a href="#"  value="<?php echo $t->nopodio; ?>" bet="nopodio" betid="223" bettype="finale sì/no" class="tiny button event" class="tiny button"><?php echo $t->nopodio; ?></a></td>
                         <td><a href="#" class="tiny button secondary disabled">ND</a></td>
                         <td><a href="#" class="tiny button secondary disabled">ND</a></td>
                         <td><a href="#" class="tiny button secondary disabled">ND</a></td>
