@@ -48,12 +48,12 @@ include('php/standings.php')
 
         <tbody>
         <tr>
-            <td align="center">1</td>
-            <td><a href="#"><?php echo $u->name; ?></a></td>
+            <td align="center"><?php echo ''.$i; ?></td>
+            <td><a href="#"><?php echo $us->name; ?></a></td>
             <td><a href="#" class="tiny button expand">Follow</a></td>
             <td align="center">0%</td>
             <td align="center">0</td>
-            <td align="center"><?php echo $u->cash; ?></td>
+            <td align="center"><?php echo $us->cash; ?></td>
             <td align="center">0</td>
         </tr>
 
