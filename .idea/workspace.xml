@@ -13,13 +13,13 @@
     <file path="/launch.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370952075866" ignored="false" />
     <file path="/meytip.js" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371377212560" ignored="false" />
     <file path="/foundation.css" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370959178495" ignored="false" />
-    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/FeedController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371300920057" ignored="false" />
-    <file path="/FeedController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371208676293" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/FeedController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371909194327" ignored="false" />
+    <file path="/FeedController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371909177736" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/app/config/routing.yml" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371869863622" ignored="false" />
     <file path="/routing.yml" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371869863622" ignored="false" />
     <file path="/fb.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371294543551" ignored="false" />
     <file path="/events.html" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370987192622" ignored="false" />
-    <file path="/people.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370991010634" ignored="false" />
+    <file path="/people.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371911324882" ignored="false" />
     <file path="/prova.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371038122424" ignored="false" />
     <file path="/Dummy.txt" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371905699181" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Entity/Team.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371865276300" ignored="false" />
@@ -69,6 +69,11 @@
     <file path="$PROJECT_DIR$/../meytip/app/cache/dev/doctrine/odm/mongodb/Proxies/__CG__MeytipInnlabBundleDocumentInnLabBet.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371868609410" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/app/cache/prod/doctrine/odm/mongodb/Proxies/__CG__MeytipInnlabBundleDocumentInnLabBet.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371868609411" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/app/cache/test/doctrine/odm/mongodb/Proxies/__CG__MeytipInnlabBundleDocumentInnLabBet.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371868609411" ignored="false" />
+    <file path="/standings.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371909944738" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/InnLabController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371911005039" ignored="false" />
+    <file path="/InnLabController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371911005039" ignored="false" />
+    <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Resources/config/quotes_router.yml" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371910309436" ignored="false" />
+    <file path="/quotes_router.yml" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371910309436" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,10 +93,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fb.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="fb.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="11" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.7324219">
+            <state line="27" column="11" selection-start="837" selection-end="837" vertical-scroll-proportion="10.708333">
               <folding />
             </state>
           </provider>
@@ -119,19 +124,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/init.php">
+      <file leaf-file-name="AppInfo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppInfo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="15" selection-start="153" selection-end="164" vertical-scroll-proportion="-1.875">
+            <state line="45" column="42" selection-start="1272" selection-end="1281" vertical-scroll-proportion="-16.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/header.php">
+      <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="29" selection-start="1476" selection-end="1476" vertical-scroll-proportion="0.0">
+            <state line="3" column="15" selection-start="153" selection-end="164" vertical-scroll-proportion="-1.875">
               <folding />
             </state>
           </provider>
@@ -146,28 +151,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="people.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/people.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="15" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.52734375">
+              <folding>
+                <marker date="1371911326043" expanded="true" signature="1492:2247" placeholder="..." />
+                <marker date="1371911326043" expanded="true" signature="1549:1624" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="standings.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/standings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="-1.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="jquery.tmpl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/jquery.tmpl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="6" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="headerIndex.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/headerIndex.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="2" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,7 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/login.css" />
         <option value="$PROJECT_DIR$/launch.php" />
         <option value="$PROJECT_DIR$/css/foundation.css" />
         <option value="$PROJECT_DIR$/events.html" />
@@ -200,7 +207,6 @@
         <option value="$PROJECT_DIR$/channel.html" />
         <option value="$PROJECT_DIR$/php/userpanel.php" />
         <option value="$PROJECT_DIR$/dddddd" />
-        <option value="$PROJECT_DIR$/people.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/php/headerIndex.php" />
         <option value="$PROJECT_DIR$/php/header.php" />
@@ -208,6 +214,8 @@
         <option value="$PROJECT_DIR$/js/meytip.js" />
         <option value="$PROJECT_DIR$/php/init.php" />
         <option value="$PROJECT_DIR$/fb.php" />
+        <option value="$PROJECT_DIR$/php/standings.php" />
+        <option value="$PROJECT_DIR$/people.php" />
       </list>
     </option>
   </component>
@@ -290,20 +298,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fbapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fbappmeytip" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -318,6 +312,9 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/php" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -449,19 +446,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/humans.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sdk/src/facebook.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="42" selection-start="1272" selection-end="1281" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/channel.html">
@@ -472,13 +459,6 @@
     <entry file="file://$PROJECT_DIR$/fbapp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="69" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/people.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -532,13 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/userpanel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="345" selection-end="345" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/meytip.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="250" column="0" selection-start="8787" selection-end="8787" vertical-scroll-proportion="0.0">
@@ -550,10 +523,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AppInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="42" selection-start="1272" selection-end="1281" vertical-scroll-proportion="-16.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/standings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="11" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.7324219">
+        <state line="27" column="11" selection-start="837" selection-end="837" vertical-scroll-proportion="10.708333">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/userpanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="37" selection-start="345" selection-end="345" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/people.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="15" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.52734375">
+          <folding>
+            <marker date="1371911326043" expanded="true" signature="1492:2247" placeholder="..." />
+            <marker date="1371911326043" expanded="true" signature="1549:1624" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

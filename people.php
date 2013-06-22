@@ -21,45 +21,9 @@ include('php/header.php');
 <?php
 include('php/init.php');
 include('php/userpanel.php');
+include('php/standings.php')
 ?>
 <div id="fb-root"></div>
-<script type="text/javascript">
-
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId      : '<?php echo AppInfo::appID(); ?>', // App ID
-            channelUrl : '//<?php echo $_SERVER["HTTP_HOST"]; ?>/channel.html', // Channel File
-            status     : true, // check login status
-            cookie     : true, // enable cookies to allow the server to access the session
-            xfbml      : true // parse XFBML
-        });
-
-        // Listen to the auth.login which will be called when the user logs in
-        // using the Login button
-        FB.Event.subscribe('auth.login', function(response) {
-            // We want to reload the page now so PHP can read the cookie that the
-            // Javascript SDK sat. But we don't want to use
-            // window.location.reload() because if this is in a canvas there was a
-            // post made to this page and a reload will trigger a message to the
-            // user asking if they want to send data again.
-            window.location = window.location;
-        });
-
-        FB.Canvas.setAutoGrow();
-
-
-    };
-
-    // Load the SDK Asynchronously
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/all.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
-
 <?php if(isset($basic)) { ?>
 
 <div class="row centrale">
@@ -76,188 +40,25 @@ include('php/userpanel.php');
             <th>N° BETS</th>
         </tr>
         </thead>
+        <?php
+        $i = 0;
+        foreach($users as $us)
+        {
+        $i++;?>
+
         <tbody>
         <tr>
             <td align="center">1</td>
-            <td><a href="#">Stefano Foglietta</a></td>
+            <td><a href="#"><?php echo $u->name; ?></a></td>
             <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">70%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
+            <td align="center">0%</td>
+            <td align="center">0</td>
+            <td align="center"><?php echo $u->cash; ?></td>
+            <td align="center">0</td>
         </tr>
-        <tr>
-            <td align="center">2</td>
-            <td><a href="#">Daniele D'Angeli</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">68%</td>
-            <td align="center">444</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
-        </tr>
-        <tr>
-            <td align="center">3</td>
-            <td><a href="#">Roberto Montinaro</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">64%</td>
-            <td align="center">432</td>
-            <td align="center">33</td>
-            <td align="center">3</td>
-        </tr>
-        <tr>
-            <td align="center">4</td>
-            <td><a href="#">Ivan Minutillo</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">64%</td>
-            <td align="center">321</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
-        </tr>
-        <tr>
-            <td align="center">5</td>
-            <td><a href="#">Arnaldo Stanzione</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">63%</td>
-            <td align="center">320</td>
-            <td align="center">76</td>
-            <td align="center">3</td>
-        </tr>
-        <tr>
-            <td align="center">6</td>
-            <td><a href="#">Andrea Curci</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">60%</td>
-            <td align="center">311</td>
-            <td align="center">56</td>
-            <td align="center">7</td>
-        </tr>
-        <tr>
-            <td align="center">7</td>
-            <td><a href="#">Chris Repici</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">58%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
-        </tr>
-        <tr>
-            <td align="center">8</td>
-            <td><a href="#">Braccio Zook</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">55%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
-        </tr>
-        <tr>
-            <td align="center">9</td>
-            <td><a href="#">Luca Melcarne</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">54%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
-        </tr>
-        <tr>
-            <td align="center">10</td>
-            <td><a href="#">Marco Minutillo</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">53%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
-        </tr>
-        <tr>
-            <td align="center">11</td>
-            <td><a href="#">Pierse Stajano</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">51%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
-        </tr>
-        <tr>
-            <td align="center">12</td>
-            <td><a href="#">Gianluca Beglini</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">50%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
-        </tr>
-        <tr>
-            <td align="center">13</td>
-            <td><a href="#">Carlo Freccero</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">48%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
-        </tr>
-        <tr>
-            <td align="center">14</td>
-            <td><a href="#">Andrea Monte</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">48%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
-        </tr>
-        <tr>
-            <td align="center">15</td>
-            <td><a href="#">Sergio Ricci</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">46%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
-        </tr>
-        <tr>
-            <td align="center">16</td>
-            <td><a href="#">Andrea Cucchetti</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">44%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
-        </tr>
-        <tr>
-            <td align="center">17</td>
-            <td><a href="#">Milan Stenos</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">44%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
-        </tr>
-        <tr>
-            <td align="center">18</td>
-            <td><a href="#">Domenico Dotti</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">43%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
-        </tr>
-        <tr>
-            <td align="center">19</td>
-            <td><a href="#">Attilio Mandola</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">41%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
-        </tr>
-        <tr>
-            <td align="center">20</td>
-            <td><a href="#">Roberto Camilleri</a></td>
-            <td><a href="#" class="tiny button expand">Follow</a></td>
-            <td align="center">40%</td>
-            <td align="center">569</td>
-            <td align="center">144</td>
-            <td align="center">14</td>
-        </tr>
+
         </tbody>
+        <?php } ?>
     </table>
 </div>
     <div class="large-4 columns">
