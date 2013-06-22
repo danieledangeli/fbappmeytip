@@ -69,7 +69,7 @@
     <file path="$PROJECT_DIR$/../meytip/app/cache/dev/doctrine/odm/mongodb/Proxies/__CG__MeytipInnlabBundleDocumentInnLabBet.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371868609410" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/app/cache/prod/doctrine/odm/mongodb/Proxies/__CG__MeytipInnlabBundleDocumentInnLabBet.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371868609411" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/app/cache/test/doctrine/odm/mongodb/Proxies/__CG__MeytipInnlabBundleDocumentInnLabBet.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371868609411" ignored="false" />
-    <file path="/standings.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371911563874" ignored="false" />
+    <file path="/standings.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371911638295" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Controller/InnLabController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371911005039" ignored="false" />
     <file path="/InnLabController.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371911005039" ignored="false" />
     <file path="$PROJECT_DIR$/../meytip/src/Meytip/InnlabBundle/Resources/config/quotes_router.yml" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371910309436" ignored="false" />
@@ -157,7 +157,7 @@
       <file leaf-file-name="standings.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/standings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="33" selection-start="155" selection-end="155" vertical-scroll-proportion="0.08571429">
+            <state line="4" column="25" selection-start="181" selection-end="181" vertical-scroll-proportion="0.114285715">
               <folding />
             </state>
           </provider>
@@ -556,7 +556,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/standings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="33" selection-start="155" selection-end="155" vertical-scroll-proportion="0.08571429">
+        <state line="4" column="25" selection-start="181" selection-end="181" vertical-scroll-proportion="0.114285715">
           <folding />
         </state>
       </provider>
