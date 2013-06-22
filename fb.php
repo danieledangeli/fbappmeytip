@@ -182,7 +182,7 @@ include('php/userpanel.php');
                             </tr>
                             <?php
                             } else
-                            { die(var_dump($quota->quote));
+                            {
                                 ?>
                                 <tr event="<?php echo $quota->quote->team->id; ?>" eventname="<?php echo $quota->quote->team->name; ?>">
 
