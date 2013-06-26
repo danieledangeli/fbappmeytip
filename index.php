@@ -32,7 +32,8 @@ include('php/headerIndex.php');
 
     <div class="large-12 columns">
         <div class="large-2 large-offset-5 columns">
-            <div href="#" class="large alert button split dropdown">
+
+            <div href="#" class="large button split dropdown">
                 <a href="#">Join Meytip</a>
                 <span></span>
                 <ul>
@@ -43,7 +44,7 @@ include('php/headerIndex.php');
                 </ul>
             </div>
 
-            
+
         </div>
 </div>
 <script src="js/foundation.min.js"></script>
