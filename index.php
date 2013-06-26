@@ -24,10 +24,11 @@ include('php/headerIndex.php');
         <div class="row">
             <div class="six columns">
                 <div class="panel">
-                    <h5>Partecipa a tornei di scommesse sportive</h5>
-                    <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                    <h5>Discover our Facebook Demo</h5>
+                    <a href="http://www.facebook.com/dialog/oauth/?client_id=<?php echo AppInfo::appID(); ?>&redirect_uri=https://apps.facebook.com/mymeytip/events.php&scope=email,publish_stream&state=1">Join on Faceboook</a>
                 </div>
             </div>
+        </div>
     </div>
 
     <div class="large-12 columns">
