@@ -9,7 +9,7 @@
     <file path="/events.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371916551871" ignored="false" />
     <file path="/userpanel.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371294572282" ignored="false" />
     <file path="/init.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371923149052" ignored="false" />
-    <file path="/index.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1372233364228" ignored="false" />
+    <file path="/index.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1372233876011" ignored="false" />
     <file path="/launch.php" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1370952075866" ignored="false" />
     <file path="/meytip.js" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1371377212560" ignored="false" />
     <file path="/foundation.css" changelist="0d2baa87-d76e-44ac-b415-4e300207eedd" time="1372203447100" ignored="false" />
@@ -133,7 +133,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="73" selection-start="958" selection-end="958" vertical-scroll-proportion="0.6191406">
+            <state line="45" column="12" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.8535156">
               <folding />
             </state>
           </provider>
@@ -561,7 +561,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="73" selection-start="958" selection-end="958" vertical-scroll-proportion="0.6191406">
+        <state line="45" column="12" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.8535156">
           <folding />
         </state>
       </provider>

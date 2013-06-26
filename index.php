@@ -24,18 +24,26 @@ include('php/headerIndex.php');
         <div class="row">
             <div class="six columns">
                 <div class="panel">
-                    <h5>Partecipa a tornei di scommesse portive</h5>
-                    <p>Giocando con soldi virtuali e sfidando la comunità</p>
+                    <h5>Partecipa a tornei di scommesse sportive</h5>
+                    <p>It has an easy to override visual style, and is appropriately subdued.</p>
                 </div>
             </div>
     </div>
+
     <div class="large-12 columns">
         <div class="large-2 large-offset-5 columns">
+            <div href="#" class="large alert button split dropdown">
+                <a href="#">Join Meytip</a>
+                <span></span>
+                <ul>
+                    <li><a href="http://www.facebook.com/dialog/oauth/?client_id=<?php echo AppInfo::appID(); ?>&redirect_uri=https://apps.facebook.com/mymeytip/events.php&scope=email,publish_stream&state=1">Join on Faceboook</a></li>
+                    <li><a href="https://meytip.com/back/meytip/web/app.php/register/">Register on our Demo</a></li>
+                    <li class="divider"></li>
+                    <li><a  href= "https://meytip.com/back/meytip/web/app.php/login">Login</a></li>
+                </ul>
+            </div>
 
-
-            <a class="large button" target="_top" href="http://www.facebook.com/dialog/oauth/?client_id=<?php echo AppInfo::appID(); ?>&redirect_uri=https://apps.facebook.com/mymeytip/events.php&scope=email,publish_stream&state=1">Join on Facebook</a>
-            <a class="large button" href="https://meytip.com/back/meytip/web/app.php/register/">Register on Web App</a>
-            <a class="large button" href= "https://meytip.com/back/meytip/web/app.php/login">Login on Web App</a>
+            
         </div>
 </div>
 <script src="js/foundation.min.js"></script>
