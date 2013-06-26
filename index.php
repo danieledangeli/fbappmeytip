@@ -18,11 +18,10 @@ include('php/headerIndex.php');
             <img src="img/logo5.png">
         </div>
     </div>
-
-    <div align="center" class="large-12 columns">
+ <div align="center" class="large-12 columns">
         <h3 class="hlog">Join Meytip</h3>
         <h3 class="hlog">Discover a new sport betting experience</h3>
-        <div class="row large-8 large-offset-2">
+        <div class="large-6">
             <div class="six columns">
                 <div class="panel">
                     <h5>Discover our Facebook Demo</h5>
@@ -30,15 +29,15 @@ include('php/headerIndex.php');
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="large-6">
             <div class="six columns">
                 <div class="panel">
-                    <h5>Register our webapp Demo</h5>
+                    <h5>Register on our webapp Demo</h5>
                     <a href="https://meytip.com/back/meytip/web/app.php/register/">Register on our Demo</a>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="large-6">
             <div class="six columns">
                 <div class="panel">
                     <h5>Login on our webapp Demo</h5>
