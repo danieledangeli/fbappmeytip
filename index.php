@@ -18,6 +18,7 @@ include('php/headerIndex.php');
             <img src="img/logo5.png">
         </div>
     </div>
+    
     <div align="center" class="large-12 columns">
         <h3 class="hlog">Join Meytip</h3>
         <h3 class="hlog">Discover a new sport betting experience</h3>
