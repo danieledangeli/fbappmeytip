@@ -20,17 +20,22 @@ include('php/headerIndex.php');
     </div>
     <div align="center" class="large-12 columns">
         <h3 class="hlog">Join Meytip</h3>
-        <h3 class="hlog">discover a new sport betting experience</h3>
+        <h3 class="hlog">Discover a new sport betting experience</h3>
+        <div class="row">
+            <div class="six columns">
+                <div class="panel">
+                    <h5>Partecipa a tornei di scommesse portive</h5>
+                    <p>Giocando con soldi virtuali e sfidando la comunità</p>
+                </div>
+            </div>
     </div>
     <div class="large-12 columns">
         <div class="large-2 large-offset-5 columns">
 
 
-            <a class="large button" target="_top" href="http://www.facebook.com/dialog/oauth/?
-                   client_id=<?php echo AppInfo::appID(); ?>&
-                   redirect_uri=https://apps.facebook.com/mymeytip/events.php&
-                   scope=email,publish_stream
-                   &state=1">Join</a>
+            <a class="large button" target="_top" href="http://www.facebook.com/dialog/oauth/?client_id=<?php echo AppInfo::appID(); ?>&redirect_uri=https://apps.facebook.com/mymeytip/events.php&scope=email,publish_stream&state=1">Join on Facebook</a>
+            <a class="large button" href="https://meytip.com/back/meytip/web/app.php/register/">Register on Web App</a>
+            <a class="large button" href= "https://meytip.com/back/meytip/web/app.php/login">Login on Web App</a>
         </div>
 </div>
 <script src="js/foundation.min.js"></script>
