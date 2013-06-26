@@ -29,25 +29,24 @@ include('php/headerIndex.php');
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="six columns">
+                <div class="panel">
+                    <h5>Register on our webapp Demo</h5>
+                    <a href="https://meytip.com/back/meytip/web/app.php/register/">Register on our Demo</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="six columns">
+                <div class="panel">
+                    <h5>Login on our webapp Demo</h5>
+                    <a  href= "https://meytip.com/back/meytip/web/app.php/login">Login</a>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="large-12 columns">
-        <div class="large-2 large-offset-5 columns">
-
-            <div href="#" class="large button split dropdown">
-                <a href="#">Join Meytip</a>
-                <span></span>
-                <ul>
-                    <li><a href="http://www.facebook.com/dialog/oauth/?client_id=<?php echo AppInfo::appID(); ?>&redirect_uri=https://apps.facebook.com/mymeytip/events.php&scope=email,publish_stream&state=1">Join on Faceboook</a></li>
-                    <li><a href="https://meytip.com/back/meytip/web/app.php/register/">Register on our Demo</a></li>
-                    <li class="divider"></li>
-                    <li><a  href= "https://meytip.com/back/meytip/web/app.php/login">Login</a></li>
-                </ul>
-            </div>
-
-
-        </div>
-</div>
 <script src="js/foundation.min.js"></script>
 </body>
 </html>
